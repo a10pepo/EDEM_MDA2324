@@ -1,0 +1,1 @@
+!Hello¡ My name is Alberto de Gea. I have studied a degree in bussiness management and marketing. Nowadays, im doing a degree in Big Data to devolop my professional career.
