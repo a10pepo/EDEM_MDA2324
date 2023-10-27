@@ -21,6 +21,11 @@ letras4 = ['Ñ', 'X', 'K', 'W']
 letras_espanol = ['E', 'A', 'O', 'I', 'N', 'S', 'R', 'L', 'U', 'T', 'C', 'D', 'P', 'M', 'Y', 'V', 'Q', 'G', 'B', 'H', 'F', 'Z', 'J', 'Ñ', 'X', 'K', 'W']
 
 
+## OPTIMIZAR
+# importar diccionario español.
+# cuando tengas alrededor del 50% de la palabra buscar palabras en el diccionario que tengan la coincidencia al 100%.
+# IMPORTANTE. Excluir las palbras cuyas letras han sido descartadas.
+# lo haré en ahorcado4
 
 def ahorcado(palabra:str,intentos:int)->int: 
    # acierto = False
@@ -110,18 +115,22 @@ def ahorcado3(palabra:str,intentos:int)->int:
 def ahorcado4(palabra:str,intentos:int)->int: 
     adivino = 0
     adivinar = len(palabra)
+    letras_mal = []
     for letra in letras_espanol:
         intentos += 1
-        adivino += palabra.count(letra)
+        if(palabra.count(letra) > 0):
+            adivino += palabra.count(letra)
+        else:
+            letras_mal.append(letra)
         if(adivino == adivinar):
             break
     return(intentos)
 
-
+'''
 p = 'PRONUNCIAR'
 intentos = 0
 print(f'- {ahorcado(p, intentos)}')
-'''
+
 init = t.time()
 print(ahorcado(p, intentos))
 fin = t.time()
@@ -153,7 +162,7 @@ intentos = 0
 ir = 0
 init = t.time()
 for palabra in palabras:
-    g = ahorcado(palabra, 0)
+    g = ahorcado4(palabra, 0)
     ir += g
 
 fin = t.time()
