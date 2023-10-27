@@ -124,6 +124,8 @@ def ahorcado4(palabra:str,intentos:int)->int:
             letras_mal.append(letra)
         if(adivino == adivinar):
             break
+        #if(adivinar/adivino<=2):
+         #   break
     return(intentos)
 
 '''
