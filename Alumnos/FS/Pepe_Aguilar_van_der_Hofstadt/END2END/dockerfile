@@ -1,0 +1,5 @@
+FROM python
+RUN pip install pandas
+
+COPY ahorcado.py /
+ENTRYPOINT python ahorcado.py
