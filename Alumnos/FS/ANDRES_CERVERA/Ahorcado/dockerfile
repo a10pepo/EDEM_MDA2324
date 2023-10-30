@@ -1,0 +1,16 @@
+FROM python:3.1.6
+
+# Establece el directorio de trabajo en /app
+WORKDIR 
+
+# Copia los archivos de tu proyecto al contenedor
+COPY 
+
+# Instala las dependencias del proyecto
+RUN pip install -r requirements.txt
+
+# Expone un puerto (si tu aplicación escucha en un puerto específico)
+EXPOSE 8000
+
+# Comando para ejecutar la aplicación
+CMD ["python", "app.py"]
