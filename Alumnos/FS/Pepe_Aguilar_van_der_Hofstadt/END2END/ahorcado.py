@@ -3,8 +3,10 @@ import time as t
 
 init = t.time()
 ahorcado_df = pd.read_csv('palabras.csv', header=None, names=['Palabra'])
+dic_esp_df = pd.read_csv('dic_esp.csv', header=None, names=['Pal'])
 
 palabras = ahorcado_df['Palabra'].str.strip('"').tolist()
+diccionario = dic_esp_df['Pal'].str.strip('"').tolist()
 
 intentos = 0
 tiempo = 0.0
@@ -23,10 +25,69 @@ letras_espanol = ['E', 'A', 'O', 'I', 'N', 'S', 'R', 'L', 'U', 'T', 'C', 'D', 'P
 
 ## OPTIMIZAR
 # importar diccionario español.
-# cuando tengas alrededor del 50% de la palabra buscar palabras en el diccionario que tengan la coincidencia al 100%.
+
 # IMPORTANTE. Excluir las palbras cuyas letras han sido descartadas.
 # lo haré en ahorcado4
 
+def letra_comun(letras_bien:list, letras_mal:list) -> str:
+    letra = "A"
+    return(letra)
+
+def ahorcado4(palabra:str,intentos:int)->int: 
+    adivino = 0
+    adivinar = len(palabra)
+    letras_mal = []
+    letras_bien = []
+    for asterisco in range(0, len(palabra)):
+        letras_bien.append('_')
+    
+    for letra in letras_espanol:
+        intentos += 1
+        if(palabra.count(letra) > 0):
+            adivino += palabra.count(letra)
+        else:
+            letras_mal.append(letra)
+        if(adivino == adivinar):
+            break
+    return(intentos)
+
+
+intentos = 0
+ir = 0
+init = t.time()
+for palabra in palabras:
+    g = ahorcado4(palabra, 0)
+    ir += g
+
+fin = t.time()
+tiempo = fin-init
+print(f'{ir} intentos en {tiempo}t')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 def ahorcado(palabra:str,intentos:int)->int: 
    # acierto = False
     voc = False
@@ -109,68 +170,4 @@ def ahorcado3(palabra:str,intentos:int)->int:
             adivino += palabra.count(letra)
             if(adivino == adivinar):
                 break
-    return(intentos)
-
-
-def ahorcado4(palabra:str,intentos:int)->int: 
-    adivino = 0
-    adivinar = len(palabra)
-    letras_mal = []
-    for letra in letras_espanol:
-        intentos += 1
-        if(palabra.count(letra) > 0):
-            adivino += palabra.count(letra)
-        else:
-            letras_mal.append(letra)
-        if(adivino == adivinar):
-            break
-        #if(adivinar/adivino<=2):
-         #   break
-    return(intentos)
-
-'''
-p = 'PRONUNCIAR'
-intentos = 0
-print(f'- {ahorcado(p, intentos)}')
-
-init = t.time()
-print(ahorcado(p, intentos))
-fin = t.time()
-tiempo = fin-init
-print(f'{tiempo}')
-
-intentos = 0
-init = t.time()
-print(ahorcado2(p, intentos))
-fin = t.time()
-tiempo = fin-init
-print(f'{tiempo}')         
-            
-intentos = 0
-init = t.time()
-print(ahorcado3(p, intentos))
-fin = t.time()
-tiempo = fin-init
-print(f'{tiempo}')     
-
-intentos = 0
-init = t.time()
-print(ahorcado4(p, intentos))
-fin = t.time()
-tiempo = fin-init
-print(f'{tiempo}')  
-'''
-intentos = 0
-ir = 0
-init = t.time()
-for palabra in palabras:
-    g = ahorcado4(palabra, 0)
-    ir += g
-
-fin = t.time()
-tiempo = fin-init
-print(f'{ir} intentos en {tiempo}t')
-
-
-
-
+    return(intentos)'''
