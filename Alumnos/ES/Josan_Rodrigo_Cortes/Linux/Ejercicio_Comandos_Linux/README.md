@@ -8,22 +8,22 @@
 echo "Ejercicio de comandos en la consola de linux."
 
   echo "1.Listar todos los archivos del directorio bin."
-  ls -a bin
+  ls bin
 
   echo "2.Listar todos los archivos del directorio tmp."
-  ls tmp -a
+  ls tmp
     
   echo "3.Listar todos los archivos del directorio etc que empiecen por t."
-  ls -a /etc/t*
+  ls /etc/t*
 
   echo "4.Listar todos los archivos del directorio dev que empiecen por tty."
-  ls -a /dev/tty*
+  ls /dev/tty*
     
   echo "5.Listar todos los archivos del directorio dev que empiecen por tty y acaben en 3." 
-  ls -a tty*3
+  ls tty*3
   # Hay alguno??
   echo "6.Listar todos los archivos del directorio dev que empiecen por t y acaben en C1."
-  ls -a /dev/t*c1
+  ls /dev/t*c1
   # Hay alguno?
   echo "7.Listar todos los archivos, incluidos los ocultos, del directorio raíz."
   ls -a
@@ -44,14 +44,13 @@ echo "Ejercicio de comandos en la consola de linux."
   date
 
   echo "13.Con un solo comando posicionarse en el directorio $HOME."
-  cd /$HOME
+  cd /
  
   echo "14.Verificar que se está en él."
   pwd
 
   echo "15.Listar todos los ficheros del directorio HOME mostrando sus permisos."
-  ls -al $HOME #opcion1
-  ls -l $HOME # opcion2
+  ls -al /
 
   echo "16.Borrar todos los archivos y directorios visibles de vuestro directorio PRUEBA."
   rmdir /tmp/PRUEBA
