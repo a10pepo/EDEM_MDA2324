@@ -1,0 +1,8 @@
+FROM python
+
+COPY requirements.txt / 
+COPY juego.py / 
+
+RUN pip install -r requirements.txt
+
+ENTRYPOINT ["python" , "juego.py"]
