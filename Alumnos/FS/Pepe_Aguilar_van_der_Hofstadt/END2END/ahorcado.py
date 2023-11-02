@@ -23,33 +23,61 @@ letras4 = ['Ñ', 'X', 'K', 'W']
 letras_espanol = ['E', 'A', 'O', 'I', 'N', 'S', 'R', 'L', 'U', 'T', 'C', 'D', 'P', 'M', 'Y', 'V', 'Q', 'G', 'B', 'H', 'F', 'Z', 'J', 'Ñ', 'X', 'K', 'W']
 
 
+
 ## OPTIMIZAR
 # importar diccionario español.
-
 # IMPORTANTE. Excluir las palbras cuyas letras han sido descartadas.
-# lo haré en ahorcado4
+# lo haré en ahorcado4.
 
-def letra_comun(letras_bien:list, letras_mal:list) -> str:
+def listado_palabra(letras_bien:list, letras_mal:list, lista:list) -> list:
+    posibles_palabras = []
+
+    for i, letra_ok in enumerate(letras_bien):
+        if(letra_ok != '_'):
+            for pal_dic in lista:
+                if(pal_dic.count(letra_ok) > 0 and pal_dic.index(letra_ok) == i):
+                    posibles_palabras.append(pal_dic)
+
+## FALTAN QUITAR DE LA LISTA LAS PALABRAS CON LETRAS QUE NO ESTÁN 
+
+    return(posibles_palabras)
+
+
+def letra_comun(listado:list) -> str:
     letra = "A"
     return(letra)
 
-def ahorcado4(palabra:str,intentos:int)->int: 
+
+def ahorcado4(palabra:str, intentos:int)->int: 
     adivino = 0
     adivinar = len(palabra)
     letras_mal = []
     letras_bien = []
+    posibles_palabras = []
+    
     for asterisco in range(0, len(palabra)):
         letras_bien.append('_')
     
-    for letra in letras_espanol:
+    for palabra_dic in diccionario:
+        if len(palabra_dic) == len(palabra):
+            posibles_palabras.append(palabra_dic)
+
+    for j in letras_espanol:
         intentos += 1
+        posibles_palabras = listado_palabra(letras_bien, letras_mal, posibles_palabras)
+        print(posibles_palabras)
+        letra = letra_comun(palabras)
         if(palabra.count(letra) > 0):
             adivino += palabra.count(letra)
+            for i, acierto in enumerate(letras_bien):
+                if letra == palabra[i]:
+                    letras_bien[i] = letra
         else:
             letras_mal.append(letra)
         if(adivino == adivinar):
             break
     return(intentos)
+
 
 
 intentos = 0
