@@ -1,0 +1,5 @@
+FROM python:3.8
+
+COPY 271023.py .
+
+CMD [ "python3", "271023.py" ]

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir c1
 mkdir c1/c2
 mkdir c1/c2/c3

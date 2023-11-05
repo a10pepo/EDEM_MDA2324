@@ -1,0 +1,4 @@
+FROM python:3.11.5
+COPY AhorcadoEjercicio.py /app/AhorcadoEjercicio.py
+WORKDIR /app
+CMD ["python", "AhorcadoEjercicio.py"]
