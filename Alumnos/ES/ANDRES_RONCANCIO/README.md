@@ -1,0 +1,3 @@
+# **S A L U D O S 🤘**
+
+Un espacio para entender la importancia del dato y como este permite a las  organizaciones tomar mejores decisiones, informadas y basadas en la data que recopilan todos los dias...

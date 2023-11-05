@@ -74,7 +74,7 @@ Ejercicio de comandos en la consola de linux.
     pwd
 
   15.Listar todos los ficheros del directorio HOME mostrando sus permisos.
-    
+
     cd ~
     ls -l
 
