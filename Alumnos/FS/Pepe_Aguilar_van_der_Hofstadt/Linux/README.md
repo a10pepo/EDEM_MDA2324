@@ -67,15 +67,15 @@ Ejercicio de comandos en la consola de linux.
 
   13.Con un solo comando posicionarse en el directorio $HOME.
     
-    cd ~
+
+    cd -
  
   14.Verificar que se está en él.
     
     pwd
 
   15.Listar todos los ficheros del directorio HOME mostrando sus permisos.
-    
-    cd ~
+
     ls -l
 
   16.Borrar todos los archivos y directorios visibles de vuestro directorio PRUEBA.

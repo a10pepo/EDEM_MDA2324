@@ -1,3 +1,6 @@
+#!/bin/sh
+
+main
 mkdir c1 c2
 cd c1
 touch hola.csv
