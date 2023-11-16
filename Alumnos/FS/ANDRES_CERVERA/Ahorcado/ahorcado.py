@@ -2,6 +2,7 @@ import pandas as pd
 import time
 import timeit
 import sys
+import email
 
 tiempo_inicial = time.time()
 
