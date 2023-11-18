@@ -6,7 +6,7 @@ on:  # yamllint disable-line rule:truthy
       - main
 jobs:
   entregables:
-    if: github.event.commits[0].author.username != 'github-actions[bot]'
+    if: github.event.commits[0].author.username != 'github-actions[bot]' && github.event.commits[0].author.username != 'a10pepo'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,6 +20,7 @@ jobs:
         run: |
           ls -la .github
           python3 .github/code/check.py
+          echo github.event.commits[0].author.username
           # git config --global user.name 'Pedro Nieto'
           # git config --global user.email 'a10pepo@github.com'
           # git commit -am "Automated report"
