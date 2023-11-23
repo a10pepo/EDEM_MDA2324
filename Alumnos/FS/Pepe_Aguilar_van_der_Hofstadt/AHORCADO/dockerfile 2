@@ -1,0 +1,8 @@
+FROM python
+
+RUN pip install pandas
+
+COPY palabras.csv /
+COPY dic_esp.csv /
+COPY ahorcado.py /
+ENTRYPOINT python ahorcado.py

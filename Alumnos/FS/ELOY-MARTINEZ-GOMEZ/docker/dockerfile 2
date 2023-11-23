@@ -1,0 +1,5 @@
+FROM python
+
+COPY suma_python.py /
+
+ENTRYPOINT ["python3", "suma_python.py"]

@@ -1,0 +1,14 @@
+# Utiliza una imagen base de Python
+FROM python:3.11.5
+
+# Copia los archivos del proyecto al contenedor
+COPY . /app
+
+# Establece el directorio de trabajo
+WORKDIR /app
+
+# Instala las dependencias desde el archivo requirements.txt
+RUN pip install -r requirements.txt
+
+# Ejecuta tu código Python
+CMD ["python", "Ahorcado_v2.py"]
