@@ -1,0 +1,12 @@
+FROM python:3.11.6
+
+WORKDIR /app
+
+COPY ahorcado.py /app
+COPY requirements.txt /app
+COPY palabras.csv /app
+COPY ahorcado64.py /app
+
+RUN pip install -r requirements.txt
+
+CMD ["python", "ahorcado.py", "ahorcado64.py"]

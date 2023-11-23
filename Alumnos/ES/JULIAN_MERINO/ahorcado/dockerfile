@@ -1,0 +1,11 @@
+FROM python:latest
+
+RUN pip install --upgrade pip
+RUN apt-get update
+RUN apt-get upgrade -y
+COPY requirements.txt /
+COPY entrypoint.sh /
+COPY palabras.csv /
+COPY ahorcado.py /
+RUN chmod +rwx /entrypoint.sh
+CMD /entrypoint.sh
