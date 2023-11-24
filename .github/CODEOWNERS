@@ -2,25 +2,27 @@
 
 * @a10pepo
 
-/Alumnos/FS/*/DOCKER/** @alhercan
-/Alumnos/FS/*/docker/** @alhercan
-/Alumnos/ES/*/DOCKER/** @alhercan
-/Alumnos/ES/*/docker/** @alhercan
+/Alumnos/FS/*/DOCKER/** @alhercan @a10pepo
+/Alumnos/FS/*/docker/** @alhercan @a10pepo
+/Alumnos/ES/*/DOCKER/** @alhercan @a10pepo
+/Alumnos/ES/*/docker/** @alhercan @a10pepo
 
-/Alumnos/FS/*/PYTHON/** @martinImagina
-/Alumnos/FS/*/python/** @martinImagina
-/Alumnos/ES/*/PYTHON/** @martinImagina
-/Alumnos/ES/*/python/** @martinImagina
+/Alumnos/FS/*/PYTHON/** @martinImagina @a10pepo
+/Alumnos/FS/*/python/** @martinImagina @a10pepo
+/Alumnos/ES/*/PYTHON/** @martinImagina @a10pepo
+/Alumnos/ES/*/python/** @martinImagina @a10pepo
 
-/Alumnos/FS/*/SQL/** @gavaldanatalia
-/Alumnos/FS/*/sql/** @gavaldanatalia
-/Alumnos/ES/*/SQL/** @gavaldanatalia
-/Alumnos/ES/*/sql/** @gavaldanatalia
+/Alumnos/FS/*/SQL/** @gavaldanatalia @a10pepo
+/Alumnos/FS/*/sql/** @gavaldanatalia @a10pepo
+/Alumnos/ES/*/SQL/** @gavaldanatalia @a10pepo
+/Alumnos/ES/*/sql/** @gavaldanatalia @a10pepo
 
-/Alumnos/FS/*/NIFI/** @echiner
-/Alumnos/FS/*/nifi/** @echiner
-/Alumnos/ES/*/NIFI/** @echiner
-/Alumnos/ES/*/nifi/** @echiner
+/Alumnos/FS/*/NIFI/** @echiner @a10pepo
+/Alumnos/FS/*/nifi/** @echiner @a10pepo
+/Alumnos/ES/*/NIFI/** @echiner @a10pepo
+/Alumnos/ES/*/nifi/** @echiner @a10pepo
 
-/Alumnos/FS/** @a10pepo
-/Alumnos/ES/** @a10pepo
+/Alumnos/FS/*/AHORCADO/** @a10pepo
+/Alumnos/FS/*/ahorcado/** @a10pepo
+/Alumnos/ES/*/AHORCADO/** @a10pepo
+/Alumnos/ES/*/ahorcado/** @a10pepo
