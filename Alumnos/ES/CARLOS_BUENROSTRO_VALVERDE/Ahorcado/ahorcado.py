@@ -6,6 +6,3 @@ lista_palabras = list(palabras)
 for palabra in lista_palabras:
     letras = len(palabra)
     print([palabra , letras])
-
-
-
