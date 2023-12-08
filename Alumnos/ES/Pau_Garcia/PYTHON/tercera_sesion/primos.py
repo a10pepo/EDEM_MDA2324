@@ -15,7 +15,7 @@ def get_prime(last_number):
 
     primes = [1,3]
 
-    for num in range(5,last_number):
+    for num in range(5,last_number+1):
         
         for primo in primes[1:]:
             if (num%2)==0:
@@ -28,10 +28,10 @@ def get_prime(last_number):
     
     return primes
 
-num = int(input('Bienvenido, ¿hasta qué número quieres que calcule primos? '))
+numero = int(input('Bienvenido, ¿hasta qué número quieres que calcule primos? '))
 # Mejor no intentarlo con más de 100k
-result = get_prime(num)
-print(f'Los números primos entre el 1 y el {num} son los siguientes: {result}')
+result = get_prime(numero)
+print(f'Los números primos entre el 1 y el {numero} son los siguientes: {result}')
 
 
                 
