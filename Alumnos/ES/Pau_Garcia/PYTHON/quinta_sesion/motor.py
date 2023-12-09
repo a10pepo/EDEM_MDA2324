@@ -32,16 +32,3 @@ class Automovil:
     def acelerar(self):
         self.velocidad += 20
         print(f'Subiendo de marcha... {self.velocidad}km/h')
-
-
-# coche = Automovil()
-
-# coche.arrancar()
-# coche.arrancar()
-
-# while (coche.velocidad<90):
-#     coche.acelerar()
-
-# coche.frenar()
-# coche.parar()
-# coche.parar()
