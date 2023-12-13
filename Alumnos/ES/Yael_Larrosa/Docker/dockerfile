@@ -1,0 +1,22 @@
+#instala imagen que contiene python
+FROM python:3.12 
+
+#actualiza 
+RUN apt-get update
+
+#introduce el codigo de python (/ indica donde se encuentra el archivo)
+COPY main.py /
+
+#ejecuta el archivo python
+ENTRYPOINT ["python", "main.py"]
+
+
+#para ejecutarlo primero crear imagen : docker build -t mypython .
+#después ejecutarlo: docker run mypython 2 3
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+{
+  "14123431F": {
+    "NIF": "14123431F",
+    "Nombre": "Miguel",
+    "Apellidos": "Carcelero",
+    "Telefono": "632422444",
+    "Email": "miguelcarcelero@gmail.com",
+    "Aprobado": true
+  },
+  "19923479": {
+    "NIF": "19923479",
+    "Nombre": "Carlos",
+    "Apellidos": "Hern\u00e1ndez",
+    "Telefono": "624902340",
+    "Email": "carloshernandez@gmail.com",
+    "Aprobado": false
+  },
+  "19434094C": {
+    "NIF": "19434094C",
+    "Nombre": "Juan",
+    "Apellidos": "S\u00e1nchez",
+    "Telefono": "692470236",
+    "Email": "juansanchez@gmail.com",
+    "Aprobado": true
+  },
+  "15297438G": {
+    "NIF": "15297438G",
+    "Nombre": "Javier",
+    "Apellidos": "G\u00f3mez",
+    "Telefono": "601834823",
+    "Email": "javiergomez@gmail.com",
+    "Aprobado": false
+  },
+  "19324572J": {
+    "NIF": "19324572J",
+    "Nombre": "Jorge",
+    "Apellidos": "Fern\u00e1ndez",
+    "Telefono": "602842374",
+    "Email": "jorgefernandez@gmail.com",
+    "Aprobado": true
+  },
+  "10349728P": {
+    "NIF": "10349728P",
+    "Nombre": "Sara",
+    "Apellidos": "Guill\u00e9n",
+    "Telefono": "643349024",
+    "Email": "saraguillen@gmail.com",
+    "Aprobado": true
+  },
+  "10584720R": {
+    "NIF": "10584720R",
+    "Nombre": "Ana",
+    "Apellidos": "Clemente",
+    "Telefono": "664298743",
+    "Email": "anaclemente@gmail.com",
+    "Aprobado": false
+  },
+  "10365286L": {
+    "NIF": "10365286L",
+    "Nombre": "Yolanda",
+    "Apellidos": "Fuertes",
+    "Telefono": "642964365",
+    "Email": "yolandafuertes@gmail.com",
+    "Aprobado": false
+  },
+  "15873054H": {
+    "NIF": "15873054H",
+    "Nombre": "Jes\u00fas",
+    "Apellidos": "Esteban",
+    "Telefono": "642047750",
+    "Email": "jesusesteban@gmail.com",
+    "Aprobado": true
+  },
+  "12045943Z": {
+    "NIF": "12045943Z",
+    "Nombre": "Alicia",
+    "Apellidos": "Rubio",
+    "Telefono": "620275957",
+    "Email": "aliciarubio@gmail.com",
+    "Aprobado": false
+  },
+  "10357823T": {
+    "NIF": "10357823T",
+    "Nombre": "Elena",
+    "Apellidos": "Mart\u00ednez",
+    "Telefono": "634204525",
+    "Email": "elenamartineza@gmail.com",
+    "Aprobado": true
+  },
+  "19375398V": {
+    "NIF": "19375398V",
+    "Nombre": "Esther",
+    "Apellidos": "Grao",
+    "Telefono": "620483948",
+    "Email": "esthergrao@gmail.com",
+    "Aprobado": true
+  },
+  "13567293K": {
+    "NIF": "13567293K",
+    "Nombre": "Ram\u00f3n",
+    "Apellidos": "Lereu",
+    "Telefono": "690247385",
+    "Email": "ramonlereu@gmail.com",
+    "Aprobado": false
+  },
+  "18586729L": {
+    "NIF": "18586729L",
+    "Nombre": "Hugo",
+    "Apellidos": "Almendralejo",
+    "Telefono": "629470285",
+    "Email": "hugoalmendralejo@gmail.com",
+    "Aprobado": true
+  },
+  "12543505S": {
+    "NIF": "12543505S",
+    "Nombre": "Eduardo",
+    "Apellidos": "Fabra",
+    "Telefono": "629873452",
+    "Email": "eduardofabra@gmail.com",
+    "Aprobado": false
+  },
+  "19475305G": {
+    "NIF": "19475305G",
+    "Nombre": "Clara",
+    "Apellidos": "Castellote",
+    "Telefono": "623489274",
+    "Email": "claracastellote@gmail.com",
+    "Aprobado": true
+  },
+  "15693826J": {
+    "NIF": "15693826J",
+    "Nombre": "Luc\u00eda",
+    "Apellidos": "Cava",
+    "Telefono": "634287425",
+    "Email": "luciacava@gmail.com",
+    "Aprobado": false
+  },
+  "10374934R": {
+    "NIF": "10374934R",
+    "Nombre": "Sof\u00eda",
+    "Apellidos": "G\u00e1lvez",
+    "Telefono": "640583545",
+    "Email": "sofiagalvez@gmail.com",
+    "Aprobado": false
+  },
+  "19473948L": {
+    "NIF": "19473948L",
+    "Nombre": "Gabriel",
+    "Apellidos": "Lorca",
+    "Telefono": "620348345",
+    "Email": "grabriellorca@gmail.com",
+    "Aprobado": true
+  }
+}

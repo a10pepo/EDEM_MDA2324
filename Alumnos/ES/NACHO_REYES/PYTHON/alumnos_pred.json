@@ -1,0 +1,170 @@
+  {
+  "000000000V": {
+    "NIF": "000000000V",
+    "Nombre": "Ignacio",
+    "Apellidos": "Reyes",
+    "Telefono": "639091213",
+    "Email": "ignaciorys@gmail.com",
+    "Aprobado": true
+  },
+  "111111111A": {
+    "NIF": "111111111A",
+    "Nombre": "Pedro",
+    "Apellidos": "Martinez",
+    "Telefono": "111111111",
+    "Email": "pedromtz@gmail.com",
+    "Aprobado": false
+  },
+  "222222222B": {
+    "NIF": "222222222B",
+    "Nombre": "Lucia",
+    "Apellidos": "Sanchez",
+    "Telefono": "222222222",
+    "Email": "luciasanchez@gmail.com",
+    "Aprobado": true
+  },
+  "333333333C": {
+    "NIF": "333333333C",
+    "Nombre": "Pablo",
+    "Apellidos": "Rodriguez",
+    "Telefono": "333333333",
+    "Email": "pablorod@gmail.com",
+    "Aprobado": false
+  },
+  "444444444D": {
+    "NIF": "444444444D",
+    "Nombre": "Elena",
+    "Apellidos": "Lopez",
+    "Telefono": "444444444",
+    "Email": "elenalpz@gmail.com",
+    "Aprobado": true
+  },
+  "555555555E": {
+    "NIF": "555555555E",
+    "Nombre": "Carlos",
+    "Apellidos": "Fernandez",
+    "Telefono": "555555555",
+    "Email": "carlosfer@gmail.com",
+    "Aprobado": false
+  },
+  "666666666F": {
+    "NIF": "666666666F",
+    "Nombre": "Laura",
+    "Apellidos": "Gonzalez",
+    "Telefono": "666666666",
+    "Email": "lauragonz@gmail.com",
+    "Aprobado": true
+  },
+  "777777777G": {
+    "NIF": "777777777G",
+    "Nombre": "Diego",
+    "Apellidos": "Perez",
+    "Telefono": "777777777",
+    "Email": "diegoperez@gmail.com",
+    "Aprobado": true
+  },
+  "888888888H": {
+    "NIF": "888888888H",
+    "Nombre": "Sofia",
+    "Apellidos": "Vazquez",
+    "Telefono": "888888888",
+    "Email": "sofiavazq@gmail.com",
+    "Aprobado": false
+  },
+  "999999999I": {
+    "NIF": "999999999I",
+    "Nombre": "Daniel",
+    "Apellidos": "Diaz",
+    "Telefono": "999999999",
+    "Email": "danieldiaz@gmail.com",
+    "Aprobado": true
+  },
+  "000000000J": {
+    "NIF": "000000000J",
+    "Nombre": "Ana",
+    "Apellidos": "Martinez",
+    "Telefono": "000000000",
+    "Email": "anamartinez@gmail.com",
+    "Aprobado": false
+  },
+  "101010101K": {
+    "NIF": "101010101K",
+    "Nombre": "Adrian",
+    "Apellidos": "Sanchez",
+    "Telefono": "101010101",
+    "Email": "adriansanchez@gmail.com",
+    "Aprobado": true
+  },
+  "202020202L": {
+    "NIF": "202020202L",
+    "Nombre": "Carmen",
+    "Apellidos": "Rodriguez",
+    "Telefono": "202020202",
+    "Email": "carmenrod@gmail.com",
+    "Aprobado": true
+  },
+  "303030303M": {
+    "NIF": "303030303M",
+    "Nombre": "Marco",
+    "Apellidos": "Lopez",
+    "Telefono": "303030303",
+    "Email": "marcolpz@gmail.com",
+    "Aprobado": false
+  },
+  "404040404N": {
+    "NIF": "404040404N",
+    "Nombre": "Paula",
+    "Apellidos": "Gomez",
+    "Telefono": "404040404",
+    "Email": "paulagomez@gmail.com",
+    "Aprobado": true
+  },
+  "505050505O": {
+    "NIF": "505050505O",
+    "Nombre": "Marcos",
+    "Apellidos": "Hernandez",
+    "Telefono": "505050505",
+    "Email": "marcoshdz@gmail.com",
+    "Aprobado": false
+  },
+  "606060606P": {
+    "NIF": "606060606P",
+    "Nombre": "Sara",
+    "Apellidos": "Fernandez",
+    "Telefono": "606060606",
+    "Email": "sarafer@gmail.com",
+    "Aprobado": true
+  },
+  "707070707Q": {
+    "NIF": "707070707Q",
+    "Nombre": "Alejandro",
+    "Apellidos": "Perez",
+    "Telefono": "707070707",
+    "Email": "alexperez@gmail.com",
+    "Aprobado": true
+  },
+  "808080808R": {
+    "NIF": "808080808R",
+    "Nombre": "Eva",
+    "Apellidos": "Martinez",
+    "Telefono": "808080808",
+    "Email": "evamart@gmail.com",
+    "Aprobado": false
+  },
+  "909090909S": {
+    "NIF": "909090909S",
+    "Nombre": "Hugo",
+    "Apellidos": "Gonzalez",
+    "Telefono": "909090909",
+    "Email": "hugogon@gmail.com",
+    "Aprobado": true
+  },
+  "121212121T": {
+    "NIF": "121212121T",
+    "Nombre": "Isabel",
+    "Apellidos": "Diaz",
+    "Telefono": "121212121",
+    "Email": "isabeldiaz@gmail.com",
+    "Aprobado": false
+  }
+}

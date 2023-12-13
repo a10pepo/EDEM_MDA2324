@@ -1,0 +1,7 @@
+FROM python:latest
+
+COPY suma.py /DOCKER/
+
+WORKDIR /DOCKER/
+
+ENTRYPOINT ["python", "suma.py"]

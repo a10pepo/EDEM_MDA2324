@@ -1,0 +1,4 @@
+FROM python:3
+WORKDIR /usr/src/app
+COPY suma_docker.py .
+ENTRYPOINT ["python", "./suma_docker.py" ]

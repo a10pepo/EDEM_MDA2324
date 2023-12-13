@@ -1,0 +1,7 @@
+FROM python:latest
+
+COPY ahorcado.py /AHORCADO/
+
+WORKDIR /AHORCADO/
+
+ENTRYPOINT ["python", "ahorcado.py"]

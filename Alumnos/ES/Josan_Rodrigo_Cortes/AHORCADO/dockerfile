@@ -1,0 +1,13 @@
+FROM python:3
+
+WORKDIR /ahorcado
+
+COPY requirements.txt .
+
+RUN RUN pip install --no-cache-dir -r requirements.txt || cat requirements.txt
+
+COPY ahorcadoRandom.py ahorcadoAlfabeto.py ahorcadoAlfabetoOrdenado.py palabras.csv /ahorcado/
+
+COPY palabras.csv .
+
+CMD ["python","ahorcadoAlfabetoOrdenado.py","&&","python","ahorcadoRandom.py","&&","python","ahorcadoAlfabeto.py"]

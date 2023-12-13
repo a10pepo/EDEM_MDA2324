@@ -1,0 +1,7 @@
+FROM python:3.11.6
+
+WORKDIR /app
+
+COPY pysum.py /app
+
+ENTRYPOINT ["python", "pysum.py"]

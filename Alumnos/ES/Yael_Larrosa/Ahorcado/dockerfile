@@ -1,0 +1,16 @@
+FROM python:3.12
+
+RUN apt-get update
+
+COPY requirements.txt /
+COPY main.py /
+COPY palabras.csv /
+
+RUN pip install --upgrade pip 
+RUN pip install -r requirements.txt 
+
+
+CMD python main.py
+
+#docker build -t ahorcado .   --> para contruir la imagen
+#docker run ahorcado          --> para crear y ejecutar el contenedor

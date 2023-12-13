@@ -1,0 +1,8 @@
+FROM python:3.11.4
+
+WORKDIR /app
+
+COPY docker.py /app/docker.py
+
+CMD ["python", "docker.py"]
+

@@ -1,0 +1,11 @@
+FROM python:3.10
+
+WORKDIR /usr/PAU/hangman
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY hangman.py .
+COPY palabras.csv .
+
+CMD [ "python", "hangman.py" ]

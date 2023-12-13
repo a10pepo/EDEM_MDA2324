@@ -1,0 +1,15 @@
+#Construir una imagen docker que contenga dicho python script
+
+# Usa una imagen de Python como base
+FROM python:3.11.5
+
+# Copia el script Python al directorio de trabajo en la imagen
+COPY suma.py /
+
+# Establece el directorio de trabajo
+#WORKDIR / C:\Users\marpo\OneDrive\Escritorio\EDEM\docker
+
+# Ejecuta el script cuando se inicie el contenedor
+ENTRYPOINT  ["python3", "suma.py"]
+
+

@@ -3,7 +3,7 @@ import os
 
 
 deliverables=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL"]
-
+allowed=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL","README.MD","CHUCK"]
 
 
 def check_class(folder_path):
@@ -20,6 +20,17 @@ def check_class(folder_path):
                 else:
                     alumnos[alumno][element]=False
     return alumnos
+
+def check_names(folder_path):
+    for alumno in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, alumno)
+        if os.path.isdir(file_path):
+            # list all files in directory
+            files = os.listdir(file_path)
+            for element in files:
+                if element.upper() not in allowed:
+                    print("File not allowed "+file_path+" Elment: "+element)
+
 
 
 def generate_table(clase,alumnos):
@@ -67,6 +78,8 @@ def modify_readme():
 
 
 if __name__ == '__main__':  
-    modify_readme()
+    check_names('Alumnos/ES')
+    check_names('Alumnos/FS')
+    modify_readme()    
     print("README.md updated")
 
