@@ -1,0 +1,162 @@
+[
+  {
+    "NIF": "99549386G",
+    "Nombre": "Cristobal",
+    "Apellidos": "Fiol",
+    "Telefono": "+34 878997558",
+    "Email": "chicoloreto@example.org",
+    "Aprobado": false
+  },
+  {
+    "NIF": "88305223N",
+    "Nombre": "Calixto",
+    "Apellidos": "Zorrilla",
+    "Telefono": "+34942840626",
+    "Email": "anguitapilar@example.net",
+    "Aprobado": true
+  },
+  {
+    "NIF": "21703840M",
+    "Nombre": "Irene",
+    "Apellidos": "Sanjuan",
+    "Telefono": "+34 839024813",
+    "Email": "santanaalfonso@example.org",
+    "Aprobado": true
+  },
+  {
+    "NIF": "89693758Z",
+    "Nombre": "Herminia",
+    "Apellidos": "Peral",
+    "Telefono": "+34 981 083 293",
+    "Email": "teodosio11@example.org",
+    "Aprobado": true
+  },
+  {
+    "NIF": "81071459R",
+    "Nombre": "Pilar",
+    "Apellidos": "Muniz",
+    "Telefono": "+34 981 54 97 78",
+    "Email": "marco99@example.com",
+    "Aprobado": false
+  },
+  {
+    "NIF": "74850924T",
+    "Nombre": "Guiomar",
+    "Apellidos": "Ferran",
+    "Telefono": "+34 976641060",
+    "Email": "westeban@example.org",
+    "Aprobado": false
+  },
+  {
+    "NIF": "74490541G",
+    "Nombre": "Isidoro",
+    "Apellidos": "Gual",
+    "Telefono": "+34 871 00 68 40",
+    "Email": "edgar43@example.com",
+    "Aprobado": false
+  },
+  {
+    "NIF": "29400873L",
+    "Nombre": "Calista",
+    "Apellidos": "Heras",
+    "Telefono": "+34988 59 57 62",
+    "Email": "tatiana51@example.net",
+    "Aprobado": true
+  },
+  {
+    "NIF": "67998998G",
+    "Nombre": "Tono",
+    "Apellidos": "Arnau",
+    "Telefono": "+34945 15 41 32",
+    "Email": "brigidapi@example.org",
+    "Aprobado": false
+  },
+  {
+    "NIF": "75606067F",
+    "Nombre": "Ignacio",
+    "Apellidos": "Acosta",
+    "Telefono": "+34 849 929 191",
+    "Email": "burgosbalduino@example.org",
+    "Aprobado": true
+  },
+  {
+    "NIF": "26299067Q",
+    "Nombre": "Fabiola",
+    "Apellidos": "Laguna",
+    "Telefono": "+34 960 754 711",
+    "Email": "xbatlle@example.net",
+    "Aprobado": true
+  },
+  {
+    "NIF": "09305922F",
+    "Nombre": "Ainara",
+    "Apellidos": "Bejarano",
+    "Telefono": "+34879 01 81 04",
+    "Email": "navasanastasia@example.com",
+    "Aprobado": false
+  },
+  {
+    "NIF": "69480113B",
+    "Nombre": "Eduardo",
+    "Apellidos": "Torrens",
+    "Telefono": "+34933237760",
+    "Email": "puentejosefa@example.net",
+    "Aprobado": true
+  },
+  {
+    "NIF": "79747456Q",
+    "Nombre": "Cruz",
+    "Apellidos": "Salmeron",
+    "Telefono": "+34 956 368 170",
+    "Email": "cespedesaurea@example.org",
+    "Aprobado": false
+  },
+  {
+    "NIF": "13977376T",
+    "Nombre": "Hernan",
+    "Apellidos": "Peiro",
+    "Telefono": "+34 882 30 64 61",
+    "Email": "mirta46@example.org",
+    "Aprobado": false
+  },
+  {
+    "NIF": "59100187P",
+    "Nombre": "Perlita",
+    "Apellidos": "Barrera",
+    "Telefono": "+34974 567 181",
+    "Email": "fabiolacoca@example.net",
+    "Aprobado": false
+  },
+  {
+    "NIF": "09051651R",
+    "Nombre": "Melchor",
+    "Apellidos": "Urena",
+    "Telefono": "+34886 20 44 15",
+    "Email": "murrutia@example.com",
+    "Aprobado": false
+  },
+  {
+    "NIF": "81922204E",
+    "Nombre": "Primitiva",
+    "Apellidos": "Bellido",
+    "Telefono": "+34923370210",
+    "Email": "alcarazabigail@example.com",
+    "Aprobado": true
+  },
+  {
+    "NIF": "61647515V",
+    "Nombre": "Jacinta",
+    "Apellidos": "Egea",
+    "Telefono": "+34 839277891",
+    "Email": "sebastiancampo@example.com",
+    "Aprobado": false
+  },
+  {
+    "NIF": "48713733D",
+    "Nombre": "fran",
+    "Apellidos": "tudela",
+    "Telefono": 7223003,
+    "Email": "fran@gmail.com",
+    "Aprobado": true
+  }
+]

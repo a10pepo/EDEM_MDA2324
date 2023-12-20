@@ -1,0 +1,7 @@
+FROM python:3.10.7
+
+WORKDIR /app
+
+COPY suma.py .
+
+ENTRYPOINT [ "python", "suma.py" ]

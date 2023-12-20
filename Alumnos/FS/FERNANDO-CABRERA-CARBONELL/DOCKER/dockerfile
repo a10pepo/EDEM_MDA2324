@@ -1,0 +1,8 @@
+FROM python:3.9
+
+COPY suma.py DOCKER/suma.py
+
+WORKDIR /DOCKER
+
+CMD ["python", "suma.py"]
+
