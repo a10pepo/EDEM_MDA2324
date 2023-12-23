@@ -81,14 +81,6 @@ services:
         confluent-hub install confluentinc/kafka-connect-jdbc:10.7.4
         /etc/confluent/docker/run
 
-      # docker exec -u 0 -it e599fa744dc568ed4d3048024d021e118bc22e89a63dd65a66e7f5132b793f6c bash
-      # confluent-hub install confluentinc/kafka-connect-jdbc:10.7.4
-      # vi   /etc/schema-registry/connect-avro-distributed.properties
-      # Add /usr/share/confluent-hub-components/confluentinc-kafka-connect-jdbc/lib/
-      # restart docker container
-      # curl -X POST -H "Content-Type: application/json" http://localhost:8083/connectors -d @sink.json
-      #ping host.docker.internal
-
   schema-registry:
     image: confluentinc/cp-schema-registry:7.3.3
     hostname: schema-registry

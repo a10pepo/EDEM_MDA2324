@@ -17,10 +17,10 @@
 /Alumnos/ES/*/Python/** @martinImagina @a10pepo
 
 
-/Alumnos/FS/*/SQL/** @gavaldanatalia @a10pepo
-/Alumnos/FS/*/sql/** @gavaldanatalia @a10pepo
-/Alumnos/ES/*/SQL/** @gavaldanatalia @a10pepo
-/Alumnos/ES/*/sql/** @gavaldanatalia @a10pepo
+/Alumnos/FS/*/SQL/** @gavaldanatalia @a10pepo @gavnatalia
+/Alumnos/FS/*/sql/** @gavaldanatalia @a10pepo @gavnatalia
+/Alumnos/ES/*/SQL/** @gavaldanatalia @a10pepo @gavnatalia
+/Alumnos/ES/*/sql/** @gavaldanatalia @a10pepo @gavnatalia
 
 /Alumnos/FS/*/NIFI/** @echiner @a10pepo
 /Alumnos/FS/*/nifi/** @echiner @a10pepo
@@ -31,3 +31,18 @@
 /Alumnos/FS/*/ahorcado/** @a10pepo
 /Alumnos/ES/*/AHORCADO/** @a10pepo
 /Alumnos/ES/*/ahorcado/** @a10pepo
+
+/Alumnos/FS/*/FLASK/** @a10pepo @NuriaUrena
+/Alumnos/FS/*/Flask/** @a10pepo @NuriaUrena
+/Alumnos/ES/*/FLASK/** @a10pepo @NuriaUrena
+/Alumnos/ES/*/Flask/** @a10pepo @NuriaUrena
+
+/Alumnos/FS/*/KAFKA/** @a10pepo @rusansor
+/Alumnos/FS/*/Kafka/** @a10pepo @rusansor
+/Alumnos/ES/*/KAFKA/** @a10pepo @rusansor
+/Alumnos/ES/*/Kafka/** @a10pepo @rusansor
+
+/Alumnos/FS/*/SPARK/** @a10pepo @paponsro
+/Alumnos/FS/*/Spark/** @a10pepo @paponsro
+/Alumnos/ES/*/SPARK/** @a10pepo @paponsro
+/Alumnos/ES/*/Spark/** @a10pepo @paponsro

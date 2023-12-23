@@ -1,0 +1,63 @@
+openapi: 3.0.0
+info:
+  title: Robot Temperature Monitoring API
+  version: 1.0.0
+servers:
+- url: /
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    get:
+      summary: Get the last temperature measurement by sensor
+      operationId: get_last_meassure_by_sensor_sensor_get
+      parameters:
+      - name: sensor
+        in: path
+        description: The ID of the sensor
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Measure'
+        "400":
+          description: Sensor not found
+          content:
+            application/json:
+              example:
+                error: Sensor not found
+        "404":
+          description: Invalid ID supplied
+          content:
+            application/json:
+              example:
+                error: Invalid ID supplied
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+components:
+  schemas:
+    Measure:
+      type: object
+      properties:
+        code:
+          type: string
+          description: ID of the sensor
+        fechamuestreo:
+          type: string
+          description: Date and time of the measurement
+        unidad:
+          type: string
+          description: Measurement unit
+        medicion:
+          type: number
+          description: Temperature measurement
+      example:
+        unidad: unidad
+        medicion: 0.8008281904610115
+        code: code
+        fechamuestreo: fechamuestreo
+
