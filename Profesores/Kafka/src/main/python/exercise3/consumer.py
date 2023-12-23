@@ -20,7 +20,7 @@ props["group.id"] = "python-group-1"
 props["auto.offset.reset"] = "earliest"
 
 consumer = Consumer(props)
-consumer.subscribe(["topic_python1"])
+consumer.subscribe(["topic_python"])
 
 try:
     while True:

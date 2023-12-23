@@ -2,8 +2,8 @@ import os
 
 
 
-deliverables=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL"]
-allowed=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL","README.MD","CHUCK"]
+deliverables=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL","FLASK","KAFKA","SPARK"]
+allowed=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL","README.MD","CHUCK","FLASK", "SPARK", "KAFKA"]
 
 
 def check_class(folder_path):
