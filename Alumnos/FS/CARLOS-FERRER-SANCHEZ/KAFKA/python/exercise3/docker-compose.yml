@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  kafka-consumer:
+    build:
+      context: .
+      dockerfile: dockerfile_consumer
+    volumes:
+      - ./client.properties:/app/client.properties
+    command: python consumer.py
+
+  kafka-producer:
+    build:
+      context: .
+      dockerfile: dockerfile_producer
+    volumes:
+      - ./client.properties:/app/client.properties
+    command: python producer.py

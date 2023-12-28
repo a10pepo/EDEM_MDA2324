@@ -1,0 +1,10 @@
+FROM python:3.9
+
+COPY producer.py client.properties /app/
+
+RUN pip install kafka-python
+RUN pip install confluent_kafka
+
+WORKDIR /app
+
+CMD ["python", "producer.py"]
