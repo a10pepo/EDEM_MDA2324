@@ -85,15 +85,15 @@ streaming the data into ksqlDB:
 Any subsequent data produced to the topic will be streamed into ksqlDB, and any data inserted into the new stream will
 be written to the Kafka topic automagically.
 ```sql
-CREATE STREAM csv
-  (numero INT)
-   WITH (KAFKA_TOPIC='readcsv',
-        VALUE_FORMAT='DELIMITED');
+CREATE STREAM transaction\
+(INDICE INT, TRANSACTION_ID INT, TX_DATETIME STRING, CUSTOMER_ID INT, TERMINAL_ID INT, TX_AMOUNT DOUBLE, TX_TIME_SECONDS INT, TX_TIME_DAYS INT, TX_FRAUD INT, TX_FRAUD_SCENARIO INT) \
+WITH (KAFKA_TOPIC='readcsv', VALUE_FORMAT='JSON');
+;
 ```
 
 Select all the messages from the stream (topic), and show what is each word's length.
 ```sql
-SELECT palabra, LEN(palabra) FROM palabras_stream emit changes;
+SELECT * FROM your_stream_name EMIT CHANGES;
 ```
 
 Select the messages from the stream where the message size is major than 7

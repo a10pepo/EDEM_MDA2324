@@ -28,7 +28,7 @@ with open(csv_file, 'r', encoding='utf-8') as file:
     for row in csv_reader:
         if not row:
             continue  # Ignorar líneas vacías
-        line = row[0]  # Supongamos que la columna que deseas enviar como frase es la primera (índice 0)
+        line = row[0]  # primera columna(índice 0)
         time.sleep(2)
         print(line.strip() + "\n")
 
