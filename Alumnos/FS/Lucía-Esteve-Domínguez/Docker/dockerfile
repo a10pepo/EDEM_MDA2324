@@ -1,0 +1,4 @@
+FROM python
+WORKDIR /usr/src/app/
+COPY archivo.py .
+ENTRYPOINT [ "python3", "/usr/src/app/archivo.py" ]
