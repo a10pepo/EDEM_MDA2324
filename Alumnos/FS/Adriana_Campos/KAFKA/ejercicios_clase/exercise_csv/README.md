@@ -25,9 +25,8 @@ docker-compose exec kafka kafka-topics --create --topic readcsv --partitions 1 -
 ```
 
 ## Run the Producer Python App from VisualStudio
-Execute the exercise5/producer.py Python Producer Application. Check that it shows El Quijote's phrases.
+Execute the ´producer.py´ Python Producer Application. Check that it shows El Quijote's phrases.
 
-Then ensure the messages (each word of El Quijote's book) is being sent to the topic "palabras".
 
 ```sh
 docker-compose exec kafka kafka-console-consumer --topic readcsv --from-beginning --bootstrap-server localhost:9092
@@ -74,7 +73,7 @@ Kafka Topic  | Partitions | Partition Replicas
 ------------------------------------------------
 ```
 ```sql
-PRINT 'palabras' FROM BEGINNING;
+PRINT 'transaction' FROM BEGINNING;
 ```
 
 Press Control-C some times to exit. Be patient, some times take time :)....If it does not stop, close the terminal and 
@@ -93,53 +92,12 @@ WITH (KAFKA_TOPIC='readcsv', VALUE_FORMAT='JSON');
 
 Select all the messages from the stream (topic), and show what is each word's length.
 ```sql
-SELECT * FROM your_stream_name EMIT CHANGES;
+SELECT * FROM transaction EMIT CHANGES;
 ```
 
-Select the messages from the stream where the message size is major than 7
-```sql
-SELECT palabra AS mi_palabra, LEN(palabra) AS longitud FROM palabras_stream WHERE LEN(palabra) > 7 emit changes;
-```
-
-### Do this Exercise on your own
-Select the messages from the stream where the message size is major than 10
-
-### Keep going on
-Filter words **starting** with the letter **"t"** in a stream named palabras_stream
-```sql
-SELECT palabra
-FROM palabras_stream
-WHERE palabra LIKE 't%' emit changes;
-```
-
-### Do this Exercise on your own
-Filter words **ending** with the letters **"go"** in a stream named palabras_stream
-
-### Keep going on
-Create a KTable, to check out how many times a word has appeared in the El Quijote's book. Notice that while the words
-are arriving to the topic, the KTable gets updated in real time!!!
-```sql
-CREATE TABLE mi_ktable AS
-SELECT palabra,
-count(*)
-FROM palabras_stream
-GROUP BY palabra
-EMIT CHANGES;
-```
-
-Read the KTable
-```sql
-SELECT * FROM mi_ktable EMIT CHANGES;
-```
 
 #### More Exercises
-##### Exercise 5.1
-Find the words that starts with 'ca' **and** finishes with 'o' **and** the word is longer than 6 characters.
 
-##### Exercise 5.2
-Select all the words, but transformed in Uppercase. Hint: use a select and using the function UCASE(...)
-
-##### Exercise 5.3 ADVANCED
 **Note:** If you are interested in learning more on KSQL you can find developer info here: https://docs.confluent.io/current/ksql/docs/developer-guide/syntax-reference.html
 And you can try from this doc to performe another KSQL with the 'palabras' topic.
 
