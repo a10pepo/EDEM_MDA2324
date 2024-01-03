@@ -155,15 +155,15 @@
 142,Aerodactyl,Rock,Flying,80,105,65,60,75,130,1,False
 142,AerodactylMega Aerodactyl,Rock,Flying,80,135,85,70,95,150,1,False
 143,Snorlax,Normal,,160,110,65,65,110,30,1,False
-144,Articuno,Ice,Flying,90,85,100,95,125,85,1,True
-145,Zapdos,Electric,Flying,90,90,85,125,90,100,1,True
+144,Articuno,Fire,Flying,90,85,100,95,125,85,1,True
+145,Zapdos,Fire,Flying,90,90,85,125,90,100,1,True
 146,Moltres,Fire,Flying,90,100,90,125,85,90,1,True
 147,Dratini,Dragon,,41,64,45,50,50,50,1,False
 148,Dragonair,Dragon,,61,84,65,70,70,70,1,False
 149,Dragonite,Dragon,Flying,91,134,95,100,100,80,1,False
-150,Mewtwo,Psychic,,106,110,90,154,90,130,1,True
-150,MewtwoMega Mewtwo X,Psychic,Fighting,106,190,100,154,100,130,1,True
-150,MewtwoMega Mewtwo Y,Psychic,,106,150,70,194,120,140,1,True
+150,Mewtwo,Fire,,106,110,90,154,90,130,1,True
+150,MewtwoMega Mewtwo X,Fire,Fighting,106,190,100,154,100,130,1,True
+150,MewtwoMega Mewtwo Y,Fire,,106,150,70,194,120,140,1,True
 151,Mew,Psychic,,100,100,100,100,100,100,1,False
 152,Chikorita,Grass,,45,49,65,49,65,45,2,False
 153,Bayleef,Grass,,60,62,80,63,80,60,2,False
@@ -261,14 +261,14 @@
 240,Magby,Fire,,45,75,37,70,55,83,2,False
 241,Miltank,Normal,,95,80,105,40,70,100,2,False
 242,Blissey,Normal,,255,10,10,75,135,55,2,False
-243,Raikou,Electric,,90,85,75,115,100,115,2,True
+243,Raikou,Fire,,90,85,75,115,100,115,2,True
 244,Entei,Fire,,115,115,85,90,75,100,2,True
-245,Suicune,Water,,100,75,115,90,115,85,2,True
+245,Suicune,Fire,,100,75,115,90,115,85,2,True
 246,Larvitar,Rock,Ground,50,64,50,45,50,41,2,False
 247,Pupitar,Rock,Ground,70,84,70,65,70,51,2,False
 248,Tyranitar,Rock,Dark,100,134,110,95,100,61,2,False
 248,TyranitarMega Tyranitar,Rock,Dark,100,164,150,95,120,71,2,False
-249,Lugia,Psychic,Flying,106,90,130,90,154,110,2,True
+249,Lugia,Fire,Flying,106,90,130,90,154,110,2,True
 250,Ho-oh,Fire,Flying,106,130,90,110,154,90,2,True
 251,Celebi,Psychic,Grass,100,100,100,100,100,100,2,False
 252,Treecko,Grass,,40,45,35,65,55,70,3,False
@@ -413,24 +413,24 @@
 375,Metang,Steel,Psychic,60,75,100,55,80,50,3,False
 376,Metagross,Steel,Psychic,80,135,130,95,90,70,3,False
 376,MetagrossMega Metagross,Steel,Psychic,80,145,150,105,110,110,3,False
-377,Regirock,Rock,,80,100,200,50,100,50,3,True
-378,Regice,Ice,,80,50,100,100,200,50,3,True
-379,Registeel,Steel,,80,75,150,75,150,50,3,True
-380,Latias,Dragon,Psychic,80,80,90,110,130,110,3,True
-380,LatiasMega Latias,Dragon,Psychic,80,100,120,140,150,110,3,True
-381,Latios,Dragon,Psychic,80,90,80,130,110,110,3,True
-381,LatiosMega Latios,Dragon,Psychic,80,130,100,160,120,110,3,True
-382,Kyogre,Water,,100,100,90,150,140,90,3,True
-382,KyogrePrimal Kyogre,Water,,100,150,90,180,160,90,3,True
-383,Groudon,Ground,,100,150,140,100,90,90,3,True
-383,GroudonPrimal Groudon,Ground,Fire,100,180,160,150,90,90,3,True
-384,Rayquaza,Dragon,Flying,105,150,90,150,90,95,3,True
-384,RayquazaMega Rayquaza,Dragon,Flying,105,180,100,180,100,115,3,True
-385,Jirachi,Steel,Psychic,100,100,100,100,100,100,3,True
-386,DeoxysNormal Forme,Psychic,,50,150,50,150,50,150,3,True
-386,DeoxysAttack Forme,Psychic,,50,180,20,180,20,150,3,True
-386,DeoxysDefense Forme,Psychic,,50,70,160,70,160,90,3,True
-386,DeoxysSpeed Forme,Psychic,,50,95,90,95,90,180,3,True
+377,Regirock,Fire,,80,100,200,50,100,50,3,True
+378,Regice,Fire,,80,50,100,100,200,50,3,True
+379,Registeel,Fire,,80,75,150,75,150,50,3,True
+380,Latias,Fire,Psychic,80,80,90,110,130,110,3,True
+380,LatiasMega Latias,Fire,Psychic,80,100,120,140,150,110,3,True
+381,Latios,Fire,Psychic,80,90,80,130,110,110,3,True
+381,LatiosMega Latios,Fire,Psychic,80,130,100,160,120,110,3,True
+382,Kyogre,Fire,,100,100,90,150,140,90,3,True
+382,KyogrePrimal Kyogre,Fire,,100,150,90,180,160,90,3,True
+383,Groudon,Fire,,100,150,140,100,90,90,3,True
+383,GroudonPrimal Groudon,Fire,Fire,100,180,160,150,90,90,3,True
+384,Rayquaza,Fire,Flying,105,150,90,150,90,95,3,True
+384,RayquazaMega Rayquaza,Fire,Flying,105,180,100,180,100,115,3,True
+385,Jirachi,Fire,Psychic,100,100,100,100,100,100,3,True
+386,DeoxysNormal Forme,Fire,,50,150,50,150,50,150,3,True
+386,DeoxysAttack Forme,Fire,,50,180,20,180,20,150,3,True
+386,DeoxysDefense Forme,Fire,,50,70,160,70,160,90,3,True
+386,DeoxysSpeed Forme,Fire,,50,95,90,95,90,180,3,True
 387,Turtwig,Grass,,55,68,64,45,55,31,4,False
 388,Grotle,Grass,,75,89,85,55,65,36,4,False
 389,Torterra,Grass,Ground,95,109,105,75,85,56,4,False
@@ -536,23 +536,23 @@
 479,RotomFrost Rotom,Electric,Ice,50,65,107,105,107,86,4,False
 479,RotomFan Rotom,Electric,Flying,50,65,107,105,107,86,4,False
 479,RotomMow Rotom,Electric,Grass,50,65,107,105,107,86,4,False
-480,Uxie,Psychic,,75,75,130,75,130,95,4,True
-481,Mesprit,Psychic,,80,105,105,105,105,80,4,True
-482,Azelf,Psychic,,75,125,70,125,70,115,4,True
-483,Dialga,Steel,Dragon,100,120,120,150,100,90,4,True
-484,Palkia,Water,Dragon,90,120,100,150,120,100,4,True
+480,Uxie,Fire,,75,75,130,75,130,95,4,True
+481,Mesprit,Fire,,80,105,105,105,105,80,4,True
+482,Azelf,Fire,,75,125,70,125,70,115,4,True
+483,Dialga,Fire,Dragon,100,120,120,150,100,90,4,True
+484,Palkia,Fire,Dragon,90,120,100,150,120,100,4,True
 485,Heatran,Fire,Steel,91,90,106,130,106,77,4,True
-486,Regigigas,Normal,,110,160,110,80,110,100,4,True
-487,GiratinaAltered Forme,Ghost,Dragon,150,100,120,100,120,90,4,True
-487,GiratinaOrigin Forme,Ghost,Dragon,150,120,100,120,100,90,4,True
+486,Regigigas,Fire,,110,160,110,80,110,100,4,True
+487,GiratinaAltered Forme,Fire,Dragon,150,100,120,100,120,90,4,True
+487,GiratinaOrigin Forme,Fire,Dragon,150,120,100,120,100,90,4,True
 488,Cresselia,Psychic,,120,70,120,75,130,85,4,False
 489,Phione,Water,,80,80,80,80,80,80,4,False
 490,Manaphy,Water,,100,100,100,100,100,100,4,False
-491,Darkrai,Dark,,70,90,90,135,90,125,4,True
-492,ShayminLand Forme,Grass,,100,100,100,100,100,100,4,True
-492,ShayminSky Forme,Grass,Flying,100,103,75,120,75,127,4,True
-493,Arceus,Normal,,120,120,120,120,120,120,4,True
-494,Victini,Psychic,Fire,100,100,100,100,100,100,5,True
+491,Darkrai,Fire,,70,90,90,135,90,125,4,True
+492,ShayminLand Forme,Fire,,100,100,100,100,100,100,4,True
+492,ShayminSky Forme,Fire,Flying,100,103,75,120,75,127,4,True
+493,Arceus,Fire,,120,120,120,120,120,120,4,True
+494,Victini,Fire,Fire,100,100,100,100,100,100,5,True
 495,Snivy,Grass,,45,45,55,45,55,63,5,False
 496,Servine,Grass,,60,60,75,60,75,83,5,False
 497,Serperior,Grass,,75,75,95,75,95,113,5,False
@@ -698,20 +698,20 @@
 635,Hydreigon,Dark,Dragon,92,105,90,125,90,98,5,False
 636,Larvesta,Bug,Fire,55,85,55,50,55,60,5,False
 637,Volcarona,Bug,Fire,85,60,65,135,105,100,5,False
-638,Cobalion,Steel,Fighting,91,90,129,90,72,108,5,True
-639,Terrakion,Rock,Fighting,91,129,90,72,90,108,5,True
-640,Virizion,Grass,Fighting,91,90,72,90,129,108,5,True
-641,TornadusIncarnate Forme,Flying,,79,115,70,125,80,111,5,True
-641,TornadusTherian Forme,Flying,,79,100,80,110,90,121,5,True
-642,ThundurusIncarnate Forme,Electric,Flying,79,115,70,125,80,111,5,True
-642,ThundurusTherian Forme,Electric,Flying,79,105,70,145,80,101,5,True
-643,Reshiram,Dragon,Fire,100,120,100,150,120,90,5,True
-644,Zekrom,Dragon,Electric,100,150,120,120,100,90,5,True
-645,LandorusIncarnate Forme,Ground,Flying,89,125,90,115,80,101,5,True
-645,LandorusTherian Forme,Ground,Flying,89,145,90,105,80,91,5,True
-646,Kyurem,Dragon,Ice,125,130,90,130,90,95,5,True
-646,KyuremBlack Kyurem,Dragon,Ice,125,170,100,120,90,95,5,True
-646,KyuremWhite Kyurem,Dragon,Ice,125,120,90,170,100,95,5,True
+638,Cobalion,Fire,Fighting,91,90,129,90,72,108,5,True
+639,Terrakion,Fire,Fighting,91,129,90,72,90,108,5,True
+640,Virizion,Fire,Fighting,91,90,72,90,129,108,5,True
+641,TornadusIncarnate Forme,Fire,,79,115,70,125,80,111,5,True
+641,TornadusTherian Forme,Fire,,79,100,80,110,90,121,5,True
+642,ThundurusIncarnate Forme,Fire,Flying,79,115,70,125,80,111,5,True
+642,ThundurusTherian Forme,Fire,Flying,79,105,70,145,80,101,5,True
+643,Reshiram,Fire,Fire,100,120,100,150,120,90,5,True
+644,Zekrom,Fire,Electric,100,150,120,120,100,90,5,True
+645,LandorusIncarnate Forme,Fire,Flying,89,125,90,115,80,101,5,True
+645,LandorusTherian Forme,Fire,Flying,89,145,90,105,80,91,5,True
+646,Kyurem,Fire,Ice,125,130,90,130,90,95,5,True
+646,KyuremBlack Kyurem,Fire,Ice,125,170,100,120,90,95,5,True
+646,KyuremWhite Kyurem,Fire,Ice,125,120,90,170,100,95,5,True
 647,KeldeoOrdinary Forme,Water,Fighting,91,72,90,129,90,108,5,False
 647,KeldeoResolute Forme,Water,Fighting,91,72,90,129,90,108,5,False
 648,MeloettaAria Forme,Normal,Psychic,100,77,77,128,128,90,5,False
@@ -791,11 +791,11 @@
 713,Avalugg,Ice,,95,117,184,44,46,28,6,False
 714,Noibat,Flying,Dragon,40,30,35,45,40,55,6,False
 715,Noivern,Flying,Dragon,85,70,80,97,80,123,6,False
-716,Xerneas,Fairy,,126,131,95,131,98,99,6,True
-717,Yveltal,Dark,Flying,126,131,95,131,98,99,6,True
-718,Zygarde50% Forme,Dragon,Ground,108,100,121,81,95,95,6,True
-719,Diancie,Rock,Fairy,50,100,150,100,150,50,6,True
-719,DiancieMega Diancie,Rock,Fairy,50,160,110,160,110,110,6,True
-720,HoopaHoopa Confined,Psychic,Ghost,80,110,60,150,130,70,6,True
-720,HoopaHoopa Unbound,Psychic,Dark,80,160,60,170,130,80,6,True
+716,Xerneas,Fire,,126,131,95,131,98,99,6,True
+717,Yveltal,Fire,Flying,126,131,95,131,98,99,6,True
+718,Zygarde50% Forme,Fire,Ground,108,100,121,81,95,95,6,True
+719,Diancie,Fire,Fairy,50,100,150,100,150,50,6,True
+719,DiancieMega Diancie,Fire,Fairy,50,160,110,160,110,110,6,True
+720,HoopaHoopa Confined,Fire,Ghost,80,110,60,150,130,70,6,True
+720,HoopaHoopa Unbound,Fire,Dark,80,160,60,170,130,80,6,True
 721,Volcanion,Fire,Water,80,110,120,130,90,70,6,True
