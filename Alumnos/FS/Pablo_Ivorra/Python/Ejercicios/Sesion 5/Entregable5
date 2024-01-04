@@ -1,0 +1,76 @@
+"""
+Lee un archivo CSV con Pandas y realizar las siguientes operaciones
+(Pendiente de establecer)
+Crea una clase Automóvil que disponga de los atributos necesarios y métodos para:
+Arrancar
+Acelerar
+Frenar
+Parar
+Crea clases de automóvil distintas como y que dispongan de distintos atributos, pero hereden los métodos de Automóvil a la hora de Arrancar, Acelerar, Frenar o Parar, salvo que algunos deben tener más potencia que otros:
+Coche
+Moto
+Camión """
+
+# Clase Automovil
+class Automovil:
+    def __init__(self, marca, modelo):
+        self.marca = marca
+        self.modelo = modelo
+
+    def arrancar(self):
+        print(self.modelo + " arranca")
+
+    def acelerar(self):
+        print(self.modelo + " acelera")
+
+    def frenar(self):
+        print(self.modelo + " frena")
+
+    def parar(self):
+        print(self.modelo + " para")
+
+# Clase Coche
+class Coche(Automovil):
+    def __init__(self, marca, modelo):
+        Automovil.__init__(self, marca, modelo)
+
+# Clase Moto
+class Moto(Automovil):
+    def __init__(self, marca, modelo):
+        Automovil.__init__(self, marca, modelo)
+
+# Clase Camion
+class Camion(Automovil):
+    def __init__(self, marca, modelo):
+        Automovil.__init__(self, marca, modelo)
+
+# Crear un coche, una moto y un camion
+mi_coche = Coche("Ford", "Seat")
+mi_moto = Moto("Yamaha", "YZF")
+mi_camion = Camion("Volvo", "FH")
+
+# Probar los métodos
+mi_coche.arrancar()
+mi_moto.acelerar()
+mi_camion.frenar()
+mi_coche.parar()
+
+
+# Importar Pandas
+import pandas as pd
+
+
+def leer_csv(coches):  
+    try:
+        datos = pd.read_csv(coches)
+        print(datos)
+    except FileNotFoundError:
+        print("Archivo no encontrado.")
+    except Exception as e:
+        print("Error al leer el archivo:", e)
+
+
+leer_csv('Alumnos/FS/Pablo_Ivorra/Python/Ejercicios/Sesion 5/coches.csv')
+
+
+

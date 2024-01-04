@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo
+    container_name: valenbisi_mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin01
+    volumes:
+      - ./mongo:/docker-entrypoint-initdb.d/
+
+  mongo-express:
+    image: mongo-express
+    container_name: valenbisi_mongo_express
+    restart: always
+    environment:
+      ME_CONFIG_MONGODB_SERVER: "mongodb"
+      ME_CONFIG_MONGODB_PORT: 27017
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+      ME_CONFIG_MONGODB_ADMINUSERNAME: "admin"
+      ME_CONFIG_MONGODB_ADMINPASSWORD: "admin01"
+      ME_CONFIG_MONGODB_SERVER_SELECTION_TIMEOUT: 3000
+      ME_CONFIG_BASICAUTH_USERNAME: "admin"
+      ME_CONFIG_BASICAUTH_PASSWORD: "admin01"
+      ME_CONFIG_MONGODB_AUTH_DATABASE: "admin"
+    ports:
+      - 8081:8081
+
+  my-jupyter:
+    build:
+      context: ./jupyter
+      dockerfile: Dockerfile
+    ports:
+      - 10000:8888
+    volumes:
+      - python-data:/data
+
+  my-python:
+    build:
+      context: ./python
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - python-data:/data
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb_data:
+  python-data:
+    driver: local
+
