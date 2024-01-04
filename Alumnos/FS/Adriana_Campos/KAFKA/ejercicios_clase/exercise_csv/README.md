@@ -1,4 +1,4 @@
-# Exercise csv: KSQL
+# Exercise csv
 
 ## Objectives
 
@@ -16,16 +16,17 @@ Start the ZooKeeper and Kafka container.
 $ docker-compose up -d
 ```
 
-## Command Line , create a new Kafka topic
+## Create a new Kafka topic
 
-Run the command line producer:
 
 ```sh
 docker-compose exec kafka kafka-topics --create --topic readcsv --partitions 1 --replication-factor 1 --if-not-exists --bootstrap-server localhost:9092
 ```
 
-## Run the Producer Python App from VisualStudio
-Execute the ´producer.py´ Python Producer Application. Check that it shows El Quijote's phrases.
+## Run the Producer Python  and the Consumer
+Execute the ´producer.py´ Python Producer Application. Check that it shows the transactions.
+
+Execute the ´consumer.py´ Python Producer Application. Check that it shows the transactions.
 
 
 ```sh
@@ -73,7 +74,7 @@ Kafka Topic  | Partitions | Partition Replicas
 ------------------------------------------------
 ```
 ```sql
-PRINT 'transaction' FROM BEGINNING;
+PRINT 'readcsv' FROM BEGINNING;
 ```
 
 Press Control-C some times to exit. Be patient, some times take time :)....If it does not stop, close the terminal and 
@@ -87,14 +88,40 @@ be written to the Kafka topic automagically.
 CREATE STREAM transaction\
 (INDICE INT, TRANSACTION_ID INT, TX_DATETIME STRING, CUSTOMER_ID INT, TERMINAL_ID INT, TX_AMOUNT DOUBLE, TX_TIME_SECONDS INT, TX_TIME_DAYS INT, TX_FRAUD INT, TX_FRAUD_SCENARIO INT) \
 WITH (KAFKA_TOPIC='readcsv', VALUE_FORMAT='JSON');
-;
 ```
+
+
 
 Select all the messages from the stream (topic), and show what is each word's length.
 ```sql
 SELECT * FROM transaction EMIT CHANGES;
 ```
 
+```sql
+SELECT TRANSACTION_ID FROM transaction EMIT CHANGES;
+```
+
+ Queremos ver que operaciones son fraudulentas. 
+
+```sql
+SELECT * FROM transaction WHERE TX_FRAUD = 1 EMIT CHANGES;
+```
+
+# Another topic
+
+```sql
+CREATE STREAM Fraud
+WITH (KAFKA_TOPIC='TransactionFraud')
+AS
+SELECT *
+FROM transaction
+WHERE TX_FRAUD = 1
+EMIT CHANGES;
+```
+
+```sql
+SELECT TRANSACTION_ID FROM Fraud EMIT CHANGES;
+```
 
 #### More Exercises
 
