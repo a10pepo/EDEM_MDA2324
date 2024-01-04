@@ -1,0 +1,95 @@
+# 1. Ejercicios Sesión 1
+# 1.1 Crea un archivo Python que muestre por consola "¡Hola, Mundo!"
+# 1.2 Ahora modifícalo para que muestre "¡Hola, [Nombre]" donde el nombre es el valor (str) de una variable
+print(f'---------------------------------------------------------------------------------------------')
+print(f'ENTREGABLE 1')
+print(f'  ')
+
+
+nombre = 'Toni'
+print(f'¡Hola, {nombre}')
+
+
+print(f'--------------------------------------------------------------------------------')
+print(f'ENTREGABLE 2 Y 3.1')
+print(f'  ')
+
+# 2. Crea una aplicación de consola que calcule los resultados de una inversión. Debe
+# - Pedir por consola una cantidad (numérica) de Inversión
+# - Pedir el % de interés anual
+# - Pedir el número de años que se va a mantener la inversión
+# - Finalmente, calcular la cantidad generada en los años especificados por el usuario
+# 3.1: A la aplicación de la calculadora de inversión, deberás añadirle una opción para salir de la consola.
+
+
+
+def calculadora():
+  while True:
+      print("Hola. Bienvenido al sistema de cálculo de inversiones. ¿Qué quieres hacer?")
+      print("[1] Calcular una inversión")
+      print("[X] Salir")
+
+      opcion = input("Ingrese su opción (1/X): ").upper()
+
+      if opcion == 'X':
+          print("¡Nos vemos!")
+          break
+
+      elif opcion == '1':
+          cantidad = float(input('Cuánto quieres invertir?: '))
+          interes = float(input('¿Cuál es el interés anual?: '))
+          años = int(input('¿Cuántos años vas a mantener la inversión?: '))
+          profit = cantidad * (interes / 100) * años
+          print(f'En {años} años habrás recibido {profit}€ de interés.')
+
+          while True:
+              print("\n¿Qué quieres hacer ahora?")
+              print("[1] Calcular una nueva inversión")
+              print("[X] Salir")
+              opcion_nueva = input("Ingrese su opción (1/X): ").upper()
+
+              if opcion_nueva == 'X':
+                  print("¡Nos vemos!")
+                  break
+
+              elif opcion_nueva == '1':
+                  break
+
+
+calculadora()
+
+
+print(f'--------------------------------------------------------------------------------')
+print(f'ENTREGABLE 3.2')
+print(f'  ')
+
+
+def num_primo(numero):
+  if numero < 2:
+      return False
+  for i in range(2, numero):
+      if numero % i == 0:
+          return False
+  return True
+
+for num in range(1, 101):
+  if num_primo(num):
+      print(num, end=' ')
+
+print(f'  ')
+print(f'--------------------------------------------------------------------------------')
+print(f'ENTREGABLE 3.3')
+print(f'  ')
+
+
+def bisiesto(año):
+  if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
+      return True
+  else:
+      return False
+    
+año_tirado = int(input('Va tirate un año a ver si es bisiesto o que pasa: '))
+if bisiesto(año_tirado):
+  print(f'Los del 28 de febrero cumplen años este año')
+else:
+  print(f'Los del 28 de febrero no envejecen')
