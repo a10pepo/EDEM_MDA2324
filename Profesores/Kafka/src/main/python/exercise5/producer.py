@@ -15,7 +15,7 @@ producer = Producer(config)
 
 topic_kafka = 'palabras'
 
-file1 = open('exercise5/el_quijote_book.txt',encoding="utf8")
+file1 = open('/Users/jesus/Documents/GitHub/EDEM_MDA2324/Profesores/Kafka/src/main/python/exercise5/el_quijote_book.txt',encoding="utf8")
 Lines = file1.readlines()
  
 count = 0
