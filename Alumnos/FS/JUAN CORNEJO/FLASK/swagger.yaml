@@ -1,0 +1,45 @@
+swagger: '2.0'
+info:
+  title: API de Monitoreo de Temperatura de Robot
+  description: API para acceder a las mediciones de temperatura en tiempo real de un robot.
+  version: "1.0.0"
+host: 'localhost:5000'
+schemes:
+  - http
+basePath: /v1
+produces:
+  - application/json
+
+paths:
+  /getLastMeasureBySensor/{sensor}:
+    get:
+      summary: Obtener la última medición para un sensor específico
+      description: Devuelve la última medición de temperatura del sensor especificado.
+      parameters:
+        - name: sensor
+          in: path
+          required: true
+          type: string
+          description: El ID del sensor para el cual se quiere obtener datos.
+      responses:
+        200:
+          description: Medición obtenida exitosamente
+          schema:
+            type: object
+            properties:
+              code:
+                type: string
+                description: ID del sensor
+              fechamuestreo:
+                type: string
+                description: Fecha de muestreo
+              unidad:
+                type: string
+                description: Unidad de medición
+              medicion:
+                type: number
+                description: Valor de la medición
+        404:
+          description: ID suministrado inválido
+        400:
+          description: Sensor no puede ser superior a 100
