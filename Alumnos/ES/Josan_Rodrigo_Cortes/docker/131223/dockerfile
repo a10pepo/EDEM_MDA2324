@@ -1,0 +1,23 @@
+FROM ubuntu:18.04
+
+# Actualiza el índice de paquetes e instala nginx
+RUN apt-get update && \
+    apt-get install -y nginx && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN mkdir /html
+
+# Crea el archivo index.html con el contenido proporcionado
+RUN echo "<html><head><title>Ubuntu rocks!</title></head><body><p>This is my website!</p></body></html>" > /html/index.html
+
+# Copia el script entrypoint.sh al contenedor
+COPY entrypoint.sh /entrypoint.sh
+
+# Concede permisos de ejecución al script entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+# Configura entrypoint.sh como el punto de entrada del contenedor
+ENTRYPOINT ["/entrypoint.sh"]
+
+
