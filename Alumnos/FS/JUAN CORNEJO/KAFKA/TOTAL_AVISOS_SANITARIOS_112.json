@@ -1,0 +1,632 @@
+[
+    {
+        "TIPO_EMERGENCIA": "Emergencias ambientales",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Servicios de emergencia",
+        "LOCALIZACION": "Valencia",
+        "FECHA": "2023-01-02 04:35:48",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 849 08 98 23",
+        "DIRECCION": "Rambla de Leticia Carretero 821 Apt. 76 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Palencia",
+        "FECHA": "2023-01-18 23:56:23",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34749 37 19 31",
+        "DIRECCION": "Rambla de Loida Pastor 37 Puerta 1 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes laborales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Cáceres",
+        "FECHA": "2023-01-22 12:12:50",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 983 49 84 40",
+        "DIRECCION": "Camino de Ágata Prado 779 Apt. 78 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Delitos en progreso",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ejercito",
+        "LOCALIZACION": "Cádiz",
+        "FECHA": "2023-01-27 23:58:14",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 828 64 28 35",
+        "DIRECCION": "Alameda de Ángela Poza 4"
+    },
+    {
+        "TIPO_EMERGENCIA": "Desastres naturales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Servicios de emergencia",
+        "LOCALIZACION": "Madrid",
+        "FECHA": "2023-01-28 20:38:21",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 824798653",
+        "DIRECCION": "Glorieta Damián Macias 8 Puerta 4 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes laborales",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Soria",
+        "FECHA": "2023-02-01 12:58:23",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34979 178 587",
+        "DIRECCION": "Avenida Hilario Vega 64"
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes laborales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Asturias",
+        "FECHA": "2023-02-06 03:21:31",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 825470396",
+        "DIRECCION": "Calle de Rosenda Alarcón 98"
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes laborales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Tarragona",
+        "FECHA": "2023-02-11 07:58:15",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 822 042 558",
+        "DIRECCION": "Cuesta Noa Luna 56 Piso 2 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias en el mar o montañas",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Forestales",
+        "LOCALIZACION": "Pontevedra",
+        "FECHA": "2023-02-12 12:08:06",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 877 503 268",
+        "DIRECCION": "Pasadizo de Julio César Calatayud 37"
+    },
+    {
+        "TIPO_EMERGENCIA": "Problemas médicos agudos",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Valladolid",
+        "FECHA": "2023-02-25 05:31:24",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 812 22 90 62",
+        "DIRECCION": "Urbanización Eladio Hernández 452 Puerta 6 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Delitos en progreso",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Ciudad",
+        "FECHA": "2023-02-27 17:54:18",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34933 70 67 34",
+        "DIRECCION": "Camino de Candelas Ripoll 48 Apt. 77 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Delitos en progreso",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ejercito",
+        "LOCALIZACION": "Palencia",
+        "FECHA": "2023-03-23 22:53:42",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 974973053",
+        "DIRECCION": "Alameda Valeria Meléndez 98 Apt. 87 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Problemas médicos agudos",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Cuenca",
+        "FECHA": "2023-03-27 21:59:22",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 806 095 843",
+        "DIRECCION": "Camino de Juan Pablo Talavera 73"
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias en el mar o montañas",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Forestales",
+        "LOCALIZACION": "Ávila",
+        "FECHA": "2023-03-28 03:40:11",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34985 413 721",
+        "DIRECCION": "Callejón de Santos Valenzuela 9 Apt. 27 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias ambientales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Servicios de emergencia",
+        "LOCALIZACION": "La Rioja",
+        "FECHA": "2023-04-03 01:47:22",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34852 37 95 61",
+        "DIRECCION": "Callejón de Guadalupe Padilla 8"
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ejercito",
+        "LOCALIZACION": "Las Palmas",
+        "FECHA": "2023-04-23 05:51:52",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 844541030",
+        "DIRECCION": "Via Amor Ribas 770 Piso 8 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes laborales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Zamora",
+        "FECHA": "2023-04-24 05:39:02",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34822 04 54 67",
+        "DIRECCION": "Via de Óscar Llopis 5"
+    },
+    {
+        "TIPO_EMERGENCIA": "Desastres naturales",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "UME",
+        "LOCALIZACION": "Guipúzcoa",
+        "FECHA": "2023-04-28 11:37:36",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34826687794",
+        "DIRECCION": "Cañada de Hortensia Torrijos 1"
+    },
+    {
+        "TIPO_EMERGENCIA": "Delitos en progreso",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Álava",
+        "FECHA": "2023-04-28 15:43:52",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34886 75 08 50",
+        "DIRECCION": "Avenida de Obdulia Núñez 746"
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ejercito",
+        "LOCALIZACION": "Soria",
+        "FECHA": "2023-05-03 11:14:49",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 823 12 71 45",
+        "DIRECCION": "Calle de Ana Sofía Calzada 81 Piso 7 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Problemas médicos agudos",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Tarragona",
+        "FECHA": "2023-05-05 02:27:16",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 839350129",
+        "DIRECCION": "Ronda Candelas Barros 312 Apt. 05 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes de tráfico",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Jaén",
+        "FECHA": "2023-05-13 14:10:06",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 800 786 017",
+        "DIRECCION": "Pasadizo de Silvio Bello 76 Apt. 18 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias ambientales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Servicios de emergencia",
+        "LOCALIZACION": "Lleida",
+        "FECHA": "2023-05-30 16:22:22",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34982 28 12 40",
+        "DIRECCION": "Glorieta de Francisco Jose Belda 36"
+    },
+    {
+        "TIPO_EMERGENCIA": "Personas desaparecidas",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Policia",
+        "LOCALIZACION": "León",
+        "FECHA": "2023-06-03 14:15:30",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 966 78 60 72",
+        "DIRECCION": "Rambla Julieta Carrión 69"
+    },
+    {
+        "TIPO_EMERGENCIA": "Rescates",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Badajoz",
+        "FECHA": "2023-06-07 20:25:29",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34976 04 16 94",
+        "DIRECCION": "Pasadizo Aníbal Lucena 39"
+    },
+    {
+        "TIPO_EMERGENCIA": "Desastres naturales",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Melilla",
+        "FECHA": "2023-06-17 06:57:24",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 945 11 88 28",
+        "DIRECCION": "Callejón Mateo Beltran 62"
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias en el mar o montañas",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Forestales",
+        "LOCALIZACION": "Valladolid",
+        "FECHA": "2023-06-18 10:25:59",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 872 51 69 22",
+        "DIRECCION": "Camino de Estefanía Nieto 17 Apt. 31 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes de tráfico",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Castellón",
+        "FECHA": "2023-06-20 08:27:36",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 920 37 84 01",
+        "DIRECCION": "Glorieta Marc Manrique 5 Piso 1 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias químicas o radiológicas",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Córdoba",
+        "FECHA": "2023-07-02 17:06:44",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34844 101 224",
+        "DIRECCION": "Urbanización de Iris Vicente 296 Puerta 7 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Ourense",
+        "FECHA": "2023-07-09 01:10:03",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34706 07 29 20",
+        "DIRECCION": "Rambla de Gerónimo Morata 10"
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ejercito",
+        "LOCALIZACION": "Álava",
+        "FECHA": "2023-07-09 10:20:49",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34948137287",
+        "DIRECCION": "Acceso Chuy González 42 Piso 0 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Cáceres",
+        "FECHA": "2023-07-14 12:49:05",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34702276480",
+        "DIRECCION": "Pasaje de Cayetano Viana 4 Piso 7 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Desastres naturales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Servicios de emergencia",
+        "LOCALIZACION": "Lleida",
+        "FECHA": "2023-07-15 10:09:37",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 927 081 587",
+        "DIRECCION": "Glorieta Alicia Cano 80"
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias en el mar o montañas",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Forestales",
+        "LOCALIZACION": "Burgos",
+        "FECHA": "2023-07-23 19:52:48",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34821 66 65 65",
+        "DIRECCION": "Camino Esther Huerta 2"
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ejercito",
+        "LOCALIZACION": "La Rioja",
+        "FECHA": "2023-07-24 16:39:44",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34880 349 913",
+        "DIRECCION": "Pasadizo de Vicente Cabezas 97 Puerta 1 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Problemas médicos agudos",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Jaén",
+        "FECHA": "2023-07-29 21:43:33",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 972 714 385",
+        "DIRECCION": "Calle Hilda Osuna 96"
+    },
+    {
+        "TIPO_EMERGENCIA": "Desastres naturales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "UME",
+        "LOCALIZACION": "Girona",
+        "FECHA": "2023-08-05 23:01:50",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34824 310 987",
+        "DIRECCION": "Via de Viviana Prieto 5 Puerta 5 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Rescates",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Santa Cruz de Tenerife",
+        "FECHA": "2023-08-06 04:52:56",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 981 91 21 23",
+        "DIRECCION": "Pasadizo de Cintia Manjón 79"
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias en el mar o montañas",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Forestales",
+        "LOCALIZACION": "Soria",
+        "FECHA": "2023-08-06 18:28:16",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 883 04 99 39",
+        "DIRECCION": "Ronda Baltasar Bermejo 536"
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias químicas o radiológicas",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Servicios de emergencia",
+        "LOCALIZACION": "Salamanca",
+        "FECHA": "2023-08-16 20:31:17",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34942 790 986",
+        "DIRECCION": "Rambla de Juan Pablo Santamaria 646"
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes laborales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Cantabria",
+        "FECHA": "2023-09-04 17:23:19",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34974 41 36 89",
+        "DIRECCION": "Paseo de Anacleto Pablo 502"
+    },
+    {
+        "TIPO_EMERGENCIA": "Desastres naturales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "UME",
+        "LOCALIZACION": "Ávila",
+        "FECHA": "2023-09-05 17:44:47",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 949 041 518",
+        "DIRECCION": "Vial Luis Moles 68 Puerta 8 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Soria",
+        "FECHA": "2023-09-12 16:45:20",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 822 793 750",
+        "DIRECCION": "Ronda de Ulises Lago 22"
+    },
+    {
+        "TIPO_EMERGENCIA": "Problemas médicos agudos",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Málaga",
+        "FECHA": "2023-09-13 14:27:35",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34947480682",
+        "DIRECCION": "Cuesta Leandra Batalla 30"
+    },
+    {
+        "TIPO_EMERGENCIA": "Rescates",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Teruel",
+        "FECHA": "2023-09-14 12:25:00",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34847 61 58 40",
+        "DIRECCION": "Plaza de Chuy Téllez 470 Apt. 50 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias en el mar o montañas",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Guardia Costera",
+        "LOCALIZACION": "Pontevedra",
+        "FECHA": "2023-09-26 10:13:26",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 887 533 534",
+        "DIRECCION": "Ronda Pancho Campo 95"
+    },
+    {
+        "TIPO_EMERGENCIA": "Personas desaparecidas",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Policia",
+        "LOCALIZACION": "Tarragona",
+        "FECHA": "2023-10-02 10:14:51",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 901316640",
+        "DIRECCION": "Urbanización Fausto Orozco 8 Apt. 87 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes de tráfico",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Cantabria",
+        "FECHA": "2023-10-11 18:02:27",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34841638912",
+        "DIRECCION": "Paseo Lola Calderon 352 Puerta 5 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes de tráfico",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Valladolid",
+        "FECHA": "2023-10-21 02:49:43",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 886493339",
+        "DIRECCION": "Cañada Julia Giralt 10 Apt. 02 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Incendios",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Burgos",
+        "FECHA": "2023-10-28 21:39:03",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34746029077",
+        "DIRECCION": "Paseo de Aristides Flores 48"
+    },
+    {
+        "TIPO_EMERGENCIA": "Desastres naturales",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "UME",
+        "LOCALIZACION": "León",
+        "FECHA": "2023-11-01 16:07:22",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34972 335 520",
+        "DIRECCION": "C. de Calixto Ángel 93"
+    },
+    {
+        "TIPO_EMERGENCIA": "Desastres naturales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Jaén",
+        "FECHA": "2023-11-02 12:01:30",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 711234727",
+        "DIRECCION": "Urbanización Eustaquio Carrasco 82 Puerta 0 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Delitos en progreso",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Albacete",
+        "FECHA": "2023-11-04 00:53:18",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34876539280",
+        "DIRECCION": "Avenida Viviana Bravo 1 Apt. 53 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Delitos en progreso",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Navarra",
+        "FECHA": "2023-11-04 11:10:06",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34844 55 02 93",
+        "DIRECCION": "Pasadizo Alejo Olivares 902 Apt. 19 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes de tráfico",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Jaén",
+        "FECHA": "2023-11-08 18:12:41",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34978 02 72 11",
+        "DIRECCION": "Ronda Abraham Acedo 42 Piso 8 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Delitos en progreso",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Baleares",
+        "FECHA": "2023-11-10 13:48:55",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34848 803 907",
+        "DIRECCION": "Acceso Azeneth Calzada 40 Apt. 13 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Delitos en progreso",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "GEOs",
+        "LOCALIZACION": "Lleida",
+        "FECHA": "2023-11-11 16:43:12",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 844068098",
+        "DIRECCION": "Alameda de Lourdes Mas 42"
+    },
+    {
+        "TIPO_EMERGENCIA": "Emergencias ambientales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Toledo",
+        "FECHA": "2023-11-16 16:24:15",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 843652658",
+        "DIRECCION": "Calle de Cecilio Bellido 25"
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes de tráfico",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Bomberos",
+        "LOCALIZACION": "Lugo",
+        "FECHA": "2023-11-20 00:02:10",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 841 850 361",
+        "DIRECCION": "Callejón de Íngrid Santiago 557"
+    },
+    {
+        "TIPO_EMERGENCIA": "Situaciones de peligro para la seguridad pública",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ejercito",
+        "LOCALIZACION": "Almería",
+        "FECHA": "2023-11-23 09:09:27",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 988 58 12 85",
+        "DIRECCION": "Calle Araceli Cruz 74"
+    },
+    {
+        "TIPO_EMERGENCIA": "Problemas médicos agudos",
+        "GRADO": "Urgencia extrema",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Huelva",
+        "FECHA": "2023-11-24 19:17:20",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34 873 77 97 72",
+        "DIRECCION": "Pasaje Seve Riera 17 Piso 7 "
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes de tráfico",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Ourense",
+        "FECHA": "2023-12-03 15:01:53",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34885 034 941",
+        "DIRECCION": "Plaza de Olegario Sarabia 49"
+    },
+    {
+        "TIPO_EMERGENCIA": "Accidentes laborales",
+        "GRADO": "Urgente",
+        "CUERPO_NECESARIO": "Ambulancia",
+        "LOCALIZACION": "Girona",
+        "FECHA": "2023-12-17 14:42:04",
+        "REQUIERE_MEDICO": "Si",
+        "CONTACTO": "+34965 673 240",
+        "DIRECCION": "Rambla Balduino Báez 9 Piso 9 "
+    }
+]
