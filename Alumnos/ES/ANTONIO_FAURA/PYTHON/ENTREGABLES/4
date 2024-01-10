@@ -1,0 +1,94 @@
+print(f'  ')
+print(f'  ')
+print(f'  ')
+print(f'--------------------------------------------------------------------------------')
+print(f'ENTREGABLE 4.1.1')
+print(f'  ')
+print(f'  ')
+
+
+def num_primo(numero):
+  if numero < 2:
+      return False
+  for i in range(2, numero):
+      if numero % i == 0:
+          return False
+  return True
+
+def rango(inicio, fin):
+  for num in range(inicio, fin + 1):
+      if num_primo(num):
+          print(num, end=' ')
+
+
+rango(3, 33)
+
+print(f'  ')
+print(f'  ')
+print(f'  ')
+print(f'--------------------------------------------------------------------------------')
+print(f'ENTREGABLE 4.1.2')
+print(f'  ')
+print(f'  ')
+
+def num_primo(numero):
+  if numero < 2:
+      return False
+  for i in range(2, numero):
+      if numero % i == 0:
+          return False
+  return True
+
+def evaluar_primo(numero):
+  if num_primo(numero):
+      print(f'{numero} es primo')
+  else:
+      print(f'{numero} no es primo')
+
+# PONER AQUI EL NUMERO
+evaluar_primo(33)
+
+
+print(f'  ')
+print(f'  ')
+print(f'  ')
+print(f'--------------------------------------------------------------------------------')
+print(f'ENTREGABLE 4.1.3')
+print(f'  ')
+print(f'  ')
+
+
+def bisiesto(año):
+  if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
+      return True
+  else:
+      return False
+
+año_tirado = int(input('Va tirate un año a ver si es bisiesto o que pasa: '))
+if bisiesto(año_tirado):
+  print(f'TRUE')
+else:
+  print(f'FALSE')
+
+
+print(f'  ')
+print(f'  ')
+print(f'  ')
+print(f'--------------------------------------------------------------------------------')
+print(f'ENTREGABLE 4.3')
+print(f'  ')
+print(f'  ')
+
+
+import requests
+
+def obtener_datos():
+    url = "https://randomuser.me/api"
+    response = requests.get(url)
+
+    usuario = response.json()["results"][0]
+    nombre = usuario["name"]["first"]
+    apellidos = usuario["name"]["last"]
+    print(f'El NPC se llama: {nombre} {apellidos}')
+
+obtener_datos()
