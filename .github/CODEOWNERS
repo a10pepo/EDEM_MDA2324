@@ -19,30 +19,51 @@
 
 /Alumnos/FS/*/SQL/** @gavaldanatalia @a10pepo @gavnatalia
 /Alumnos/FS/*/sql/** @gavaldanatalia @a10pepo @gavnatalia
+/Alumnos/FS/*/Sql/** @gavaldanatalia @a10pepo @gavnatalia
 /Alumnos/ES/*/SQL/** @gavaldanatalia @a10pepo @gavnatalia
 /Alumnos/ES/*/sql/** @gavaldanatalia @a10pepo @gavnatalia
+/Alumnos/ES/*/Sql/** @gavaldanatalia @a10pepo @gavnatalia
+
 
 /Alumnos/FS/*/NIFI/** @echiner @a10pepo
 /Alumnos/FS/*/nifi/** @echiner @a10pepo
+/Alumnos/FS/*/Nifi/** @echiner @a10pepo
 /Alumnos/ES/*/NIFI/** @echiner @a10pepo
 /Alumnos/ES/*/nifi/** @echiner @a10pepo
+/Alumnos/ES/*/Nifi/** @echiner @a10pepo
+
 
 /Alumnos/FS/*/AHORCADO/** @a10pepo
 /Alumnos/FS/*/ahorcado/** @a10pepo
 /Alumnos/ES/*/AHORCADO/** @a10pepo
 /Alumnos/ES/*/ahorcado/** @a10pepo
+/Alumnos/FS/*/Ahorcado/** @a10pepo
+/Alumnos/ES/*/AHORCADO/** @a10pepo
 
 /Alumnos/FS/*/FLASK/** @a10pepo @NuriaUrena
 /Alumnos/FS/*/Flask/** @a10pepo @NuriaUrena
 /Alumnos/ES/*/FLASK/** @a10pepo @NuriaUrena
 /Alumnos/ES/*/Flask/** @a10pepo @NuriaUrena
+/Alumnos/FS/*/flask/** @a10pepo @NuriaUrena
+/Alumnos/ES/*/flask/** @a10pepo @NuriaUrena
 
 /Alumnos/FS/*/KAFKA/** @a10pepo @rusansor
 /Alumnos/FS/*/Kafka/** @a10pepo @rusansor
 /Alumnos/ES/*/KAFKA/** @a10pepo @rusansor
 /Alumnos/ES/*/Kafka/** @a10pepo @rusansor
+/Alumnos/FS/*/kafka/** @a10pepo @rusansor
+/Alumnos/ES/*/kafka/** @a10pepo @rusansor
 
 /Alumnos/FS/*/SPARK/** @a10pepo @paponsro
 /Alumnos/FS/*/Spark/** @a10pepo @paponsro
 /Alumnos/ES/*/SPARK/** @a10pepo @paponsro
 /Alumnos/ES/*/Spark/** @a10pepo @paponsro
+/Alumnos/FS/*/spark/** @a10pepo @paponsro
+/Alumnos/ES/*/spark/** @a10pepo @paponsro
+
+/Alumnos/FS/*/CLOUD/** @a10pepo @jabrio
+/Alumnos/FS/*/Cloud/** @a10pepo @jabrio
+/Alumnos/FS/*/cloud/** @a10pepo @jabrio
+/Alumnos/ES/*/CLOUD/** @a10pepo @jabrio
+/Alumnos/ES/*/Cloud/** @a10pepo @jabrio
+/Alumnos/ES/*/cloud/** @a10pepo @jabrio

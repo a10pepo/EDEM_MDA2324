@@ -1,0 +1,14 @@
+{
+    "Nombre" : "Jesús",
+    "Apellido" : "Jornet",
+    "Estudios" : ["Diseño",
+                "Máster UX/UI",
+                "Máster Data"],
+    "Experiencia" : ["elmeunebot",
+                    "bit2me",
+                    "leadtech"],
+    "Idiomas" : ["Castellano",
+                "inglés",
+                "chino"]
+
+}

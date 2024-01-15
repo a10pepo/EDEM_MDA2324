@@ -10,7 +10,7 @@ We will now create the topic to which we will send the messages. Click on the "T
 
 <br><br>
 
-Change the Topic name to "topic_java" and the Partitions to 1. Click on Create with defaults.
+Change the Topic name to "topic_python" and the Partitions to 1. Click on Create with defaults.
    ![images/imgage2.png](images/image2.png)
 
 

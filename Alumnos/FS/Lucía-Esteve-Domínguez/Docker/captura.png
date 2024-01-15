@@ -1,0 +1,22 @@
+Lucia@MacBook-Air-5 docker % docker build -t mi-imagen-docker .
+[+] Building 0.1s (8/8) FINISHED                                            docker:desktop-linux
+ => [internal] load build definition from dockerfile                                        0.0s
+ => => transferring dockerfile: 140B                                                        0.0s
+ => [internal] load .dockerignore                                                           0.0s
+ => => transferring context: 2B                                                             0.0s
+ => [internal] load metadata for docker.io/library/python:latest                            0.0s
+ => [1/3] FROM docker.io/library/python                                                     0.0s
+ => [internal] load build context                                                           0.0s
+ => => transferring context: 32B                                                            0.0s
+ => CACHED [2/3] WORKDIR /usr/src/app/                                                      0.0s
+ => [3/3] COPY archivo.py .                                                                 0.0s
+ => exporting to image                                                                      0.0s
+ => => exporting layers                                                                     0.0s
+ => => writing image sha256:7690778b4d5375c17beea15910670ded5cd5603519c23ff358b1701c75373a  0.0s
+ => => naming to docker.io/library/mi-imagen-docker                                         0.0s
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+Lucia@MacBook-Air-5 docker % docker run mi-imagen-docker 5 10
+la suma de 5 y 10 es: 15.0
+Lucia@MacBook-Air-5 docker % 
