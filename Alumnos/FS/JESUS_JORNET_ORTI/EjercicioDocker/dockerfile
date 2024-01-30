@@ -1,0 +1,6 @@
+FROM python
+
+COPY ejerciciodocker.py ./
+ENTRYPOINT ["python", "./ejerciciodocker.py"]
+
+
