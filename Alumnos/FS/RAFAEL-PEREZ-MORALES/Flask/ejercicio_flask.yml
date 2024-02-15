@@ -1,0 +1,38 @@
+openapi: 3.0.0
+info:
+  title: Robot Temperature API
+  version: 1.0.0
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    get:
+      summary: Get the last measurement by sensor ID
+      parameters:
+        - in: path
+          name: sensor
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Measure'
+        '404':
+          description: Invalid ID supplied
+        '400':
+          description: Sensor not found
+components:
+  schemas:
+    Measure:
+      type: object
+      properties:
+        code:
+          type: string
+        fechamuestreo:
+          type: string
+        unidad:
+          type: string
+        medicion:
+          type: number
