@@ -37,13 +37,14 @@ for i in range(10):
     key = str(i).encode('utf-8')
     
     # Enviar mensaje al tema
-    producer.produce(topic=topic, value=data_bytes, key=key)
-    print("Sending data: {} to topic {}".format(input_data, topic))
+    try:
+        producer.produce(topic=topic, value=data_bytes, key=key)
+        print("Sending data: {} to topic {}".format(input_data, topic))
+    except Exception as e:
+        print("Failed to send message:", str(e))
+    
+    # Vaciar el buffer del productor y esperar a que se envíen todos los mensajes
+    producer.flush()
+
     time.sleep(3)
 
-# Vaciar el buffer del productor y esperar a que se envíen todos los mensajes
-producer.flush()
-
-# Verificar si algunos mensajes no se pudieron entregar
-if producer.flush() != 0:
-    print("Some messages failed to be delivered")
