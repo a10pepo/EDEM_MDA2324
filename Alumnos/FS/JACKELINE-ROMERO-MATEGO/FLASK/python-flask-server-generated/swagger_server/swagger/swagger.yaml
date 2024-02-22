@@ -1,0 +1,46 @@
+openapi: 3.0.3
+info:
+  title: API Temperatura Robot
+  description: API para obtener mediciones de temperatura en tiempo real.
+  version: 1.0.0
+servers:
+- url: https://meassureBysensor.swagger.io/api/v3
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    get:
+      summary: Obtener la ultima medicion de temperatura
+      operationId: get_last_meassure_by_sensor
+      parameters:
+      - name: sensor
+        in: path
+        description: ID del sensor
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: Respuesta exitosa
+          content:
+            application/json:
+              example:
+                code: ID del sensor
+                fechamuestreo: 2024-01-21T12:34:56
+                unidad: Celsius
+                medicion: 30.5
+        "400":
+          description: Sensor no encontrado
+          content:
+            application/json:
+              example:
+                error: Sensor no encontrado
+        "404":
+          description: ID sensor no valido
+          content:
+            application/json:
+              example:
+                error: ID de sensor no valido
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+components: {}
+

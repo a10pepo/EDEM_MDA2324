@@ -1,0 +1,6 @@
+confluent_kafka
+faker
+requests
+numpy
+pandas
+flask

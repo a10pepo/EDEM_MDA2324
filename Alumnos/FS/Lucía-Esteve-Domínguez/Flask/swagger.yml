@@ -1,0 +1,61 @@
+openapi: 3.0.0
+info:
+  title: API del Sensor del Robot
+  description: API para acceder a los datos del sensor del robot
+  version: 1.0.0
+
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    parameters:
+      - name: sensor
+        in: path
+        required: true
+        schema:
+          type: string
+        description: ID del sensor
+    get:
+      summary: Obtener la última medición por ID de sensor
+      parameters:
+        - $ref: "#/components/parameters/sensorId"
+      responses:
+        '200':
+          description: Respuesta exitosa
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Measure"
+        '400':
+          description: Sensor no encontrado
+          content:
+            application/json:
+              example:
+                error: Sensor no encontrado
+        '404':
+          description: ID no válido suministrado
+          content:
+            application/json:
+              example:
+                error: ID no válido suministrado
+
+components:
+  parameters:
+    sensorId:
+      name: sensor
+      in: path
+      required: true
+      schema:
+        type: string
+      description: ID del sensor
+
+  schemas:
+    Measure:
+      type: object
+      properties:
+        code:
+          type: string
+        fechamuestreo:
+          type: string
+        unidad:
+          type: string
+        medicion:
+          type: number

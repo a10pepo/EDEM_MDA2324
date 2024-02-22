@@ -1,0 +1,82 @@
+openapi: 3.0.3
+info:
+  title: Swagger Petstore - OpenAPI 3.0
+  description: |-
+    This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about
+    Swagger at [https://swagger.io](https://swagger.io). In the third iteration of the pet store, we've switched to the design first approach!
+    You can now help us improve the API whether it's by making changes to the definition itself or to the code.
+    That way, with time, we can improve the API in general, and expose some of the new features in OAS3.
+
+    _If you're looking for the Swagger 2.0/OAS 2.0 version of Petstore, then click [here](https://editor.swagger.io/?url=https://petstore.swagger.io/v2/swagger.yaml). Alternatively, you can load via the `Edit > Load Petstore OAS 2.0` menu option!_
+
+    Some useful links:
+    - [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)
+    - [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
+  termsOfService: http://swagger.io/terms/
+  contact:
+    email: apiteam@swagger.io
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.11
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+servers:
+- url: https://measure.swagger.io/api/v3
+tags:
+- name: measure
+  description: Everything about your Measures
+  externalDocs:
+    description: Find out more
+    url: http://swagger.io
+paths:
+  /getLastMeasureBySensor/{sensor}:
+    get:
+      summary: Get the last temperature measurement by sensor
+      description: Retrieves the latest temperature measurement for a specific sensor.
+      operationId: get_last_measure_by_sensor_sensor_get
+      parameters:
+      - name: sensor
+        in: path
+        description: The ID of the sensor
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Measure'
+        "400":
+          description: Sensor not found
+        "404":
+          description: Invalid ID supplied
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+components:
+  schemas:
+    Measure:
+      type: object
+      properties:
+        code:
+          type: string
+          description: ID of the sensor
+        fechamuestreo:
+          type: string
+          description: Date and time of the measurement
+        unidad:
+          type: string
+          description: Unit of measurement
+        medicion:
+          type: number
+          description: Temperature measurement
+      example:
+        unidad: unidad
+        medicion: 0.8008281904610115
+        code: code
+        fechamuestreo: fechamuestreo
+

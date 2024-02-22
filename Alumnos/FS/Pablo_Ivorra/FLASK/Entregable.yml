@@ -1,0 +1,60 @@
+swagger: '2.0'
+info:
+  title: Sensorización Robótica API 🤖
+  description: |
+    Monitorización robótica de sensores en tiempo real 📊💡🔧.
+    Esta API tiene como objetivo facilitar el acceso y consulta de datos de sensores instalados en robots industriales. Proporciona la capacidad de obtener la última medición registrada por un sensor específico identificado por su ID. Los datos incluyen información como el código del sensor, la fecha de muestreo, la unidad de medida y el valor de la medición.
+
+    La monitorización en tiempo real de los sensores es esencial para el funcionamiento eficiente y seguro de los robots en entornos industriales. Esta API simplifica el proceso de obtener información crítica sobre el estado y el rendimiento de los robots, lo que facilita la toma de decisiones informadas y el mantenimiento preventivo.
+
+    Puede utilizar esta API para integrar los datos de los sensores en sus propias aplicaciones, sistemas de control o paneles de visualización, lo que le permite supervisar y optimizar sus operaciones robóticas de manera más eficaz. 📊💡🔧
+  version: Beta
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    get:
+      summary: Da la última medida del sensor y el ID
+      description: Devuelve la última ruta del sensor.
+      parameters:
+        - name: sensor
+          in: path
+          description: ID único para el sensor.
+          required: true
+          type: string
+      responses:
+        200:
+          description: Exito en el Proceso
+          schema:
+            $ref: '#/definitions/Measure'
+          examples:
+            application/json:
+              code: "sensor_02"
+              fechamuestreo: "2024-01-30T12:00:00Z"
+              unidad: "Grados"
+              medicion: 15.5
+        400:
+          description: Invalid ID supplied
+          examples:
+            application/json:
+              error: "ID Incorrecto."
+        404:
+          description: Sensor not found
+          examples:
+            application/json:
+              error: "Sensor no encontrado."
+definitions:
+  Measure:
+    type: object
+    properties:
+      code:
+        type: string
+        example: "sensor_02"
+      fechamuestreo:
+        type: string
+        format: date-time
+        example: "2024-01-30T12:00:00Z"
+      unidad:
+        type: string
+        example: "Grados"
+      medicion:
+        type: number
+        example: 15.5

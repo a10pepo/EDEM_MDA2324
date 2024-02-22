@@ -2,8 +2,8 @@ import os
 
 
 
-deliverables=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL","FLASK","KAFKA","SPARK","CLOUD","DEVSECOPS"]
-allowed=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL","README.MD","CHUCK","FLASK", "SPARK", "KAFKA", "VALENBISI","CLOUD","DEVSECOPS"]
+deliverables=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL","FLASK","KAFKA","SPARK","DATAFLOW","CLOUD","DEVSECOPS"]
+allowed=["DOCKER","PYTHON","LINUX","NOTEBOOKS","AHORCADO","SQL","README.MD","CHUCK","FLASK", "SPARK", "KAFKA", "VALENBISI","CLOUD","DEVSECOPS","DATAFLOW"]
 
 
 
@@ -42,7 +42,7 @@ def getcolor(element):
         return "#a5cbaa"
     if element in [ "SPARK", "KAFKA"]:
         return "#9bc99e"
-    if element in ["CLOUD","DEVSECOPS"]:
+    if element in ["DATAFLOW","CLOUD","DEVSECOPS"]:
         return "#779777"
     else:
         return "#ffc1b1"
@@ -59,7 +59,7 @@ def generate_table(clase,alumnos):
         table+="<td color='#dee2d0' style='text-align: center;font-weight: bold' colspan='5'> M0 - Fundamentos </td>\n"
         table+="<td color='#a5cbaa' style='text-align: center;font-weight: bold' colspan='2'> M1.1 - Tratamiento Tradicional </td>\n"
         table+="<td color='#9bc99e' style='text-align: center;font-weight: bold' colspan='2'> M1.2 - Streaming On Prem </td>\n"
-        table+="<td color='#779777' style='text-align: center;font-weight: bold' colspan='2'> M1.3 - Cloud Approach </td>\n"
+        table+="<td color='#779777' style='text-align: center;font-weight: bold' colspan='3'> M1.3 - Cloud Approach </td>\n"
         table+="</tr>\n"
         table+="<tr>\n"  
         for alumno in sorted(alumnos):

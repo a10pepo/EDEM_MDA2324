@@ -1,0 +1,2252 @@
+[
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Huesca",
+        "fecha": "2022-12-29 08:38:03",
+        "requiere_medico": "No",
+        "contacto": "+34871 96 72 50"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Urgente",
+        "localizacion": "Albacete",
+        "fecha": "2022-12-30 03:50:57",
+        "requiere_medico": "No",
+        "contacto": "+34871186725"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Lugo",
+        "fecha": "2022-12-30 04:03:54",
+        "requiere_medico": "No",
+        "contacto": "+34847823607"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Huelva",
+        "fecha": "2022-12-30 09:42:23",
+        "requiere_medico": "Si",
+        "contacto": "+34979 31 83 97"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Cantabria",
+        "fecha": "2022-12-31 10:46:13",
+        "requiere_medico": "Si",
+        "contacto": "+34945 51 54 05"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgente",
+        "localizacion": "Ourense",
+        "fecha": "2023-01-01 07:15:17",
+        "requiere_medico": "Si",
+        "contacto": "+34917 07 18 76"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgente",
+        "localizacion": "Córdoba",
+        "fecha": "2023-01-01 08:48:35",
+        "requiere_medico": "No",
+        "contacto": "+34 737 07 41 82"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Valencia",
+        "fecha": "2023-01-02 04:35:48",
+        "requiere_medico": "Si",
+        "contacto": "+34 849 08 98 23"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgencia extrema",
+        "localizacion": "Lugo",
+        "fecha": "2023-01-04 12:45:58",
+        "requiere_medico": "No",
+        "contacto": "+34800 375 426"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Leve",
+        "localizacion": "Badajoz",
+        "fecha": "2023-01-05 21:38:52",
+        "requiere_medico": "Si",
+        "contacto": "+34974 86 04 94"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Valencia",
+        "fecha": "2023-01-07 13:52:44",
+        "requiere_medico": "Si",
+        "contacto": "+34847417195"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgencia extrema",
+        "localizacion": "Zaragoza",
+        "fecha": "2023-01-10 02:30:52",
+        "requiere_medico": "No",
+        "contacto": "+34971 48 10 91"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Urgente",
+        "localizacion": "Melilla",
+        "fecha": "2023-01-15 23:08:59",
+        "requiere_medico": "No",
+        "contacto": "+34 817 898 734"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Teruel",
+        "fecha": "2023-01-16 20:25:31",
+        "requiere_medico": "Si",
+        "contacto": "+34872456847"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Palencia",
+        "fecha": "2023-01-18 23:56:23",
+        "requiere_medico": "Si",
+        "contacto": "+34749 37 19 31"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Cantabria",
+        "fecha": "2023-01-19 18:20:49",
+        "requiere_medico": "No",
+        "contacto": "+34 959669338"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Murcia",
+        "fecha": "2023-01-20 10:07:34",
+        "requiere_medico": "No",
+        "contacto": "+34 807 690 048"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Valladolid",
+        "fecha": "2023-01-22 04:13:18",
+        "requiere_medico": "No",
+        "contacto": "+34 944 623 445"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Cáceres",
+        "fecha": "2023-01-22 12:12:50",
+        "requiere_medico": "Si",
+        "contacto": "+34 983 49 84 40"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Soria",
+        "fecha": "2023-01-26 19:46:53",
+        "requiere_medico": "No",
+        "contacto": "+34944 97 70 66"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgente",
+        "localizacion": "Cádiz",
+        "fecha": "2023-01-27 23:58:14",
+        "requiere_medico": "Si",
+        "contacto": "+34 828 64 28 35"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgente",
+        "localizacion": "Madrid",
+        "fecha": "2023-01-28 20:38:21",
+        "requiere_medico": "Si",
+        "contacto": "+34 824798653"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "La Coruña",
+        "fecha": "2023-01-31 09:17:45",
+        "requiere_medico": "Si",
+        "contacto": "+34949 592 186"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Soria",
+        "fecha": "2023-02-01 12:58:23",
+        "requiere_medico": "Si",
+        "contacto": "+34979 178 587"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgencia extrema",
+        "localizacion": "Burgos",
+        "fecha": "2023-02-02 08:08:23",
+        "requiere_medico": "No",
+        "contacto": "+34 942 880 834"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgencia extrema",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-02-03 22:07:10",
+        "requiere_medico": "No",
+        "contacto": "+34881 825 615"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Leve",
+        "localizacion": "La Coruña",
+        "fecha": "2023-02-05 16:20:20",
+        "requiere_medico": "Si",
+        "contacto": "+34927168230"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Asturias",
+        "fecha": "2023-02-06 03:21:31",
+        "requiere_medico": "Si",
+        "contacto": "+34 825470396"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-02-06 15:54:29",
+        "requiere_medico": "Si",
+        "contacto": "+34 806151473"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Salamanca",
+        "fecha": "2023-02-07 09:41:52",
+        "requiere_medico": "No",
+        "contacto": "+34849403371"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Moderado",
+        "localizacion": "La Coruña",
+        "fecha": "2023-02-08 17:20:26",
+        "requiere_medico": "Si",
+        "contacto": "+34826 44 41 13"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Vizcaya",
+        "fecha": "2023-02-11 06:13:36",
+        "requiere_medico": "No",
+        "contacto": "+34 830 150 127"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Tarragona",
+        "fecha": "2023-02-11 07:58:15",
+        "requiere_medico": "Si",
+        "contacto": "+34 822 042 558"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Urgente",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-02-12 12:08:06",
+        "requiere_medico": "Si",
+        "contacto": "+34 877 503 268"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "León",
+        "fecha": "2023-02-14 18:13:07",
+        "requiere_medico": "Si",
+        "contacto": "+34 863113014"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "UME",
+        "grado": "Urgente",
+        "localizacion": "Salamanca",
+        "fecha": "2023-02-14 23:09:54",
+        "requiere_medico": "No",
+        "contacto": "+34876 11 17 20"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Lleida",
+        "fecha": "2023-02-16 04:24:22",
+        "requiere_medico": "No",
+        "contacto": "+34 882 39 92 76"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-02-17 03:46:11",
+        "requiere_medico": "No",
+        "contacto": "+34 978 071 731"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgencia extrema",
+        "localizacion": "Santa Cruz de Tenerife",
+        "fecha": "2023-02-18 10:53:19",
+        "requiere_medico": "No",
+        "contacto": "+34942 438 441"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "La Coruña",
+        "fecha": "2023-02-19 08:34:14",
+        "requiere_medico": "No",
+        "contacto": "+34821120073"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgencia extrema",
+        "localizacion": "León",
+        "fecha": "2023-02-20 22:39:51",
+        "requiere_medico": "No",
+        "contacto": "+34942979373"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Melilla",
+        "fecha": "2023-02-21 16:26:39",
+        "requiere_medico": "Si",
+        "contacto": "+34 888125342"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Leve",
+        "localizacion": "Ávila",
+        "fecha": "2023-02-21 22:00:57",
+        "requiere_medico": "Si",
+        "contacto": "+34 879 516 142"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Álava",
+        "fecha": "2023-02-23 13:55:36",
+        "requiere_medico": "No",
+        "contacto": "+34 833 86 53 81"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Lleida",
+        "fecha": "2023-02-24 03:31:31",
+        "requiere_medico": "Si",
+        "contacto": "+34973 956 498"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Valladolid",
+        "fecha": "2023-02-25 05:31:24",
+        "requiere_medico": "Si",
+        "contacto": "+34 812 22 90 62"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Ciudad",
+        "fecha": "2023-02-27 17:54:18",
+        "requiere_medico": "Si",
+        "contacto": "+34933 70 67 34"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Navarra",
+        "fecha": "2023-02-28 23:35:42",
+        "requiere_medico": "No",
+        "contacto": "+34974018502"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgente",
+        "localizacion": "Asturias",
+        "fecha": "2023-03-01 19:58:01",
+        "requiere_medico": "No",
+        "contacto": "+34901 58 04 54"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Albacete",
+        "fecha": "2023-03-02 08:18:43",
+        "requiere_medico": "No",
+        "contacto": "+34 976 464 881"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Santa Cruz de Tenerife",
+        "fecha": "2023-03-05 22:38:02",
+        "requiere_medico": "Si",
+        "contacto": "+34 911424367"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Córdoba",
+        "fecha": "2023-03-06 21:23:02",
+        "requiere_medico": "No",
+        "contacto": "+34 941457363"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Sevilla",
+        "fecha": "2023-03-07 00:29:56",
+        "requiere_medico": "Si",
+        "contacto": "+34885694494"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Asturias",
+        "fecha": "2023-03-08 05:45:58",
+        "requiere_medico": "Si",
+        "contacto": "+34883 137 678"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Vizcaya",
+        "fecha": "2023-03-12 16:20:52",
+        "requiere_medico": "Si",
+        "contacto": "+34975 46 48 83"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Moderado",
+        "localizacion": "Huelva",
+        "fecha": "2023-03-15 09:26:18",
+        "requiere_medico": "No",
+        "contacto": "+34881 722 636"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Moderado",
+        "localizacion": "Murcia",
+        "fecha": "2023-03-19 01:51:27",
+        "requiere_medico": "Si",
+        "contacto": "+34923 86 33 49"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Sevilla",
+        "fecha": "2023-03-22 10:37:13",
+        "requiere_medico": "No",
+        "contacto": "+34878489802"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgencia extrema",
+        "localizacion": "Palencia",
+        "fecha": "2023-03-23 22:53:42",
+        "requiere_medico": "Si",
+        "contacto": "+34 974973053"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Barcelona",
+        "fecha": "2023-03-25 18:05:41",
+        "requiere_medico": "Si",
+        "contacto": "+34981 97 38 75"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Lleida",
+        "fecha": "2023-03-26 06:38:40",
+        "requiere_medico": "No",
+        "contacto": "+34885785964"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Cuenca",
+        "fecha": "2023-03-27 21:59:22",
+        "requiere_medico": "Si",
+        "contacto": "+34 806 095 843"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Urgente",
+        "localizacion": "Ávila",
+        "fecha": "2023-03-28 03:40:11",
+        "requiere_medico": "Si",
+        "contacto": "+34985 413 721"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Baleares",
+        "fecha": "2023-03-28 17:30:46",
+        "requiere_medico": "No",
+        "contacto": "+34 948 32 94 47"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Moderado",
+        "localizacion": "Albacete",
+        "fecha": "2023-03-30 04:31:40",
+        "requiere_medico": "Si",
+        "contacto": "+34867 476 608"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Ceuta",
+        "fecha": "2023-04-02 19:04:42",
+        "requiere_medico": "Si",
+        "contacto": "+34884 875 207"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgente",
+        "localizacion": "La Rioja",
+        "fecha": "2023-04-03 01:47:22",
+        "requiere_medico": "Si",
+        "contacto": "+34852 37 95 61"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Leve",
+        "localizacion": "Teruel",
+        "fecha": "2023-04-04 16:06:39",
+        "requiere_medico": "Si",
+        "contacto": "+34 978 763 513"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Urgencia extrema",
+        "localizacion": "Lugo",
+        "fecha": "2023-04-09 03:23:29",
+        "requiere_medico": "No",
+        "contacto": "+34976 208 693"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Zaragoza",
+        "fecha": "2023-04-09 03:38:14",
+        "requiere_medico": "Si",
+        "contacto": "+34 985842537"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Cuenca",
+        "fecha": "2023-04-09 19:35:10",
+        "requiere_medico": "No",
+        "contacto": "+34888 251 329"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Soria",
+        "fecha": "2023-04-15 11:07:05",
+        "requiere_medico": "No",
+        "contacto": "+34942 219 080"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Vizcaya",
+        "fecha": "2023-04-19 20:41:02",
+        "requiere_medico": "Si",
+        "contacto": "+34 985 84 81 58"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Córdoba",
+        "fecha": "2023-04-20 08:57:34",
+        "requiere_medico": "Si",
+        "contacto": "+34883 376 753"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Leve",
+        "localizacion": "Castellón",
+        "fecha": "2023-04-23 02:54:41",
+        "requiere_medico": "No",
+        "contacto": "+34986 295 949"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgente",
+        "localizacion": "Las Palmas",
+        "fecha": "2023-04-23 05:51:52",
+        "requiere_medico": "Si",
+        "contacto": "+34 844541030"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Soria",
+        "fecha": "2023-04-23 17:53:18",
+        "requiere_medico": "Si",
+        "contacto": "+34981 661 212"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Zamora",
+        "fecha": "2023-04-24 05:39:02",
+        "requiere_medico": "Si",
+        "contacto": "+34822 04 54 67"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Lugo",
+        "fecha": "2023-04-25 05:08:14",
+        "requiere_medico": "No",
+        "contacto": "+34 956846837"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Santa Cruz de Tenerife",
+        "fecha": "2023-04-25 13:51:37",
+        "requiere_medico": "No",
+        "contacto": "+34845 413 540"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Moderado",
+        "localizacion": "León",
+        "fecha": "2023-04-26 20:47:06",
+        "requiere_medico": "No",
+        "contacto": "+34 848572096"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Ávila",
+        "fecha": "2023-04-27 23:26:38",
+        "requiere_medico": "No",
+        "contacto": "+34 875 293 265"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "UME",
+        "grado": "Urgencia extrema",
+        "localizacion": "Guipúzcoa",
+        "fecha": "2023-04-28 11:37:36",
+        "requiere_medico": "Si",
+        "contacto": "+34826687794"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Álava",
+        "fecha": "2023-04-28 15:43:52",
+        "requiere_medico": "Si",
+        "contacto": "+34886 75 08 50"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Baleares",
+        "fecha": "2023-04-29 22:18:56",
+        "requiere_medico": "Si",
+        "contacto": "+34 879428763"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Ourense",
+        "fecha": "2023-04-30 12:42:56",
+        "requiere_medico": "No",
+        "contacto": "+34 900 975 897"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Cáceres",
+        "fecha": "2023-04-30 14:12:45",
+        "requiere_medico": "No",
+        "contacto": "+34 901535486"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "León",
+        "fecha": "2023-05-02 03:45:49",
+        "requiere_medico": "Si",
+        "contacto": "+34 842 425 779"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgencia extrema",
+        "localizacion": "Badajoz",
+        "fecha": "2023-05-02 16:58:56",
+        "requiere_medico": "No",
+        "contacto": "+34920 755 247"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Leve",
+        "localizacion": "Girona",
+        "fecha": "2023-05-03 04:38:03",
+        "requiere_medico": "Si",
+        "contacto": "+34845 561 296"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgencia extrema",
+        "localizacion": "Soria",
+        "fecha": "2023-05-03 11:14:49",
+        "requiere_medico": "Si",
+        "contacto": "+34 823 12 71 45"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Tarragona",
+        "fecha": "2023-05-05 02:27:16",
+        "requiere_medico": "Si",
+        "contacto": "+34 839350129"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Las Palmas",
+        "fecha": "2023-05-06 19:50:51",
+        "requiere_medico": "No",
+        "contacto": "+34 984 488 254"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Palencia",
+        "fecha": "2023-05-07 06:28:33",
+        "requiere_medico": "Si",
+        "contacto": "+34 965 427 913"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Zamora",
+        "fecha": "2023-05-07 10:42:55",
+        "requiere_medico": "Si",
+        "contacto": "+34 948 324 553"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Ciudad",
+        "fecha": "2023-05-10 20:48:56",
+        "requiere_medico": "No",
+        "contacto": "+34920 743 280"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Jaén",
+        "fecha": "2023-05-13 14:10:06",
+        "requiere_medico": "Si",
+        "contacto": "+34 800 786 017"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Zaragoza",
+        "fecha": "2023-05-14 16:28:26",
+        "requiere_medico": "Si",
+        "contacto": "+34 924 717 085"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Zamora",
+        "fecha": "2023-05-14 18:20:21",
+        "requiere_medico": "Si",
+        "contacto": "+34849 22 49 49"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgencia extrema",
+        "localizacion": "Palencia",
+        "fecha": "2023-05-18 17:05:58",
+        "requiere_medico": "No",
+        "contacto": "+34844 65 93 22"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Zamora",
+        "fecha": "2023-05-19 04:56:15",
+        "requiere_medico": "Si",
+        "contacto": "+34902 96 77 42"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Navarra",
+        "fecha": "2023-05-20 02:31:11",
+        "requiere_medico": "No",
+        "contacto": "+34 923 874 186"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Valencia",
+        "fecha": "2023-05-22 18:30:21",
+        "requiere_medico": "No",
+        "contacto": "+34 983 517 199"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Santa Cruz de Tenerife",
+        "fecha": "2023-05-25 00:48:47",
+        "requiere_medico": "Si",
+        "contacto": "+34821222407"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Burgos",
+        "fecha": "2023-05-27 03:15:44",
+        "requiere_medico": "No",
+        "contacto": "+34869 604 277"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgente",
+        "localizacion": "Lleida",
+        "fecha": "2023-05-30 16:22:22",
+        "requiere_medico": "Si",
+        "contacto": "+34982 28 12 40"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Granada",
+        "fecha": "2023-05-31 20:55:09",
+        "requiere_medico": "No",
+        "contacto": "+34 982 677 136"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Leve",
+        "localizacion": "Baleares",
+        "fecha": "2023-06-02 01:56:51",
+        "requiere_medico": "No",
+        "contacto": "+34 875 465 574"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "León",
+        "fecha": "2023-06-03 14:15:30",
+        "requiere_medico": "Si",
+        "contacto": "+34 966 78 60 72"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Asturias",
+        "fecha": "2023-06-04 14:31:12",
+        "requiere_medico": "No",
+        "contacto": "+34 827 610 860"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Valencia",
+        "fecha": "2023-06-05 19:47:07",
+        "requiere_medico": "No",
+        "contacto": "+34 733 218 837"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Ceuta",
+        "fecha": "2023-06-05 20:04:28",
+        "requiere_medico": "No",
+        "contacto": "+34 922245100"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Badajoz",
+        "fecha": "2023-06-07 20:25:29",
+        "requiere_medico": "Si",
+        "contacto": "+34976 04 16 94"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Santa Cruz de Tenerife",
+        "fecha": "2023-06-08 08:24:49",
+        "requiere_medico": "No",
+        "contacto": "+34 823 41 99 03"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Baleares",
+        "fecha": "2023-06-17 06:39:25",
+        "requiere_medico": "No",
+        "contacto": "+34 976 65 74 38"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Melilla",
+        "fecha": "2023-06-17 06:57:24",
+        "requiere_medico": "Si",
+        "contacto": "+34 945 11 88 28"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Urgente",
+        "localizacion": "Valladolid",
+        "fecha": "2023-06-18 10:25:59",
+        "requiere_medico": "Si",
+        "contacto": "+34 872 51 69 22"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Navarra",
+        "fecha": "2023-06-19 20:50:01",
+        "requiere_medico": "No",
+        "contacto": "+34 985 11 35 43"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Castellón",
+        "fecha": "2023-06-20 08:27:36",
+        "requiere_medico": "Si",
+        "contacto": "+34 920 37 84 01"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgencia extrema",
+        "localizacion": "Málaga",
+        "fecha": "2023-06-24 00:14:43",
+        "requiere_medico": "No",
+        "contacto": "+34 947 27 16 61"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Lugo",
+        "fecha": "2023-06-28 13:10:38",
+        "requiere_medico": "No",
+        "contacto": "+34806 132 357"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Lleida",
+        "fecha": "2023-06-30 06:44:52",
+        "requiere_medico": "Si",
+        "contacto": "+34803 903 811"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Leve",
+        "localizacion": "Tarragona",
+        "fecha": "2023-07-02 00:59:21",
+        "requiere_medico": "No",
+        "contacto": "+34924 78 30 07"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgente",
+        "localizacion": "Murcia",
+        "fecha": "2023-07-02 05:42:52",
+        "requiere_medico": "No",
+        "contacto": "+34 920 634 014"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Córdoba",
+        "fecha": "2023-07-02 17:06:44",
+        "requiere_medico": "Si",
+        "contacto": "+34844 101 224"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Melilla",
+        "fecha": "2023-07-05 20:24:48",
+        "requiere_medico": "No",
+        "contacto": "+34 947 936 889"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Badajoz",
+        "fecha": "2023-07-08 23:38:45",
+        "requiere_medico": "No",
+        "contacto": "+34 855 692 193"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgencia extrema",
+        "localizacion": "Ourense",
+        "fecha": "2023-07-09 01:10:03",
+        "requiere_medico": "Si",
+        "contacto": "+34706 07 29 20"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgente",
+        "localizacion": "Álava",
+        "fecha": "2023-07-09 10:20:49",
+        "requiere_medico": "Si",
+        "contacto": "+34948137287"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Castellón",
+        "fecha": "2023-07-10 04:59:21",
+        "requiere_medico": "Si",
+        "contacto": "+34807 575 168"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Almería",
+        "fecha": "2023-07-14 04:13:46",
+        "requiere_medico": "Si",
+        "contacto": "+34815 57 07 48"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Cáceres",
+        "fecha": "2023-07-14 12:49:05",
+        "requiere_medico": "Si",
+        "contacto": "+34702276480"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Albacete",
+        "fecha": "2023-07-15 02:26:11",
+        "requiere_medico": "Si",
+        "contacto": "+34 975 013 164"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgente",
+        "localizacion": "Lleida",
+        "fecha": "2023-07-15 10:09:37",
+        "requiere_medico": "Si",
+        "contacto": "+34 927 081 587"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Cuenca",
+        "fecha": "2023-07-16 16:11:25",
+        "requiere_medico": "Si",
+        "contacto": "+34 902 916 654"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Palencia",
+        "fecha": "2023-07-22 19:25:24",
+        "requiere_medico": "No",
+        "contacto": "+34 958 907 315"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Palencia",
+        "fecha": "2023-07-23 19:45:18",
+        "requiere_medico": "No",
+        "contacto": "+34 735 85 67 96"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Urgencia extrema",
+        "localizacion": "Burgos",
+        "fecha": "2023-07-23 19:52:48",
+        "requiere_medico": "Si",
+        "contacto": "+34821 66 65 65"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgente",
+        "localizacion": "La Rioja",
+        "fecha": "2023-07-24 16:39:44",
+        "requiere_medico": "Si",
+        "contacto": "+34880 349 913"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Zamora",
+        "fecha": "2023-07-26 12:16:50",
+        "requiere_medico": "No",
+        "contacto": "+34 876848683"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Jaén",
+        "fecha": "2023-07-29 21:43:33",
+        "requiere_medico": "Si",
+        "contacto": "+34 972 714 385"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Cuenca",
+        "fecha": "2023-07-30 09:07:52",
+        "requiere_medico": "Si",
+        "contacto": "+34 928586471"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Leve",
+        "localizacion": "Teruel",
+        "fecha": "2023-07-31 00:26:50",
+        "requiere_medico": "Si",
+        "contacto": "+34927 999 284"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Moderado",
+        "localizacion": "Sevilla",
+        "fecha": "2023-08-05 18:57:59",
+        "requiere_medico": "No",
+        "contacto": "+34825 333 275"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "UME",
+        "grado": "Urgente",
+        "localizacion": "Girona",
+        "fecha": "2023-08-05 23:01:50",
+        "requiere_medico": "Si",
+        "contacto": "+34824 310 987"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Santa Cruz de Tenerife",
+        "fecha": "2023-08-06 04:52:56",
+        "requiere_medico": "Si",
+        "contacto": "+34 981 91 21 23"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Urgente",
+        "localizacion": "Soria",
+        "fecha": "2023-08-06 18:28:16",
+        "requiere_medico": "Si",
+        "contacto": "+34 883 04 99 39"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Asturias",
+        "fecha": "2023-08-07 14:29:09",
+        "requiere_medico": "No",
+        "contacto": "+34 800183395"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Urgencia extrema",
+        "localizacion": "Ciudad",
+        "fecha": "2023-08-09 21:55:59",
+        "requiere_medico": "No",
+        "contacto": "+34844 032 548"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Burgos",
+        "fecha": "2023-08-10 18:01:21",
+        "requiere_medico": "No",
+        "contacto": "+34886581319"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Jaén",
+        "fecha": "2023-08-12 03:51:35",
+        "requiere_medico": "No",
+        "contacto": "+34842 969 949"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-08-14 09:13:28",
+        "requiere_medico": "Si",
+        "contacto": "+34920 77 73 34"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Málaga",
+        "fecha": "2023-08-14 14:30:31",
+        "requiere_medico": "Si",
+        "contacto": "+34 944 984 141"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Salamanca",
+        "fecha": "2023-08-16 20:31:17",
+        "requiere_medico": "Si",
+        "contacto": "+34942 790 986"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Soria",
+        "fecha": "2023-08-18 19:52:28",
+        "requiere_medico": "No",
+        "contacto": "+34876337367"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-08-20 02:45:38",
+        "requiere_medico": "Si",
+        "contacto": "+34 977947975"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Vizcaya",
+        "fecha": "2023-08-21 11:05:17",
+        "requiere_medico": "No",
+        "contacto": "+34 828 606 705"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Baleares",
+        "fecha": "2023-08-29 14:11:40",
+        "requiere_medico": "Si",
+        "contacto": "+34708 411 695"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Zaragoza",
+        "fecha": "2023-08-30 04:18:23",
+        "requiere_medico": "Si",
+        "contacto": "+34944 38 29 84"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Lugo",
+        "fecha": "2023-08-31 11:16:21",
+        "requiere_medico": "Si",
+        "contacto": "+34 973 40 99 12"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Ávila",
+        "fecha": "2023-09-02 01:49:00",
+        "requiere_medico": "No",
+        "contacto": "+34887 22 86 40"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Teruel",
+        "fecha": "2023-09-03 04:14:13",
+        "requiere_medico": "Si",
+        "contacto": "+34807677513"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Cantabria",
+        "fecha": "2023-09-04 17:23:19",
+        "requiere_medico": "Si",
+        "contacto": "+34974 41 36 89"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "UME",
+        "grado": "Urgente",
+        "localizacion": "Ávila",
+        "fecha": "2023-09-05 17:44:47",
+        "requiere_medico": "Si",
+        "contacto": "+34 949 041 518"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Huesca",
+        "fecha": "2023-09-08 13:35:02",
+        "requiere_medico": "Si",
+        "contacto": "+34 812220911"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Salamanca",
+        "fecha": "2023-09-08 16:06:53",
+        "requiere_medico": "No",
+        "contacto": "+34946826082"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Urgencia extrema",
+        "localizacion": "Valencia",
+        "fecha": "2023-09-10 12:39:07",
+        "requiere_medico": "No",
+        "contacto": "+34 845 941 152"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Murcia",
+        "fecha": "2023-09-12 02:41:49",
+        "requiere_medico": "No",
+        "contacto": "+34 732 76 84 44"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Soria",
+        "fecha": "2023-09-12 16:45:20",
+        "requiere_medico": "Si",
+        "contacto": "+34 822 793 750"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "León",
+        "fecha": "2023-09-13 12:30:33",
+        "requiere_medico": "Si",
+        "contacto": "+34844 644 957"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Málaga",
+        "fecha": "2023-09-13 14:27:35",
+        "requiere_medico": "Si",
+        "contacto": "+34947480682"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Castellón",
+        "fecha": "2023-09-14 04:55:28",
+        "requiere_medico": "No",
+        "contacto": "+34886 177 655"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Teruel",
+        "fecha": "2023-09-14 12:25:00",
+        "requiere_medico": "Si",
+        "contacto": "+34847 61 58 40"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Valencia",
+        "fecha": "2023-09-16 04:37:59",
+        "requiere_medico": "Si",
+        "contacto": "+34880352528"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Ceuta",
+        "fecha": "2023-09-17 15:26:49",
+        "requiere_medico": "No",
+        "contacto": "+34879 61 68 97"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Lleida",
+        "fecha": "2023-09-18 19:44:09",
+        "requiere_medico": "No",
+        "contacto": "+34947605837"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "La Rioja",
+        "fecha": "2023-09-21 07:04:01",
+        "requiere_medico": "No",
+        "contacto": "+34 973 025 142"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Moderado",
+        "localizacion": "Cáceres",
+        "fecha": "2023-09-24 00:34:14",
+        "requiere_medico": "Si",
+        "contacto": "+34 883299348"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Alicante",
+        "fecha": "2023-09-24 07:30:10",
+        "requiere_medico": "No",
+        "contacto": "+34900 081 813"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Leve",
+        "localizacion": "Las Palmas",
+        "fecha": "2023-09-25 03:37:32",
+        "requiere_medico": "Si",
+        "contacto": "+34 724847454"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "La Coruña",
+        "fecha": "2023-09-25 15:12:12",
+        "requiere_medico": "No",
+        "contacto": "+34803905209"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Teruel",
+        "fecha": "2023-09-25 21:41:59",
+        "requiere_medico": "Si",
+        "contacto": "+34 874370780"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Urgente",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-09-26 10:13:26",
+        "requiere_medico": "Si",
+        "contacto": "+34 887 533 534"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Las Palmas",
+        "fecha": "2023-09-26 14:19:57",
+        "requiere_medico": "No",
+        "contacto": "+34 975 571 543"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Las Palmas",
+        "fecha": "2023-09-27 22:05:49",
+        "requiere_medico": "Si",
+        "contacto": "+34821671384"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-09-27 23:13:15",
+        "requiere_medico": "No",
+        "contacto": "+34 877489654"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Zamora",
+        "fecha": "2023-09-29 03:17:17",
+        "requiere_medico": "Si",
+        "contacto": "+34900266447"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "La Coruña",
+        "fecha": "2023-09-29 08:34:59",
+        "requiere_medico": "Si",
+        "contacto": "+34 923 389 532"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Málaga",
+        "fecha": "2023-09-29 19:11:20",
+        "requiere_medico": "Si",
+        "contacto": "+34946433341"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Ceuta",
+        "fecha": "2023-09-30 01:38:14",
+        "requiere_medico": "No",
+        "contacto": "+34 981 214 426"
+    },
+    {
+        "tipo_emergencia": "Personas desaparecidas",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Tarragona",
+        "fecha": "2023-10-02 10:14:51",
+        "requiere_medico": "Si",
+        "contacto": "+34 901316640"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Cantabria",
+        "fecha": "2023-10-11 18:02:27",
+        "requiere_medico": "Si",
+        "contacto": "+34841638912"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Guadalajara",
+        "fecha": "2023-10-18 06:51:50",
+        "requiere_medico": "Si",
+        "contacto": "+34 844564023"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Las Palmas",
+        "fecha": "2023-10-20 22:41:53",
+        "requiere_medico": "Si",
+        "contacto": "+34 873 71 61 75"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Valladolid",
+        "fecha": "2023-10-21 02:49:43",
+        "requiere_medico": "Si",
+        "contacto": "+34 886493339"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Madrid",
+        "fecha": "2023-10-21 06:25:20",
+        "requiere_medico": "No",
+        "contacto": "+34849 292 910"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Leve",
+        "localizacion": "Ciudad",
+        "fecha": "2023-10-24 13:02:19",
+        "requiere_medico": "No",
+        "contacto": "+34 902 41 62 98"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Soria",
+        "fecha": "2023-10-26 11:10:11",
+        "requiere_medico": "Si",
+        "contacto": "+34 831883717"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Cáceres",
+        "fecha": "2023-10-27 12:19:36",
+        "requiere_medico": "No",
+        "contacto": "+34814353185"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Burgos",
+        "fecha": "2023-10-28 21:39:03",
+        "requiere_medico": "Si",
+        "contacto": "+34746029077"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Almería",
+        "fecha": "2023-11-01 00:02:28",
+        "requiere_medico": "Si",
+        "contacto": "+34806 474 909"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "UME",
+        "grado": "Urgencia extrema",
+        "localizacion": "León",
+        "fecha": "2023-11-01 16:07:22",
+        "requiere_medico": "Si",
+        "contacto": "+34972 335 520"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Jaén",
+        "fecha": "2023-11-02 12:01:30",
+        "requiere_medico": "Si",
+        "contacto": "+34 711234727"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgencia extrema",
+        "localizacion": "Albacete",
+        "fecha": "2023-11-04 00:53:18",
+        "requiere_medico": "Si",
+        "contacto": "+34876539280"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgencia extrema",
+        "localizacion": "Navarra",
+        "fecha": "2023-11-04 11:10:06",
+        "requiere_medico": "Si",
+        "contacto": "+34844 55 02 93"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Lugo",
+        "fecha": "2023-11-05 15:51:33",
+        "requiere_medico": "Si",
+        "contacto": "+34 972 946 877"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Toledo",
+        "fecha": "2023-11-06 15:29:26",
+        "requiere_medico": "No",
+        "contacto": "+34 945 858 546"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Jaén",
+        "fecha": "2023-11-08 18:12:41",
+        "requiere_medico": "Si",
+        "contacto": "+34978 02 72 11"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Leve",
+        "localizacion": "Lleida",
+        "fecha": "2023-11-09 15:45:45",
+        "requiere_medico": "No",
+        "contacto": "+34807 32 75 80"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Moderado",
+        "localizacion": "Lugo",
+        "fecha": "2023-11-09 16:03:05",
+        "requiere_medico": "No",
+        "contacto": "+34 901 58 03 15"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Albacete",
+        "fecha": "2023-11-09 19:58:14",
+        "requiere_medico": "Si",
+        "contacto": "+34 824 85 50 88"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Baleares",
+        "fecha": "2023-11-10 13:48:55",
+        "requiere_medico": "Si",
+        "contacto": "+34848 803 907"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgencia extrema",
+        "localizacion": "Lleida",
+        "fecha": "2023-11-11 16:43:12",
+        "requiere_medico": "Si",
+        "contacto": "+34 844068098"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Leve",
+        "localizacion": "Ceuta",
+        "fecha": "2023-11-14 08:40:50",
+        "requiere_medico": "Si",
+        "contacto": "+34 735 985 097"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Almería",
+        "fecha": "2023-11-14 09:17:26",
+        "requiere_medico": "Si",
+        "contacto": "+34983 53 15 76"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Tarragona",
+        "fecha": "2023-11-14 18:55:11",
+        "requiere_medico": "No",
+        "contacto": "+34 971 232 758"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Toledo",
+        "fecha": "2023-11-16 16:24:15",
+        "requiere_medico": "Si",
+        "contacto": "+34 843652658"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Lugo",
+        "fecha": "2023-11-20 00:02:10",
+        "requiere_medico": "Si",
+        "contacto": "+34 841 850 361"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Salamanca",
+        "fecha": "2023-11-21 06:41:36",
+        "requiere_medico": "Si",
+        "contacto": "+34 884996300"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgencia extrema",
+        "localizacion": "Salamanca",
+        "fecha": "2023-11-21 11:05:04",
+        "requiere_medico": "No",
+        "contacto": "+34945 284 208"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Ejercito",
+        "grado": "Urgente",
+        "localizacion": "Almería",
+        "fecha": "2023-11-23 09:09:27",
+        "requiere_medico": "Si",
+        "contacto": "+34 988 58 12 85"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Leve",
+        "localizacion": "Huelva",
+        "fecha": "2023-11-23 11:17:02",
+        "requiere_medico": "Si",
+        "contacto": "+34 843 219 625"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Asturias",
+        "fecha": "2023-11-24 07:18:23",
+        "requiere_medico": "No",
+        "contacto": "+34823733343"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgencia extrema",
+        "localizacion": "Huelva",
+        "fecha": "2023-11-24 19:17:20",
+        "requiere_medico": "Si",
+        "contacto": "+34 873 77 97 72"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Moderado",
+        "localizacion": "Málaga",
+        "fecha": "2023-11-25 11:28:52",
+        "requiere_medico": "Si",
+        "contacto": "+34745666854"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Cádiz",
+        "fecha": "2023-11-26 14:18:04",
+        "requiere_medico": "No",
+        "contacto": "+34 978 38 29 73"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgencia extrema",
+        "localizacion": "Santa Cruz de Tenerife",
+        "fecha": "2023-12-02 22:28:50",
+        "requiere_medico": "No",
+        "contacto": "+34 901027623"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Ourense",
+        "fecha": "2023-12-03 15:01:53",
+        "requiere_medico": "Si",
+        "contacto": "+34885 034 941"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Leve",
+        "localizacion": "Toledo",
+        "fecha": "2023-12-05 04:51:11",
+        "requiere_medico": "Si",
+        "contacto": "+34 972 142 694"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Almería",
+        "fecha": "2023-12-06 02:52:58",
+        "requiere_medico": "Si",
+        "contacto": "+34 971137902"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Urgente",
+        "localizacion": "Barcelona",
+        "fecha": "2023-12-10 18:42:31",
+        "requiere_medico": "No",
+        "contacto": "+34 800420105"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "León",
+        "fecha": "2023-12-11 07:57:42",
+        "requiere_medico": "Si",
+        "contacto": "+34 887907522"
+    },
+    {
+        "tipo_emergencia": "Problemas médicos agudos",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Moderado",
+        "localizacion": "Cuenca",
+        "fecha": "2023-12-11 10:00:05",
+        "requiere_medico": "Si",
+        "contacto": "+34981 79 01 94"
+    },
+    {
+        "tipo_emergencia": "Emergencias ambientales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Huelva",
+        "fecha": "2023-12-11 17:18:49",
+        "requiere_medico": "No",
+        "contacto": "+34849036022"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "La Rioja",
+        "fecha": "2023-12-12 00:03:46",
+        "requiere_medico": "No",
+        "contacto": "+34881 20 98 63"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "GEOs",
+        "grado": "Urgente",
+        "localizacion": "Guipúzcoa",
+        "fecha": "2023-12-12 06:49:52",
+        "requiere_medico": "No",
+        "contacto": "+34988594865"
+    },
+    {
+        "tipo_emergencia": "Incendios",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Urgente",
+        "localizacion": "Valladolid",
+        "fecha": "2023-12-13 03:24:41",
+        "requiere_medico": "No",
+        "contacto": "+34 930795592"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Ourense",
+        "fecha": "2023-12-14 23:07:48",
+        "requiere_medico": "No",
+        "contacto": "+34982 51 07 67"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "León",
+        "fecha": "2023-12-15 08:47:58",
+        "requiere_medico": "No",
+        "contacto": "+34 984 75 12 05"
+    },
+    {
+        "tipo_emergencia": "Accidentes laborales",
+        "cuerpo_necesario": "Ambulancia",
+        "grado": "Urgente",
+        "localizacion": "Girona",
+        "fecha": "2023-12-17 14:42:04",
+        "requiere_medico": "Si",
+        "contacto": "+34965 673 240"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Melilla",
+        "fecha": "2023-12-18 13:31:05",
+        "requiere_medico": "No",
+        "contacto": "+34 923 687 297"
+    },
+    {
+        "tipo_emergencia": "Accidentes de tráfico",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Valladolid",
+        "fecha": "2023-12-18 22:43:32",
+        "requiere_medico": "No",
+        "contacto": "+34 980 75 33 01"
+    },
+    {
+        "tipo_emergencia": "Emergencias en el mar o montañas",
+        "cuerpo_necesario": "Guardia Costera",
+        "grado": "Moderado",
+        "localizacion": "Pontevedra",
+        "fecha": "2023-12-19 05:24:46",
+        "requiere_medico": "No",
+        "contacto": "+34 921 19 96 49"
+    },
+    {
+        "tipo_emergencia": "Situaciones de peligro para la seguridad pública",
+        "cuerpo_necesario": "Policia",
+        "grado": "Moderado",
+        "localizacion": "Cáceres",
+        "fecha": "2023-12-19 16:28:12",
+        "requiere_medico": "No",
+        "contacto": "+34910 93 15 07"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Lugo",
+        "fecha": "2023-12-22 00:06:48",
+        "requiere_medico": "Si",
+        "contacto": "+34 952 56 26 93"
+    },
+    {
+        "tipo_emergencia": "Emergencias químicas o radiológicas",
+        "cuerpo_necesario": "Servicios de emergencia",
+        "grado": "Moderado",
+        "localizacion": "Melilla",
+        "fecha": "2023-12-22 09:06:10",
+        "requiere_medico": "No",
+        "contacto": "+34 822257775"
+    },
+    {
+        "tipo_emergencia": "Delitos en progreso",
+        "cuerpo_necesario": "Policia",
+        "grado": "Leve",
+        "localizacion": "Valencia",
+        "fecha": "2023-12-22 12:50:10",
+        "requiere_medico": "Si",
+        "contacto": "+34 820 93 29 44"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Forestales",
+        "grado": "Leve",
+        "localizacion": "Tarragona",
+        "fecha": "2023-12-24 04:06:18",
+        "requiere_medico": "No",
+        "contacto": "+34948787893"
+    },
+    {
+        "tipo_emergencia": "Rescates",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Zamora",
+        "fecha": "2023-12-26 16:34:00",
+        "requiere_medico": "Si",
+        "contacto": "+34844 57 29 50"
+    },
+    {
+        "tipo_emergencia": "Desastres naturales",
+        "cuerpo_necesario": "Bomberos",
+        "grado": "Moderado",
+        "localizacion": "Santa Cruz de Tenerife",
+        "fecha": "2023-12-28 16:32:14",
+        "requiere_medico": "Si",
+        "contacto": "+34985 473 612"
+    }
+]

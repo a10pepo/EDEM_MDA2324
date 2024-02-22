@@ -1,0 +1,68 @@
+{
+    "data": {
+        "quotes": [
+            {
+                "timestamp": "2018-07-31T00:02:00.000Z",
+                "btc_dominance": 47.9949,
+                "active_cryptocurrencies": 2500,
+                "active_exchanges": 600,
+                "active_market_pairs": 1000,
+                "quote": {
+                    "USD": {
+                        "total_market_cap": 292863223827.394,
+                        "total_volume_24h": 17692152629.7864,
+                        "total_volume_24h_reported": 375179000000,
+                        "altcoin_market_cap": 187589500000,
+                        "altcoin_volume_24h": 375179000000,
+                        "altcoin_volume_24h_reported": 375179000000,
+                        "timestamp": "2018-07-31T00:02:00.000Z"
+                    }
+                }
+            },
+            {
+                "timestamp": "2018-08-01T00:02:00.000Z",
+                "btc_dominance": 48.0585,
+                "active_cryptocurrencies": 2500,
+                "active_exchanges": 600,
+                "active_market_pairs": 1000,
+                "quote": {
+                    "USD": {
+                        "total_market_cap": 277770824530.303,
+                        "total_volume_24h": 15398085549.0344,
+                        "total_volume_24h_reported": 375179000000,
+                        "altcoin_market_cap": 187589500000,
+                        "altcoin_volume_24h": 375179000000,
+                        "altcoin_volume_24h_reported": 375179000000,
+                        "timestamp": "2018-07-31T00:02:00.000Z"
+                    }
+                }
+            },
+            {
+                "timestamp": "2018-08-02T00:02:00.000Z",
+                "btc_dominance": 48.041,
+                "active_cryptocurrencies": 2500,
+                "active_exchanges": 600,
+                "active_market_pairs": 1000,
+                "quote": {
+                    "USD": {
+                        "total_market_cap": 273078776005.223,
+                        "total_volume_24h": 14300071695.0547,
+                        "total_volume_24h_reported": 375179000000,
+                        "altcoin_market_cap": 187589500000,
+                        "altcoin_volume_24h": 375179000000,
+                        "altcoin_volume_24h_reported": 375179000000,
+                        "timestamp": "2018-07-31T00:02:00.000Z"
+                    }
+                }
+            }
+        ]
+    },
+    "status": {
+        "timestamp": "2024-01-17T10:29:19.710Z",
+        "error_code": 0,
+        "error_message": "",
+        "elapsed": 10,
+        "credit_count": 1,
+        "notice": ""
+    }
+}

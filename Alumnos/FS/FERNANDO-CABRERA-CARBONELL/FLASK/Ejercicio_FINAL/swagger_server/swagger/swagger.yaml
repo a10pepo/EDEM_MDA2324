@@ -1,0 +1,46 @@
+---
+swagger: "2.0"
+info:
+  description: "API para obtener la última medida de temperatura de un sensor en tiempo\
+    \ real."
+  version: "1.0"
+  title: "Robot Temperature API"
+basePath: "/api"
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    get:
+      summary: "Obtiene la última medida de temperatura de un sensor."
+      operationId: "get_last_meassure_by_sensor_sensor_get"
+      parameters:
+      - name: "sensor"
+        in: "path"
+        description: "ID del sensor"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Medida exitosa"
+          schema:
+            $ref: "#/definitions/Measure"
+        "400":
+          description: "Sensor no encontrado"
+        "404":
+          description: "ID de sensor no válido"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+definitions:
+  Measure:
+    type: "object"
+    properties:
+      code:
+        type: "string"
+      fechamuestreo:
+        type: "string"
+      unidad:
+        type: "string"
+      medicion:
+        type: "number"
+    example:
+      unidad: "unidad"
+      medicion: 0.80082819046101150206595775671303272247314453125
+      code: "code"
+      fechamuestreo: "fechamuestreo"

@@ -1,0 +1,97 @@
+---
+swagger: "2.0"
+info:
+  description: "API para la monitorización de temperatura de un robot"
+  version: "1.0.0"
+  title: "monitorizacion de temperatura de un robot"
+host: "sensor.swagger.io"
+basePath: "/v2"
+paths:
+  /obtenerultimamedidasensor/{sensor}:
+    get:
+      tags:
+      - "sensor"
+      summary: "Obtener la última medición de temperatura por sensor"
+      operationId: "ultimamedidasensor"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "sensor"
+        in: "path"
+        description: "ID del sensor"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Operación exitosa"
+          schema:
+            $ref: "#/definitions/medicion"
+        "400":
+          description: "Sensor no encontrado"
+        "404":
+          description: "ID inválido suministrado"
+      x-swagger-router-controller: "swagger_server.controllers.sensor_controller"
+  /nuevamedicion:
+    post:
+      tags:
+      - "sensor"
+      summary: "Añadir una nueva medición de temperatura"
+      operationId: "add_new_measure"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Datos de la nueva medición"
+        required: true
+        schema:
+          $ref: "#/definitions/nuevamedicion"
+      responses:
+        "201":
+          description: "Medición añadida exitosamente"
+        "400":
+          description: "Datos de la medición no válidos"
+      x-swagger-router-controller: "swagger_server.controllers.sensor_controller"
+definitions:
+  medicion:
+    type: "object"
+    properties:
+      code:
+        type: "string"
+        description: "ID del sensor"
+      fechamuestreo:
+        type: "string"
+        description: "Fecha de la medición"
+      unidad:
+        type: "string"
+        description: "Unidad de medida"
+      medicion:
+        type: "number"
+        description: "Valor de la medición"
+    example:
+      code: "sensor123"
+      fechamuestreo: "2022-01-10T12:30:00"
+      unidad: "Celsius"
+      medicion: 25.5
+  nuevamedicion:
+    type: "object"
+    properties:
+      sensor:
+        type: "string"
+        description: "ID del sensor"
+      fechamuestreo:
+        type: "string"
+        description: "Fecha de la medición"
+      unidad:
+        type: "string"
+        description: "Unidad de medida"
+      medicion:
+        type: "number"
+        description: "Valor de la medición"
+    example:
+      sensor: "sensor123"
+      fechamuestreo: "2022-01-11T14:45:00"
+      unidad: "Celsius"
+      medicion: 26

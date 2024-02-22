@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  title: API de Monitoreo de Temperatura del Robot
+  description: API para acceder a mediciones de temperatura del robot
+  version: 1.0.0
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    parameters:
+      - in: path
+        name: sensor
+        required: true
+        schema:
+          type: string
+        description: ID del sensor
+    get:
+      summary: Obtener la última medición de temperatura de un sensor
+      responses:
+        '200':
+          description: Medición obtenida exitosamente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  code:
+                    type: string
+                    description: ID del sensor
+                  fechamuestreo:
+                    type: string
+                    description: Fecha y hora de la medición
+                  unidad:
+                    type: string
+                    description: Unidad de la medición
+                  medicion:
+                    type: number
+                    description: Valor de la medición
+        '400':
+          description: Sensor no encontrado
+        '404':
+          description: ID de sensor inválido

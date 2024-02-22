@@ -1,0 +1,191 @@
+{ "coords":
+ [
+        {
+          "id": "65a552fb5be2b6701dc14477",
+          "latitud": 36.83,
+          "longitud": 41.74,
+          "punto_control": "green"
+        },
+        {
+          "id": "65a552fbb67f27f15270bf70",
+          "latitud": 13.17,
+          "longitud": 18.04,
+          "punto_control": "charlie"
+        },
+        {
+          "id": "65a552fbe75c3294fbfd19f9",
+          "latitud": 50.1,
+          "longitud": 24.97,
+          "punto_control": "blue"
+        },
+        {
+          "id": "65a552fb0ad8f92cb85de484",
+          "latitud": 57.5,
+          "longitud": 24.67,
+          "punto_control": "alpha"
+        },
+        {
+          "id": "65a552fba9322a5f16c03964",
+          "latitud": 29.58,
+          "longitud": 24.28,
+          "punto_control": "brown"
+        },
+        {
+          "id": "65a552fb374077b6a0499df3",
+          "latitud": 11.7,
+          "longitud": 21.67,
+          "punto_control": "charlie"
+        },
+        {
+          "id": "65a552fb495465d3e38b6c85",
+          "latitud": 33.62,
+          "longitud": 46.37,
+          "punto_control": "charlie"
+        },
+        {
+          "id": "65a552fb69b59fe4300a33d6",
+          "latitud": 19.34,
+          "longitud": 42.13,
+          "punto_control": "alpha"
+        },
+        {
+          "id": "65a552fb5ef9cf5dc58e0915",
+          "latitud": 58.22,
+          "longitud": 43.21,
+          "punto_control": "brown"
+        },
+        {
+          "id": "65a552fb3740df6a57d2ff24",
+          "latitud": 39.22,
+          "longitud": 48.88,
+          "punto_control": "alpha"
+        },
+        {
+          "id": "65a552fba3a2e4b275e1fffe",
+          "latitud": 5.63,
+          "longitud": 23.44,
+          "punto_control": "beta"
+        },
+        {
+          "id": "65a552fb143f6d5037b1b42b",
+          "latitud": 29.13,
+          "longitud": 36.72,
+          "punto_control": "blue"
+        },
+        {
+          "id": "65a552fb11cce37a95283adf",
+          "latitud": 55.82,
+          "longitud": 44.91,
+          "punto_control": "blue"
+        },
+        {
+          "id": "65a552fbfc005a256a28828a",
+          "latitud": 52.62,
+          "longitud": 48.37,
+          "punto_control": "blue"
+        },
+        {
+          "id": "65a552fb9aa3a63f5ec7600f",
+          "latitud": 23.03,
+          "longitud": 28.83,
+          "punto_control": "brown"
+        },
+        {
+          "id": "65a552fb86195214e2c86067",
+          "latitud": 25.78,
+          "longitud": 12.29,
+          "punto_control": "beta"
+        },
+        {
+          "id": "65a552fbcf2f712cda1f53a0",
+          "latitud": 24.67,
+          "longitud": 37.88,
+          "punto_control": "brown"
+        },
+        {
+          "id": "65a552fb5b1e22fddcf3b6ab",
+          "latitud": 49.66,
+          "longitud": 40.37,
+          "punto_control": "alpha"
+        },
+        {
+          "id": "65a552fb2941f6b6db25b874",
+          "latitud": 31.06,
+          "longitud": 43.53,
+          "punto_control": "charlie"
+        },
+        {
+          "id": "65a552fb7b2cabd6a1b6dd68",
+          "latitud": 10.52,
+          "longitud": 15.61,
+          "punto_control": "charlie"
+        },
+        {
+          "id": "65a552fb0281c6ec95091e27",
+          "latitud": 24.1,
+          "longitud": 39.52,
+          "punto_control": "alpha"
+        },
+        {
+          "id": "65a552fbd25c64932607f936",
+          "latitud": 25.82,
+          "longitud": 0.38,
+          "punto_control": "green"
+        },
+        {
+          "id": "65a552fb34c5b3f28e259d0a",
+          "latitud": 52.29,
+          "longitud": 34.3,
+          "punto_control": "brown"
+        },
+        {
+          "id": "65a552fb0e6834948da41d50",
+          "latitud": 57.53,
+          "longitud": 17.69,
+          "punto_control": "charlie"
+        },
+        {
+          "id": "65a552fbc6fce5a2d3a034a3",
+          "latitud": 18.84,
+          "longitud": 34.9,
+          "punto_control": "alpha"
+        },
+        {
+          "id": "65a552fba266efa7b2ea2f66",
+          "latitud": 16.44,
+          "longitud": 43.44,
+          "punto_control": "brown"
+        },
+        {
+          "id": "65a552fb39618139a11468f3",
+          "latitud": 14.62,
+          "longitud": 42.09,
+          "punto_control": "charlie"
+        },
+        {
+          "id": "65a552fbdd9e24cb259f894f",
+          "latitud": 9.27,
+          "longitud": 5.28,
+          "punto_control": "brown"
+        },
+        {
+          "id": "65a552fbff0946d47d176316",
+          "latitud": 52.07,
+          "longitud": 12.63,
+          "punto_control": "brown"
+        },
+        {
+          "id": "65a552fb348f02bdcd432f4a",
+          "latitud": 26.67,
+          "longitud": 32.07,
+          "punto_control": "blue"
+        },
+        {
+          "id": "65a552fb3b0a8296aa4937a7",
+          "latitud": 58.41,
+          "longitud": 56.99,
+          "punto_control": "brown"
+        }
+    
+  ]
+}

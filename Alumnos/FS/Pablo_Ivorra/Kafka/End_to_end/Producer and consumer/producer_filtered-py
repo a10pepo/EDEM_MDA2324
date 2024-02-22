@@ -1,0 +1,50 @@
+from confluent_kafka import Producer
+import json
+import time
+
+# Configuración del productor
+config = {
+    'bootstrap.servers': 'localhost:9092',
+}
+
+# Crear un productor
+producer = Producer(config)
+
+# Nombre del tópico
+topic = 'marketcap_filtro'
+
+# Función de entrega para informar si el mensaje se envió correctamente o no
+def delivery_report(err, msg):
+    if err is not None:
+        print('Error de entrega del mensaje: {}'.format(err))
+    else:
+        print('Mensaje entregado a {} [{}]'.format(msg.topic(), msg.partition()))
+
+# Loop para enviar mensajes
+try:
+    while True:
+        # Crear el mensaje. Los valores aquí son ejemplos, debes obtener los datos reales.
+        message = {
+            "timestamp": "2024-01-24T10:39:21.561Z",
+            "crypto_currency": "BTC",
+            "price_usd": 40000.50,
+            "volume_usd": 500000.00,
+            "btc_variation": 0.02,
+            "eth_variation": -0.01,
+            "alert_message": "Compra recomendada: BTC está en alza."
+        }
+        
+        # Enviar el mensaje
+        producer.produce(topic, json.dumps(message), callback=delivery_report)
+        
+        # Esperar a que las entregas se completen
+        producer.flush()
+        
+        # Simular un intervalo antes de enviar el siguiente mensaje
+        time.sleep(5)  # Espera de 5 segundos
+
+except KeyboardInterrupt:
+    print("Deteniendo el productor...")
+
+# Si se sale del bucle, cerrar el productor
+producer.close()

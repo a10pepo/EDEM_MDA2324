@@ -1,0 +1,14 @@
+# Usa una imagen de Python oficial como imagen base
+FROM python:3.8-slim
+
+# Establece el directorio de trabajo en /app
+WORKDIR /app
+
+# Copia los archivos necesarios al contenedor
+COPY producer.py requirements.txt reviews.json ./
+
+# Instala las dependencias especificadas en requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Ejecuta el script al iniciar el contenedor
+CMD ["python", "producer.py"]

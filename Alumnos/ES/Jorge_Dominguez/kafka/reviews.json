@@ -1,0 +1,385 @@
+{
+  "reviews": [
+    {
+      "restaurante": "Pepe Bucato",
+      "titular": "Muy mal servicio",
+      "review": "P\u00e9sima experiencia en este restaurante, nos tuvieron 2h para comer y adem\u00e1s los platos que pedimos eran del men\u00fa. En un restaurante del centro por semana, los men\u00fas deben ser r\u00e1pidos... Adem\u00e1s las pechugas con salsa dijon eran simplemente incomibles.",
+      "fecha_visita": "enero de 2020",
+      "estrellas": 1
+    },
+    {
+      "restaurante": "La Petite Brioche Sorni",
+      "titular": "Un buen desayuno",
+      "review": "Ha sido un placer acabar desayunando en este sitio, desde el primer momento se respira un buen ambiente acompa\u00f1ado de un buen desayuno. Algo tan sencillo como unas tostadas, caf\u00e9 y zumo... Est\u00e1 muy bueno! En lo sencillo es donde se nota la calidad de una cafeter\u00eda.",
+      "fecha_visita": "diciembre de 2017",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Frenazo",
+      "titular": "Inaceptable",
+      "review": "Hoy en este restaurante me ha pasado algo que nunca cre\u00eda que ver\u00eda... Al llegar al restaurante a la 13:20 todo el personal ha decidido que se pon\u00edan a comer, sin avisar. Y podr\u00edais pensar q era una comida r\u00e1pida.. pues 25 min m\u00e1s tarde a\u00fan segu\u00edan de sobremesa. Claramente no volver\u00e1n a contar conmigo para comer.",
+      "fecha_visita": "noviembre de 2017",
+      "estrellas": 1
+    },
+    {
+      "restaurante": "La Cigrona Restaurant",
+      "titular": "Grata sorpresa",
+      "review": "Ten\u00edamos una visita en Valencia y busc\u00e1bamos un sitio en el centro con un buen arroz. Acabamos en La Cigrona y fue una grata sorpresa ya que cre\u00edamos que ser\u00eda una 'trampa de guiris' pero estuvo muy bueno. Tomamos de entrante unas croquetas de bacalao, esgarrat y un calamar rizado con salsa negra. Adem\u00e1s, por cortes\u00eda de la casa nos obsequiaron con un entrante de verdura que estaba muy bueno. De plato principal tomamos arroz se\u00f1oret y otro de pato y foie. Por poner una pega pedimos demasiada comida y el camarero no nos asesor\u00f3 avis\u00e1ndonos el tama\u00f1o de las paellas... Por contra, lo salvaron ofreci\u00e9ndonos un envase para las sobras. Respecto al postre, un pudding de horchata, que estaba bueno. \u00a1El trato muy bueno en general!",
+      "fecha_visita": "septiembre de 2017",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Restaurante & Bar La Terrazza",
+      "titular": "Menu del d\u00eda",
+      "review": "Un lugar normal para tomar una comida de men\u00fa del d\u00eda... Sin florituras pero r\u00e1pido y correcto, lo que se le pide a un men\u00fa del d\u00eda. Tiene una terraza amplia.",
+      "fecha_visita": "septiembre de 2017",
+      "estrellas": 3
+    },
+    {
+      "restaurante": "B&K",
+      "titular": "Almuerzo trabajo",
+      "review": "Este sitio tiene mejor pinta que ejecuci\u00f3n... Al entrar es una panader\u00eda alemana con bagels, pan con semillas.. pero pierde todo su encanto en el servicio. Aunque la intenci\u00f3n y el trato es la mejor, los camareros se eternizan en las comandas hasta llegar a hacerse rid\u00edculo. Gran parte de este retraso se debe a que usan m\u00f3viles en lugar de papel y l\u00e1piz de toda la vida. Si vas a este sitio armate de paciencia...",
+      "fecha_visita": "agosto de 2017",
+      "estrellas": 3
+    },
+    {
+      "restaurante": "El Micalet",
+      "titular": "Si has nacido en Espa\u00f1a... No es para ti",
+      "review": "Este sitio es el claro ejemplo de negocio que vive de 'atracar' a sus clientes guiris. Aunque su localizaci\u00f3n privilegiada le permite estos excesos, no es un sitio que recomendar\u00eda para tomar algo y menos para una comida.",
+      "fecha_visita": "mayo de 2017",
+      "estrellas": 1
+    },
+    {
+      "restaurante": "Frenazo",
+      "titular": "Comida china",
+      "review": "Valor\u00e1ndolo como un restaurante modesto que es, me parece que la comida china est\u00e1 muy buena y se aleja de los estereotipos que se pueden comer en otros 'chinos'. Siempre nos referimos a \u00e9l como el 'chino para chinos' ya que realmente es lo que es. La \u00fanica pega es que es peque\u00f1o y suele estar lleno as\u00ed que si quer\u00e9is ir, id pronto.",
+      "fecha_visita": "abril de 2017",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Sorsi e Morsi Canovas",
+      "titular": "Gran Experiencia y Trato",
+      "review": "Acabamos en este restaurante italiano por casualidad, una vez entramos todo fueron facilidades. Nos ofrecieron un pan con alioli mientras eleg\u00edamos los platos. Una vez nos pusimos a pedir, nos tomaron nota muy r\u00e1pido ayud\u00e1ndonos en la decisi\u00f3n. Tomamos una tempura de verduras que estaba muy buena, dos platos de pollo y una pizza que nos gust\u00f3 mucho. Como nota graciosa al final nos hicieron un regalo... un abrazo!! :-) Muy Recomendable!!",
+      "fecha_visita": "diciembre de 2016",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Arroceria Noray",
+      "titular": "Muy buena paella",
+      "review": "Hab\u00edamos estado con anterioridad en este sitio y guard\u00e1bamos un buen recuerdo, aunque el aspecto exterior hace dudar un poco, no os preocup\u00e9is, el interior merece mucho la pena. Elegimos una paella tradicional precedida de una ensalada, croquetas y sepia... todo estaba muy bueno, creo recordar que era un men\u00fa de los que hay disponibles en carta. Cabe destacar que fuimos un Lunes, y no hab\u00eda mucha gente, pero eso no quiere decir que el trato no merezca una menci\u00f3n. En todo momento, estuvieron muy pendientes de todo lo que necesitamos e interes\u00e1ndose por si est\u00e1bamos pasando un buen rato. Como parte final he de decir que no fuimos capaces de acabar la paella :-)",
+      "fecha_visita": "diciembre de 2016",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Horchater\u00eda El Collado",
+      "titular": "Horchater\u00eda tradicional",
+      "review": "Esta horchater\u00eda no llamar\u00e1 la atenci\u00f3n a los visitantes por vistosas vidrieras o estar ubicada en alg\u00fan centro comercial, pero para los amantes de la horchata es una de las 'tradicionales'. La horchata que ofrecen es muy buena y tiene un trato sencillo pero correcto. En fallas hacen bu\u00f1uelos de calabaza en un puesto en la calle que est\u00e1n muy buenos!!!",
+      "fecha_visita": "julio de 2016",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "El Tap",
+      "titular": "Honor al recuerdo",
+      "review": "Visitamos este restaurante porque ten\u00edamos muy buen recuerdo de la vez anterior hace un par de a\u00f1os. La alegr\u00eda fue que todo segu\u00eda a la altura, el trato me pareci\u00f3 simplemente excepcional en todo momento... Creo que es algo muy por encima de la media. Nos aconsejaron en todo momento para no pedir demasiado y lo clavaron, no pedimos ni postre pero no sobr\u00f3 nada. Espero no tardar dos a\u00f1os en volver... Porque me encant\u00f3. Nota: pedid pan!! Algo tan b\u00e1sico como el pan est\u00e1 impresionante!!!",
+      "fecha_visita": "julio de 2016",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Horchater\u00eda Daniel",
+      "titular": "Vive del nombre",
+      "review": "Claramente Daniel en los \u00faltimos a\u00f1os vive de rentas... Fuimos a tomar una horchata y dejaba bastante que desear adem\u00e1s los fartons eran 'iguales' que los de polo aunque le ponen el adjetivo de artesanos... Creo que es una horchater\u00eda para guiris y gente que no valora la horchata.",
+      "fecha_visita": "julio de 2016",
+      "estrellas": 1
+    },
+    {
+      "hotel": "Madrid Marriott Auditorium Hotel & Conference Center",
+      "titular": "Congreso",
+      "review": "Opini\u00f3n sobre Madrid Marriott Auditorium Hotel & Conference Center. El hotel cuenta con unas instalaciones muy buenas para congresos ya que dispone de muchas salas para eventos, su \u00fanica pega es su distancia a Madrid pero a cambio est\u00e1 muy cerca del aeropuerto. Por lo tanto si buscas un hotel c\u00f3modo cerca del aeropuerto puede ser muy buena opci\u00f3n, ya que tanto habitaciones, como servicio y comida me han parecido muy buenos. La \u00fanica pega que he encontrado, es el gimnasio, aunque dispone de uno, para el n\u00famero de habitaciones que tiene es bastante reducido lo cual limita bastante su uso teniendo solo 2 cintas funcionando cuando yo he ido.",
+      "fecha_estancia": "junio de 2016",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Svarta Kaffid",
+      "titular": "Espectacular sopa",
+      "review": "Llegamos a este sitio paseando por la calle principal de Reikiavik, lo primero que nos llam\u00f3 la atenci\u00f3n fue una foto de la sopa dentro de un plato hecho con pan. Cuando entramos la raci\u00f3n que nos sirvieron era exactamente igual que la foto y nos cost\u00f3 acabarla por su cantidad. Durante todo el tiempo hab\u00eda una m\u00fasica de fondo muy agradable que nos ameniz\u00f3 la comida. No probamos nada fuera de esta especialidad. Si vais no olvid\u00e9is fijaros en la colecci\u00f3n de billetes que hay por el techo.",
+      "fecha_visita": "mayo de 2016",
+      "estrellas": 4
+    },
+    {
+      "lugar": "Iglesia de Hallgr\u00edmur (Hallgrimskirkja)",
+      "titular": "Iglesia peculiar",
+      "review": "Durante nuestra visita fue una de las primeras paradas que hicimos ya que estaba muy cerca de nuestro hotel, sinceramente al venir de Espa\u00f1a que tenemos iglesias con mucha historia, esta iglesia moderna no me encant\u00f3. Posee un look muy moderno con un gran \u00f3rgano que merece la pena visitar, pero no la considero dentro de algo 'digno de la visita'. Hay que decir que no subimos a la torre quiz\u00e1 ese fue nuestro fallo.",
+      "fecha_experiencia": "mayo de 2016",
+      "estrellas": 3
+    },
+    {
+      "restaurante": "Kaffi Duus",
+      "titular": "Cena en pareja",
+      "review": "Llegamos a este restaurante ya que nuestro hotel estaba en Keflavik para poder coger el avi\u00f3n, gracias a TripAdvisor lo elegimos de la lista que nos ofrec\u00eda y claramente estuvo a la altura. Desde el principio los platos que vimos eran muy amplios y parec\u00edan muy sabrosos, una vez nos decidimos dentro de su carta todo fue un acierto. El trato en todo momento fue muy bueno y como recomendaci\u00f3n, pedid una mesa mirando al puerto y no os vay\u00e1is sin probar sus tartas!!!",
+      "fecha_visita": "mayo de 2016",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Hard Rock Cafe",
+      "titular": "Oasis occidental",
+      "review": "Nuestro viaje de trabajo a India fue muy intenso y el choque cultural estaba a la orden del d\u00eda. En esos momentos un lugar como el Hard Rock con sus hamburguesas y bebidas fue un aut\u00e9ntico oasis para poder aguantar el picante indio.",
+      "fecha_visita": "noviembre de 2015",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Englendingavik Restaurant",
+      "titular": "Agradable sorpresa",
+      "review": "Durante nuestro viaje en Islandia llegamos temprano a este restaurante pero cuando nos acercamos vimos que estaba cerrado. Una vez que nos acercamos vimos a un hombre desayunando que era el due\u00f1o de la casa, en lugar de decirnos que estaba cerrado que hubiera sido lo f\u00e1cil nos invit\u00f3 a un caf\u00e9 gratis y nos ayud\u00f3 a confeccionar nuestra ruta para el resto del d\u00eda. No pude disfrutar de una estancia en este hotel, pero ya solo por el trato me parece un sitio del cual guardar\u00e9 un gran recuerdo.",
+      "fecha_visita": "mayo de 2016",
+      "estrellas": 5
+    },
+    {
+      "hotel": "H\u00f3tel \u00c1",
+      "titular": "Un lugar perfecto para pasar la noche",
+      "review": "Durante nuestro viaje en Islandia llegamos a este sitio despu\u00e9s de un d\u00eda duro de fr\u00edo, solo el hecho de llegar al hotel y encontrar unos sof\u00e1s con una chimenea en el medio hizo la llegada perfecta. Debido al buen ambiente decidimos cenar en el hotel con unas vistas al valle que eran preciosas, y todo estaba muy bueno. Respecto a la habitaci\u00f3n, nos toc\u00f3 una que no miraba al valle directamente pero a\u00fan as\u00ed era muy bonita, destacaba que la puerta era una cristalera que hac\u00eda que entrara mucha luz. Por \u00faltimo, el desayuno no desmereci\u00f3 toda la estancia y nos fuimos con el deseo de poder volver. Como \u00faltimo detalle y algo que hace falta destacar es que el trato que nos ofrecieron tanto camareros como personal del hotel fue buen\u00edsimo!!!",
+      "fecha_estancia": "mayo de 2016",
+      "estrellas": 5
+    },
+    {
+      "lugar": "Deildartunguhver Thermal Spring",
+      "titular": "Aguas termales",
+      "review": "Despu\u00e9s de visitar otras zonas de sulfataras y ba\u00f1os termales llegar a este punto sabe a poco, no obstante parar 5 min a ver la salida de agua caliente creo que merece la pena.",
+      "fecha_experiencia": "mayo de 2016",
+      "estrellas": 4
+    },
+    {
+      "hotel": "Hotel Blafell",
+      "titular": "Nos sac\u00f3 de un apuro",
+      "review": "Visitamos este pueblo un domingo de Mayo y este hotel fue el \u00fanico lugar que encontramos de los alrededores que nos ofreci\u00f3 una comida, cuando ya lo d\u00e1bamos por perdido ya que todo en Mayo parece estar cerrado a\u00fan. Comimos una sopa de vegetales y una hamburguesa bastante buena que nos salv\u00f3 la comida. El trato y el servicio fue bueno y el lugar est\u00e1 bien.",
+      "fecha_estancia": "mayo de 2016",
+      "tipo_viaje": "Viaje en pareja",
+      "estrellas": 3
+    },
+    {
+      "hostal": "Aurora Guesthouse",
+      "titular": "Hostal Barato en Reikiavik",
+      "review": "Mi mujer y yo visitamos Reikiavik y pedimos una habitaci\u00f3n para dos, al llegar descubrimos que nos hab\u00edan dado una habitaci\u00f3n abuhardillada para 4 personas con cocina que claramente mejoraba nuestra reserva. Todo estaba muy limpio e invitaba a quedarse. Durante nuestra estancia tuvimos poca interacci\u00f3n con el personal pero una chica joven nos ayud\u00f3 un poco para ubicarnos en la ciudad con perfecto ingl\u00e9s. Respecto a la comida, el desayuno era bastante b\u00e1sico pero cumpl\u00eda lo necesario. Punto Negativo: El hostal tiene varios edificios y todos ellos con escaleras complicadas, por lo que si te toca uno un poco alejado te toca peregrinar un poco con las maletas (5 min).",
+      "fecha_estancia": "mayo de 2016",
+      "estrellas": 4
+    },
+    {
+      "lugar": "Vatnshellir Cave",
+      "titular": "Visita sorprendente",
+      "review": "Llegamos a esta cueva un poco tarde ya que todas las visitas empiezan a las horas en punto, pero nada m\u00e1s llegar nos permitieron unirnos a un grupo que estaba empezando. Una vez con el grupo la visita a la cueva se convierte en una experiencia entre curiosa y divertida ya que el gu\u00eda hizo la ilustra con much\u00edsimas bromas e historias que amenizan todo el tiempo. En s\u00ed la cueva, destaca una parte final que bajas las escaleras ya que llegas a estar a 35m de profundidad. Nota: Si tienes claustrofobia es bastante abierta pero en nuestra excursi\u00f3n una chica se tuvo que salir.",
+      "fecha_experiencia": "mayo de 2016",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Reykjavik Fish",
+      "titular": "Muy buena sopa!!",
+      "review": "Por casualidad despu\u00e9s de un paseo por Reikiavik y su puerto acabamos cenando aqu\u00ed. El sitio me pareci\u00f3 agradable y el trato bueno, lo mejor de la cena fue la comida una sopa de pescado que merec\u00eda la pena la visita. El coste de la sopa era de unos 1300k.",
+      "fecha_visita": "mayo de 2016",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Tere Restaurante",
+      "titular": "Amigos con carro",
+      "review": "La verdad es que lo primero que hizo que par\u00e1ramos en este restaurante fue el buen trato del camarero que desde el primer momento fue excepcional. La comida estaba muy buena pero adem\u00e1s se preocuparon de que no nos molestara el aire, que un beb\u00e9 que llev\u00e1bamos estuviera c\u00f3modo... Un 10 al camarero, un chico joven. La comida estaba buena y se ajustaba al precio y fotograf\u00edas. Hay que decir que no hab\u00eda mucha gente y quiz\u00e1 cuando se llene no sea tan perfecto... Pero para nosotros estuvo muy bien.",
+      "fecha_visita": "marzo de 2016",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Sinapi Restaurante",
+      "titular": "Muy buena sorpresa",
+      "review": "Acabamos cenando aqu\u00ed despu\u00e9s de dar un paseo por la ciudad y el sitio nos gust\u00f3 mucho. Sin grandes alardes, un comedor sencillo da muy buen ambiente para una cena. Respecto a la comida, una hamburguesa y una pizza buenas y un entrante de queso y miel. Me parece un buen sitio a tener en cuenta para una cena.",
+      "fecha_visita": "marzo de 2016",
+      "estrellas": 4
+    },
+    {
+      "hotel": "Hotel Elche Centro Affiliated by Melia",
+      "titular": "Lo mejor el trato",
+      "review": "Elegimos el TRYP por situaci\u00f3n y precio en nuestra estancia en Elche, lo primero que cabe destacar fue el buen trato del chico de la recepci\u00f3n al llegar. En la parte negativa, pasamos una noche de calor porque el aire acondicionado del hotel no funcionaba y estaba en modo calefacci\u00f3n, la \u00fanica respuesta a esto fue subir a abrirnos una ventana... Que no 'resolvi\u00f3' el problema. Adem\u00e1s, abrir la ventana nos demostr\u00f3 lo ruidosa que es la calle del hotel por la noche. En la parte de la higiene, encontramos una tirita en la ducha cosa que en un hotel as\u00ed me parece inaceptable. En resumen... No s\u00e9 si repetir\u00eda en este hotel.",
+      "fecha_estancia": "marzo de 2016",
+      "estrellas": 2
+    },
+    {
+      "restaurante": "Llagar El Quesu",
+      "titular": "Muy buena parrilla",
+      "review": "Este sitio nunca defrauda, no se anda con florituras ni adornos innecesarios. Las raciones son muy amplias y la calidad es muy buena, puedes ver la parrilla en todo momento y que se te haga la boca agua con los olores. La \u00fanica pega que le pongo es que no reservan as\u00ed que si vas un fin de semana elige o ir pronto o ir sin prisa porque se llena hasta los topes.",
+      "fecha_visita": "noviembre de 2015",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Tierra Astur Parrilla",
+      "titular": "Un buen estereotipo",
+      "review": "Cuando vamos a este sitio siempre tengo la sensaci\u00f3n como asturiano de que entramos en un parque tem\u00e1tico de la asturian\u00eda donde todo son estereotipos. Pero a la hora de pedir y probar sus platos y raciones no tengo m\u00e1s que decir que ojal\u00e1 en otros sitios los estereotipos estuvieran tan buenos!!! Comimos un cachopo entre tres y sobr\u00f3... Adem\u00e1s una ensalada templada que estaba muy buena. Nota: si os sobra comida pedid que os den un envase para llev\u00e1roslo a casa, que no se pierda!!!",
+      "fecha_visita": "noviembre de 2015",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "IPPUDO Ebisu",
+      "titular": "Gran experiencia",
+      "review": "En nuestra luna de miel, viajamos a Tokio y por casualidad nos enteramos de este lugar, que estaba muy bien desde el principio y todo lo que ten\u00edamos en all\u00ed era muy buena. Era nuestro primer restaurante japon\u00e9s y todos nos ayud\u00f3 mucho a traducir todos los platos.",
+      "fecha_visita": "noviembre de 2014",
+      "estrellas": 5
+    },
+    {
+      "actividad": "Clue Hunter",
+      "titular": "Una experiencia genial",
+      "review": "Todo nos sorprendi\u00f3 desde el primer momento, nos gust\u00f3 mucho la experiencia y nos sorprendi\u00f3 todo lo que encontramos, no quiero dar detalles para no aguar la fiesta a los dem\u00e1s porque estoy deseando volver a hacer los otros dos juegos. Sugerencia: creo que se podr\u00eda ambientar un poco m\u00e1s la entrada al juego ya que es un poco fr\u00eda y no te mete mucho en la historia.",
+      "fecha_experiencia": "octubre de 2015",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Dulce de Leche Jes\u00fas",
+      "titular": "Merienda con amigos",
+      "review": "Hac\u00eda tiempo que no visitaba el Dulce de Leche de Ruzafa y me alegr\u00f3 ver que hab\u00edan ampliado el espacio. Este sitio me encanta por las tartas y dem\u00e1s postres que ofrece, ya que todos est\u00e1n cuidados hasta el detalle. La \u00fanica pega que le veo es que para el espacio que tiene con terraza y dem\u00e1s el n\u00famero de camareros quiz\u00e1 deber\u00eda ser mayor, no obstante el trato que recibimos de las chicas fue muy bueno en todo momento.",
+      "fecha_visita": "octubre de 2015",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Restaurante Sagredo",
+      "titular": "Mejor apariencia que calidad. Servicio regular.",
+      "review": "He estado varias veces porque trabajo muy cerca. Al principio, los platos estaban m\u00e1s buenos, pero las \u00faltimas veces no nos ha gustado nada. Nos dejamos guiar por la sugerencia de las camareras y nos equivocamos. A la ensalada del norte le sobra cebolla y el volc\u00e1n de pollo, p\u00e9simo. Ni siquiera con el caf\u00e9, que supuestamente era descafeinado... y luego sin dormir. A las camareras se les ve buena voluntad, pero les falta profesionalidad.",
+      "fecha_visita": "octubre de 2015",
+      "estrellas": 2
+    },
+    {
+      "restaurante": "Pepe Bucato",
+      "titular": "Ampl\u00eda carta",
+      "review": "Solemos elegir este sitio para comer cuando podemos tomarnos la comida con un poco m\u00e1s de calma. El trato es muy bueno y por lo que m\u00e1s se caracteriza es por la amplia carta que ofrece para un men\u00fa diario. El precio del men\u00fa est\u00e1 un poco por encima de la media, 10,70\u20ac si no me equivoco. Mi recomendaci\u00f3n es el risotto 4 quesos aunque he de decir que la cantidad no suele ser muy generosa.",
+      "fecha_visita": "octubre de 2015",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Arrocer\u00eda Noray",
+      "titular": "Comida con smartbox",
+      "review": "Lo primero decir que a este restaurante \u00edbamos con un men\u00fa cerrado de smartbox, lo cual quiz\u00e1 no sea lo habitual. Lo primero decir que cuando llegamos al sitio nos sorprendi\u00f3 el exterior ya que parte del edificio est\u00e1 como abandonado e incluso pregunt\u00e1bamos porque nos parec\u00eda raro el sitio. Una vez pasada la primera impresi\u00f3n todo fue a mejor, el trato desde el primer momento tanto por parte de nuestro camarero como de la 'jefa' fue buen\u00edsimo y nos dio oportunidad de comprobar su buen trato con otras mesas. En cuanto a la comida elegimos una ensalada que no estaba mal pero nada especial y una paella tradicional que estaba bastante buena. Creo que s\u00ed que es un sitio recomendable m\u00e1s por el ambiente que por el entorno.",
+      "fecha_visita": "septiembre de 2015",
+      "estrellas": 3
+    },
+    {
+      "restaurante": "Mosbacher Brauhaus",
+      "titular": "Parada en el camino",
+      "review": "Durante nuestra visita a Alemania recorriendo la ruta rom\u00e1ntica hicimos una parada a comer aqu\u00ed. Es un buen sitio de camino para parar, adem\u00e1s tiene un parking cercano y un supermercado. Nos llam\u00f3 la atenci\u00f3n el alambique de cerveza que est\u00e1 dentro del restaurante.",
+      "fecha_visita": "septiembre de 2015",
+      "estrellas": 3
+    },
+    {
+      "restaurante": "Cervecer\u00eda El Rinc\u00f3n",
+      "titular": "Cena de grupo",
+      "review": "Celebramos un cumplea\u00f1os con 20 personas y nos pusieron ensaladilla, bravas, choricitos, calamares y unas tostas peque\u00f1as. Cada raci\u00f3n era para 4 personas y al final pagamos 15\u20ac por cabeza!!! Me pareci\u00f3 car\u00edsimo!! No coj\u00e1is men\u00fa cerrado y pedid a la carta, seguro que es m\u00e1s barato. Adem\u00e1s, las tapas eran bastante regulares en cuanto a calidad. No es un sitio al que volver\u00e9.",
+      "fecha_visita": "septiembre de 2015",
+      "estrellas": 2
+    },
+    {
+      "restaurante": "Bajo Flores",
+      "titular": "Jarra de agua de oro!!",
+      "review": "La comida estuvo bastante bien y las raciones son generosas, comimos una piadina y una pizza que no estaban mal. Pero me llam\u00f3 la atenci\u00f3n que al pedir agua fr\u00eda se ofrecieran a traer una jarra, la cual estaba caliente, era del grifo y nos cobraron 2,30\u20ac por ella!!! Adem\u00e1s, como nos gusta cenar pronto llegamos los primeros a nuestra reserva y nos pusieron en la peor mesa en medio de un pasillo donde mi mujer y yo nos pasamos la cena viendo pasar gente como si fuera un desfile.",
+      "fecha_visita": "agosto de 2015",
+      "estrellas": 2
+    },
+    {
+      "actividad": "Jaire Aventura",
+      "titular": "Excursi\u00f3n al Cares",
+      "review": "La experiencia fue perfecta, esta ruta al no ser circular se hace complicada hacerla por cuenta propia por el tema del veh\u00edculo. Alejandro nuestro gu\u00eda nos explic\u00f3 mil cosas ya desde el camino a Ca\u00edn como durante toda la ruta, explic\u00e1ndonos muchas cosas que enriquecieron el paseo. Toda la gesti\u00f3n tanto desde Desi por tel\u00e9fono como el autob\u00fas fue muy buena y muy recomendable.",
+      "fecha_experiencia": "agosto de 2015",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Arroceria Casa Rafa Port Saplaya",
+      "titular": "Comida en la playa",
+      "review": "Ya nos hab\u00edan hablado de este sitio y siempre que vamos a la playa lo vemos al pasar. Hoy nos hemos decidido a comer aqu\u00ed y la experiencia ha sido muy buena. Este sitio en primera l\u00ednea de playa ofrece un men\u00fa por 12\u20ac, de primero tomamos un arroz caldoso con bogavante que estaba muy bueno y de segundo un entrecot. La relaci\u00f3n calidad precio me parece que est\u00e1 muy bien y adem\u00e1s en primera l\u00ednea de playa.",
+      "fecha_visita": "agosto de 2015",
+      "estrellas": 4
+    },
+    {
+      "hotel": "AC Hotel by Marriott Sant Cugat",
+      "titular": "Visita de trabajo",
+      "review": "Es un hotel que por motivos de trabajo utilizo, los servicios son muy buenos y el trato tambi\u00e9n. Puedes desayunar delante de la piscina al aire libre si lo deseas. Por poner alguna pega su servicio de internet deja un poco q desear para un hotel de esta categor\u00eda.",
+      "fecha_estancia": "agosto de 2015",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Secreter Sala De Estar",
+      "titular": "Cantidades rid\u00edculas",
+      "review": "Fuimos de cena con un grupo de amigos y pedimos para probar un poco de todo, en la mayor\u00eda de las raciones no toc\u00e1bamos ni a probarlo. Creo que la comida \"fusi\u00f3n\" est\u00e1 bien pero no dejar con hambre a los comensales pagando 15\u20ac por cabeza sin postre.",
+      "fecha_visita": "julio de 2015",
+      "estrellas": 2
+    },
+    {
+      "restaurante": "Nombre del Restaurante",
+      "titular": "Men\u00fa diario",
+      "review": "Tienen muchas opciones para elegir y el trato es muy bueno, para un men\u00fa diario me parece que est\u00e1 muy por encima de la media de la zona.",
+      "fecha_visita": "julio de 2015",
+      "estrellas": 5
+    },
+    {
+      "lugar": "Lonja de la Seda",
+      "titular": "Turismo",
+      "review": "Este es uno de mis sitios favoritos de Valencia, pero desde que ha pasado a ser de pago, no he vuelto a ir. Claramente para m\u00ed un punto obligatorio en una visita a Valencia.",
+      "fecha_experiencia": "agosto de 2014",
+      "estrellas": 5
+    },
+    {
+      "lugar": "Jard\u00edn del T\u00faria",
+      "titular": "Running",
+      "review": "Sin duda la mejor elecci\u00f3n en Valencia para un poco de deporte!!! Cada d\u00eda el r\u00edo un poco mejor!!! Dispone de diferentes zonas de actividades. Por ponerle una pega, algunas fuentes cercanas al Palau est\u00e1n sucias.",
+      "fecha_experiencia": "julio de 2015",
+      "estrellas": 5
+    },
+    {
+      "restaurante": "Horchater\u00eda Vida",
+      "titular": "Muy bueno",
+      "review": "Esta horchater\u00eda es una de las mejores de Alboraya tanto por su sabor como por el emplazamiento. La \u00fanica pega es que se ha convertido en un patio de recreo de familias con ni\u00f1os y si no vas en ese plan puede resultar bastante ruidosa. Un detalle es que los due\u00f1os tambi\u00e9n te venden productos recogidos de la huerta que est\u00e1n muy bien!!",
+      "fecha_experiencia": "julio de 2015",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "Arrocer\u00eda Duna El Saler",
+      "titular": "Paella en la playa",
+      "review": "De este sitio lo que m\u00e1s llama la atenci\u00f3n es su ubicaci\u00f3n, claramente su mayor activo ya que puedes comer casi en la arena. La paella est\u00e1 muy buena, y la tarta de manzana es espectacular. La \u00fanica parte mala es que el servicio es lento y los precios desproporcionados.",
+      "fecha_experiencia": "junio de 2015",
+      "estrellas": 3
+    },
+    {
+      "restaurante": "El Forcat",
+      "titular": "Comida con visita",
+      "review": "Por casualidad ca\u00edmos en esta Arrocer\u00eda cuando busc\u00e1bamos comer una paella por el centro. Hab\u00eda un men\u00fa barato que dejaba bastante que desear ya que la paella no estaba muy buena aunque s\u00ed que hab\u00eda variedad de tipos para elegir. En normas generales es un sitio barato para guiris que no valoren mucho una paella.",
+      "fecha_experiencia": "junio de 2015",
+      "estrellas": 2
+    },
+    {
+      "restaurante": "Gasthof Alte Post",
+      "titular": "Viaje en pareja",
+      "review": "Acabamos en este restaurante porque nos lo recomendaron unos alemanes de la zona, nos gust\u00f3 mucho probar el pescado especial de Lindau. Pepita, una camarera que hablaba espa\u00f1ol, nos puso las cosas m\u00e1s f\u00e1ciles. Es un poco m\u00e1s caro que la media pero el ambiente interior y el trato merecen la pena.",
+      "fecha_experiencia": "junio de 2015",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "La Tastaolletes",
+      "titular": "Un carn\u00edvoro",
+      "review": "Soy de esa gente reacia a los vegetarianos, pero despu\u00e9s de ir a este creo que probar\u00e9 otros sin miedo. Todos los platos estaban muy buenos: musaka, humus, croquetas... La \u00fanica contra fue que nuestra mesa era muy estrecha, mi silla casi no entraba y tuvimos que comer encogidos.",
+      "fecha_experiencia": "octubre de 2013",
+      "estrellas": 4
+    },
+    {
+      "restaurante": "El Tap",
+      "titular": "Muy recomendable",
+      "review": "Me ha encantado este sitio, lo encontramos por casualidad y fue un placer que tuvieran sitio para nosotros. Recomiendo lo que comimos que fue la lasa\u00f1a de sardinas y las carrilleras... Creo que todo est\u00e1 muy cuidado y no por ello hay que salir con hambre. En resumen, buena comida, buen ambiente y buen precio.",
+      "fecha_experiencia": "junio de 2013",
+      "estrellas": 4
+    },
+    {
+      "lugar": "BIOPARC Valencia",
+      "titular": "No es un zoo",
+      "review": "La imagen de zoo antiguo no encaja con este sitio... Estuvimos este mes pasando un d\u00eda y me encant\u00f3 ver al nuevo gorila. Un buen sitio para ir con ni\u00f1os.",
+      "fecha_experiencia": "junio de 2013",
+      "estrellas": 4
+    },
+    {
+      "lugar": "Barcel\u00f3 Lanzarote Active Resort",
+      "titular": "Ampliamente mejorable",
+      "review": "En primer lugar comentar\u00e9 lo que desde mi punto de vista salva a este hotel ahora mismo que es el buen personal que tiene. En todo momento nos han recibido con una sonrisa y con muchas facilidades. En mi caso la habitaci\u00f3n era normal pero no suficiente para un hotel que conserva 4 estrellas creo que deber\u00eda revisarse ya que se nota a la legua que es un hotel que no ha sufrido reformas desde hace mucho tiempo y que se ha quedado viejo. Respecto al todo incluido me pareci\u00f3 un poco deprimente que no te pudieras tomar un caf\u00e9 de cafeter\u00eda normal (no de m\u00e1quina) pero s\u00ed te pudieras tomar un whisky totalmente gratis. Creo que este hotel est\u00e1 claramente enfocado al turista extranjero y no ofrece un buen servicio a los que no van a \"emborracharse\". En cambio, jugar al minigolf te costar\u00e1 3 \u20ac o para jugar al billar tendr\u00e1s que pagar... Respecto al buffet, tiene una gran variedad de comidas pero desde mi punto de vista de no muy buena calidad, quiz\u00e1 deber\u00edan reducir el n\u00famero de opciones y mejorar su calidad ya que deja bastante que desear.",
+      "fecha_experiencia": "25 de agosto de 2009",
+      "estrellas": 2
+    }
+  ],
+  "message_count": 2,
+  "review_count": 20
+}

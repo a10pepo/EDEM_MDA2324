@@ -1,0 +1,11 @@
+FROM python:3
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY main.py .
+COPY KP_1_Definicion_clase.py .
+COPY KP_2_Creacion_topics.py .
+COPY KP_3_Creacion_streams_KSQL.py .
+COPY KP_4_Productor_inicial.py .
+COPY KP_5_Consumidor_y_productor.py .
+ENTRYPOINT ["python", "./main.py" ]

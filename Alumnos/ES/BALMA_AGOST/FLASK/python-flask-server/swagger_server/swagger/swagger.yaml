@@ -1,0 +1,71 @@
+---
+swagger: "2.0"
+info:
+  description: "Esta API proporciona información de una empresa industrial donde hay\
+    \ un robot, el cual dispone de un sensor que controla la temperatura de éste en\
+    \ tiempo real. La medición se guarda en una base de datos.\n"
+  version: "1.0.0"
+  title: "Robot Temperature API"
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    get:
+      summary: "Obtener la última medición por sensor"
+      description: "A través de este método, se obtendrán las observaciones más recientes\
+        \ de los sensores, incluyendo cómo deben proporcionarse los parámetros y qué\
+        \ respuestas cabe esperar en diferentes situaciones.\n"
+      operationId: "get_last_meassure_by_sensor_sensor_get"
+      parameters:
+      - name: "sensor"
+        in: "path"
+        description: "ID del sensor"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Éxito - Devuelve la última medición"
+          schema:
+            $ref: "#/definitions/inline_response_200"
+        "400":
+          description: "Sensor no encontrado"
+          schema:
+            $ref: "#/definitions/inline_response_400"
+        "404":
+          description: "ID no válido suministrado"
+          schema:
+            $ref: "#/definitions/inline_response_404"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+definitions:
+  inline_response_404:
+    type: "object"
+    properties:
+      message:
+        type: "string"
+        example: "Invalid ID supplied"
+        description: "Mensaje de error cuando el ID suministrado no es válido"
+  inline_response_200:
+    type: "object"
+    properties:
+      code:
+        type: "string"
+        description: "Código único asociado al ID del sensor"
+      fechamuestreo:
+        type: "string"
+        description: "Fecha y hora de la medición"
+      unidad:
+        type: "string"
+        description: "Unidad de medida de la temperatura"
+      medicion:
+        type: "number"
+        description: "Valor numérico de la medición de temperatura"
+    example:
+      unidad: "unidad"
+      medicion: 0.80082819046101150206595775671303272247314453125
+      code: "code"
+      fechamuestreo: "fechamuestreo"
+  inline_response_400:
+    type: "object"
+    properties:
+      message:
+        type: "string"
+        example: "Sensor not found"
+        description: "Mensaje de error cuando el sensor no es encontrado"

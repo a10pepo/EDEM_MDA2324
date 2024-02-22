@@ -1,0 +1,56 @@
+openapi: 3.0.0
+info:
+  title: Create your first API using swagger
+  description: Imagine that you work into an industry company where there is a robot.
+    We have a sensor that is monitoring the temperature of the robot via real-time.
+  version: v2
+servers:
+- url: /
+paths:
+  /getLastMeasureBySensor/{sensor}:
+    get:
+      operationId: get_last_measure_by_sensor_sensor_get
+      parameters:
+      - name: sensor
+        in: path
+        description: ID_sensor
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: number
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Measure'
+        "400":
+          description: Sensor not found
+        "404":
+          description: Invalid ID supplied
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+components:
+  schemas:
+    Measure:
+      type: object
+      properties:
+        code:
+          type: string
+          description: ID_sensor
+        fechamuestreo:
+          type: string
+          description: The Date of measurement
+        unidad:
+          type: string
+          description: The Unit of measurement
+        medicion:
+          type: number
+          description: The Temperature
+      example:
+        unidad: unidad
+        medicion: 0.80082819046101150206595775671303272247314453125
+        code: code
+        fechamuestreo: fechamuestreo
+

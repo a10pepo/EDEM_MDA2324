@@ -1,0 +1,65 @@
+---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "Robot Temperature Monitoring API"
+paths:
+  /getLastMeassureBySensor/{sensor}:
+    get:
+      summary: "Get the last measurement by sensor ID"
+      operationId: "get_last_meassure_by_sensor_sensor_get"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "sensor"
+        in: "path"
+        description: "ID of the sensor to retrieve the last measurement"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Successful response"
+          schema:
+            $ref: "#/definitions/Measure"
+        "400":
+          description: "Sensor not found"
+          schema:
+            $ref: "#/definitions/inline_response_400"
+        "404":
+          description: "Invalid ID supplied"
+          schema:
+            $ref: "#/definitions/inline_response_404"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+definitions:
+  Measure:
+    type: "object"
+    properties:
+      code:
+        type: "string"
+        example: "sensor_id"
+      fechamuestreo:
+        type: "string"
+        example: "2024-01-09T12:00:00Z"
+      unidad:
+        type: "string"
+        example: "Celsius"
+      medicion:
+        type: "number"
+        example: 25.5
+    example:
+      unidad: "Celsius"
+      medicion: 25.5
+      code: "sensor_id"
+      fechamuestreo: "2024-01-09T12:00:00Z"
+  inline_response_400:
+    type: "object"
+    properties:
+      error:
+        type: "string"
+        example: "Sensor not found"
+  inline_response_404:
+    type: "object"
+    properties:
+      error:
+        type: "string"
+        example: "Invalid ID supplied"

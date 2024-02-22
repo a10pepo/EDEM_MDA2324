@@ -1,0 +1,44 @@
+swagger: '2.0'
+info:
+  title: API de Recepción de Avisos de Emergencias
+  description: API para acceder a registros aleatorios de emergencias.
+  version: "1.0.0"
+host: 'localhost:5000'
+schemes:
+  - http
+basePath: /v1
+produces:
+  - application/json
+
+paths:
+  generar_registros_emergencias/112:
+    get:
+      summary: Obtener registro aleatorio de una emergencia
+      description: Devuelve un JSON con los datos de una emergencia generada aleatoriamente.
+      responses:
+        200:
+          description: Emergencia generada y obtenida exitosamente
+          schema:
+            type: object
+            properties:
+              tipo_emergencia:
+                type: string
+                description: Tipo de la emergencia
+              cuerpo_necesario:
+                type: string
+                description: Cuerpos de emergencia necesarios
+              grado:
+                type: string
+                description: Grado de urgencia
+              localizacion:
+                type: string
+                description: Ubicación de la emergencia
+              fecha:
+                type: string
+                description: Fecha y hora de la emergencia
+              requiere_medico:
+                type: string
+                description: Indica si se requiere asistencia médica
+              contacto:
+                type: string
+                description: Número de contacto

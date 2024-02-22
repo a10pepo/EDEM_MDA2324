@@ -61,12 +61,12 @@
 /Alumnos/FS/*/spark/** @a10pepo @paponsro
 /Alumnos/ES/*/spark/** @a10pepo @paponsro
 
-/Alumnos/FS/*/CLOUD/** @a10pepo @jabrio @mimove
-/Alumnos/FS/*/Cloud/** @a10pepo @jabrio @mimove
-/Alumnos/FS/*/cloud/** @a10pepo @jabrio @mimove
-/Alumnos/ES/*/CLOUD/** @a10pepo @jabrio @mimove
-/Alumnos/ES/*/Cloud/** @a10pepo @jabrio @mimove
-/Alumnos/ES/*/cloud/** @a10pepo @jabrio @mimove
+/Alumnos/FS/*/CLOUD/** @a10pepo @jabrio
+/Alumnos/FS/*/Cloud/** @a10pepo @jabrio
+/Alumnos/FS/*/cloud/** @a10pepo @jabrio
+/Alumnos/ES/*/CLOUD/** @a10pepo @mimove
+/Alumnos/ES/*/Cloud/** @a10pepo @mimove
+/Alumnos/ES/*/cloud/** @a10pepo @mimove
 
 /Alumnos/FS/*/devsecops/** @a10pepo @iasinDev
 /Alumnos/FS/*/DevSecOps/** @a10pepo @iasinDev
@@ -82,3 +82,9 @@
 /Alumnos/FS/*/terraform/** @a10pepo @iasinDev
 /Alumnos/ES/*/terraform/** @a10pepo @iasinDev
 
+/Alumnos/FS/*/DATAFLOW/** @a10pepo @jabrio
+/Alumnos/FS/*/Dataflow/** @a10pepo @jabrio
+/Alumnos/FS/*/dataflow/** @a10pepo @jabrio
+/Alumnos/ES/*/DATAFLOW/** @a10pepo @jabrio
+/Alumnos/ES/*/Dataflow/** @a10pepo @jabrio
+/Alumnos/ES/*/dataflow/** @a10pepo @jabrio

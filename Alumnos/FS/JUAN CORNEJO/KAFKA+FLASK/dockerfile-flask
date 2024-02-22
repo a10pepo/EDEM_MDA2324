@@ -1,0 +1,7 @@
+FROM python:3
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY KP_1_Definicion_clase.py .
+COPY KP_API.py .
+ENTRYPOINT ["python", "./KP_API.py" ]
