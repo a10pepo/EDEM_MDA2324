@@ -142,7 +142,7 @@ Entregas Fin de Semana
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#779777'>❌</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
 <td bgcolor='#779777'>✅</td>
 </tr>
 <tr>
@@ -182,7 +182,7 @@ Entregas Fin de Semana
 <td bgcolor='#dee2d0'>✅</td>
 <td bgcolor='#dee2d0'>✅</td>
 <td bgcolor='#dee2d0'>✅</td>
-<td bgcolor='#a5cbaa'>❌</td>
+<td bgcolor='#a5cbaa'>✅</td>
 <td bgcolor='#a5cbaa'>❌</td>
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
@@ -263,7 +263,7 @@ Entregas Fin de Semana
 <td bgcolor='#9bc99e'>❌</td>
 <td bgcolor='#779777'>❌</td>
 <td bgcolor='#779777'>❌</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
 </tr>
 <tr>
 <td><a href='https://github.com/a10pepo/EDEM_MDA2324/tree/main/Alumnos/FS/MAR-PONS-VALVERDE'>Mar-pons-valverde</a></td>
@@ -278,7 +278,7 @@ Entregas Fin de Semana
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#779777'>❌</td>
 <td bgcolor='#779777'>✅</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
 </tr>
 <tr>
 <td><a href='https://github.com/a10pepo/EDEM_MDA2324/tree/main/Alumnos/FS/PABLO-PEREZ-ALVAREZ'>Pablo-perez-alvarez</a></td>
@@ -334,7 +334,7 @@ Entregas Fin de Semana
 <td bgcolor='#dee2d0'>✅</td>
 <td bgcolor='#a5cbaa'>✅</td>
 <td bgcolor='#a5cbaa'>✅</td>
-<td bgcolor='#9bc99e'>❌</td>
+<td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#779777'>❌</td>
 <td bgcolor='#779777'>❌</td>
@@ -408,7 +408,7 @@ Entregas Entre Semana
 <td bgcolor='#a5cbaa'>✅</td>
 <td bgcolor='#9bc99e'>❌</td>
 <td bgcolor='#9bc99e'>❌</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
 <td bgcolor='#779777'>❌</td>
 <td bgcolor='#779777'>✅</td>
 </tr>
@@ -484,7 +484,7 @@ Entregas Entre Semana
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#779777'>❌</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
 <td bgcolor='#779777'>✅</td>
 </tr>
 <tr>
@@ -513,7 +513,7 @@ Entregas Entre Semana
 <td bgcolor='#a5cbaa'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
 <td bgcolor='#779777'>✅</td>
 <td bgcolor='#779777'>✅</td>
 </tr>
@@ -528,9 +528,9 @@ Entregas Entre Semana
 <td bgcolor='#a5cbaa'>❌</td>
 <td bgcolor='#9bc99e'>❌</td>
 <td bgcolor='#9bc99e'>❌</td>
+<td bgcolor='#779777'>✅</td>
 <td bgcolor='#779777'>❌</td>
-<td bgcolor='#779777'>❌</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
 </tr>
 <tr>
 <td><a href='https://github.com/a10pepo/EDEM_MDA2324/tree/main/Alumnos/ES/INES_SOLER'>Ines_soler</a></td>
@@ -588,8 +588,8 @@ Entregas Entre Semana
 <td bgcolor='#a5cbaa'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
-<td bgcolor='#779777'>❌</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
+<td bgcolor='#779777'>✅</td>
 <td bgcolor='#779777'>✅</td>
 </tr>
 <tr>
@@ -601,7 +601,7 @@ Entregas Entre Semana
 <td bgcolor='#dee2d0'>✅</td>
 <td bgcolor='#a5cbaa'>✅</td>
 <td bgcolor='#a5cbaa'>❌</td>
-<td bgcolor='#9bc99e'>❌</td>
+<td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#9bc99e'>❌</td>
 <td bgcolor='#779777'>❌</td>
 <td bgcolor='#779777'>❌</td>
@@ -648,7 +648,7 @@ Entregas Entre Semana
 <td bgcolor='#a5cbaa'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
 <td bgcolor='#9bc99e'>✅</td>
-<td bgcolor='#779777'>❌</td>
+<td bgcolor='#779777'>✅</td>
 <td bgcolor='#779777'>❌</td>
 <td bgcolor='#779777'>✅</td>
 </tr>

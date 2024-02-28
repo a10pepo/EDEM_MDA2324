@@ -1,0 +1,34 @@
+#Streaming pipeline Direct Runner
+
+python3 EDEM_Dataflow_Streaming_Pipeline.py \
+    --project_id dataflow-cabuva \
+    --input_subscription projects/dataflow-cabuva/subscriptions/dataflow-cabuva-sub \
+    --output_topic projects/dataflow-cabuva/topics/non-fined-vehicles \
+    --radar_id cabuva \
+    --cars_api https://europe-west1-long-flame-410209.cloudfunctions.net/car-license-plates-api
+
+
+#Streaming pipeline Dataflow Runner
+
+python3 EDEM_Dataflow_Streaming_Pipeline.py \
+    --project_id dataflow-cabuva \
+    --input_subscription projects/dataflow-cabuva/subscriptions/dataflow-cabuva-sub \
+    --output_topic projects/dataflow-cabuva/topics/non-fined-vehicles \
+    --radar_id cabuva \
+    --cars_api https://europe-west1-long-flame-410209.cloudfunctions.net/car-license-plates-api \
+    --runner DataflowRunner \
+    --job_name dataflow-cabuva \
+    --region europe-west4 \
+    --temp_location gs://dataflow-cabuva/tmp \
+    --staging_location gs://dataflow-cabuva/stg \
+    --requirements_file requirements.txt
+
+# Generator Command
+
+python3 generator.py \
+    --project_id dataflow-cabuva \
+    --topic_name dataflow-cabuva \
+    --initial_coordinates 40.76384258989008,-73.97296227572797 \
+    --final_coordinates 40.7601385362864,-73.97629590579231
+
+
