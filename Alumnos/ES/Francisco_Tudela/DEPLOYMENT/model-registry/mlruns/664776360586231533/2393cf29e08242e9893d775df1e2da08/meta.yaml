@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/664776360586231533/2393cf29e08242e9893d775df1e2da08/artifacts
+end_time: 1716310518504
+entry_point_name: ''
+experiment_id: '664776360586231533'
+lifecycle_stage: active
+run_id: 2393cf29e08242e9893d775df1e2da08
+run_name: mlflow-training-2024-05-21-18-55-08
+run_uuid: 2393cf29e08242e9893d775df1e2da08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716310508547
+status: 3
+tags: []
+user_id: Paco

@@ -1,0 +1,6 @@
+artifact_location: ./mlruns/838184591032159686
+creation_time: 1716309108636
+experiment_id: '838184591032159686'
+last_update_time: 1716309108636
+lifecycle_stage: active
+name: mlflow-tutorial

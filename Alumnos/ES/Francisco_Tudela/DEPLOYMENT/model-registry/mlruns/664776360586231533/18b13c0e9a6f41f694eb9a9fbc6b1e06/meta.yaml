@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/664776360586231533/18b13c0e9a6f41f694eb9a9fbc6b1e06/artifacts
+end_time: 1716310936544
+entry_point_name: ''
+experiment_id: '664776360586231533'
+lifecycle_stage: active
+run_id: 18b13c0e9a6f41f694eb9a9fbc6b1e06
+run_name: optuna-hp-77-2024-05-21-19-02-16
+run_uuid: 18b13c0e9a6f41f694eb9a9fbc6b1e06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716310936160
+status: 3
+tags: []
+user_id: Paco
