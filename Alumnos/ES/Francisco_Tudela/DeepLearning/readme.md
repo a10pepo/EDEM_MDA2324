@@ -1,0 +1,1 @@
+> Ejercicios Fully conected completado con un accuracy de 0.9250
