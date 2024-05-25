@@ -1,0 +1,1 @@
+Los alumnos deberán completar los 2 entregables (notebooks) disponibles. Los detalles para cada una están descritos en el apartado "instrucciones" de cada notebook.
