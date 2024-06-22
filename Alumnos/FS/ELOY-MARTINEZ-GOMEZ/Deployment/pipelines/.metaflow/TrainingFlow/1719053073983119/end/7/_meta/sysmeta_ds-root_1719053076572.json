@@ -1,0 +1,1 @@
+{"flow_id": "TrainingFlow", "run_number": "1719053073983119", "step_name": "end", "task_id": "7", "field_name": "ds-root", "type": "ds-root", "value": "/Users/emart/Documents/GitHub/EDEM_MDA2324/Alumnos/FS/ELOY-MARTINEZ-GOMEZ/Deployment/pipelines/.metaflow", "tags": ["attempt_id:0"], "user_name": "emart", "ts_epoch": 1719053076572}

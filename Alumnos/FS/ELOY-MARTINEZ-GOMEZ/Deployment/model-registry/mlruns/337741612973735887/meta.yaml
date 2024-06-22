@@ -1,0 +1,6 @@
+artifact_location: ./mlruns/337741612973735887
+creation_time: 1719051002824
+experiment_id: '337741612973735887'
+last_update_time: 1719051002824
+lifecycle_stage: active
+name: mlflow-model-training-iris

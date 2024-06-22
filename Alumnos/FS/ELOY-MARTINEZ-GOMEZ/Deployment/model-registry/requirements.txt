@@ -1,0 +1,6 @@
+boto3==1.26.37
+mlflow[extra]==2.1.1
+#fastapi==0.89.1
+scikit-learn==1.2.0
+pandas==1.5.2
+optuna==3.0.5

@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/337741612973735887/d0f29b8d22384e2792d5dbe4a20e2570/artifacts
+end_time: 1719051023114
+entry_point_name: ''
+experiment_id: '337741612973735887'
+lifecycle_stage: active
+run_id: d0f29b8d22384e2792d5dbe4a20e2570
+run_name: mlflow-training-2024-06-22-12-10-22
+run_uuid: d0f29b8d22384e2792d5dbe4a20e2570
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719051022299
+status: 3
+tags: []
+user_id: emart

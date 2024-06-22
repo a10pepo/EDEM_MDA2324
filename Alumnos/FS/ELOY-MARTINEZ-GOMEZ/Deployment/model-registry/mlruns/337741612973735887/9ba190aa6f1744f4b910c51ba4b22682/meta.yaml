@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/337741612973735887/9ba190aa6f1744f4b910c51ba4b22682/artifacts
+end_time: 1719051052275
+entry_point_name: ''
+experiment_id: '337741612973735887'
+lifecycle_stage: active
+run_id: 9ba190aa6f1744f4b910c51ba4b22682
+run_name: optuna-hp-69-2024-06-22-12-10-52
+run_uuid: 9ba190aa6f1744f4b910c51ba4b22682
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719051052220
+status: 3
+tags: []
+user_id: emart
