@@ -13,24 +13,23 @@ config = {
 producer = Producer(config)
 
 
-topic_kafka = 'palabras'
+topic_kafka = 'lineas'
 
-file1 = open('el_quijote_book.txt',encoding="utf8")
+file1 = open('Final_Transaction.csv',encoding="utf8")
 Lines = file1.readlines()
  
 count = 0
-# Strips the newline character
+
 for line in Lines:
     time.sleep(2)
-    print( line.strip() + "\n")
-    words = re.findall(r"[\w']+|[.,!?;]", line)
-    for word in words:
-        data_bytes = word  # Encode string to bytes
-        key = str(count)
-        producer.produce(topic=topic_kafka, value=data_bytes, key=key)  # Send bytes
-        # After your loop where you send messages:
-        producer.flush()
-      
+    print(line.strip() + "\n")
+
+    # Send the entire line as a single message (phrase)
+    data_bytes = line.strip()  # Encode string to bytes
+    key = str(count)
+    producer.produce(topic=topic_kafka, value=data_bytes, key=key)  # Send bytes
+    count += 1
+
 
 # Optionally, you can check if there are any messages that failed to be delivered:
 if producer.flush() != 0:
