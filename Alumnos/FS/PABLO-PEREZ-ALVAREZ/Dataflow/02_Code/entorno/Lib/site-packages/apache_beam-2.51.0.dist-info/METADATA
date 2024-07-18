@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: apache-beam
+Version: 2.51.0
+Summary: Apache Beam SDK for Python
+Home-page: https://beam.apache.org
+Download-URL: https://pypi.python.org/pypi/apache-beam
+Author: Apache Software Foundation
+Author-email: dev@beam.apache.org
+License: Apache License, Version 2.0
+Keywords: apache beam
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: crcmod (<2.0,>=1.7)
+Requires-Dist: orjson (<4,>=3.9.7)
+Requires-Dist: dill (<0.3.2,>=0.3.1.1)
+Requires-Dist: cloudpickle (~=2.2.1)
+Requires-Dist: fastavro (<2,>=0.23.6)
+Requires-Dist: fasteners (<1.0,>=0.3)
+Requires-Dist: grpcio (!=1.48.0,<2,>=1.33.1)
+Requires-Dist: hdfs (<3.0.0,>=2.1.0)
+Requires-Dist: httplib2 (<0.23.0,>=0.8)
+Requires-Dist: js2py (<1,>=0.74)
+Requires-Dist: numpy (<1.25.0,>=1.14.3)
+Requires-Dist: objsize (<0.7.0,>=0.6.1)
+Requires-Dist: packaging (>=22.0)
+Requires-Dist: pymongo (<5.0.0,>=3.8.0)
+Requires-Dist: proto-plus (<2,>=1.7.1)
+Requires-Dist: protobuf (!=4.0.*,!=4.21.*,!=4.22.0,!=4.23.*,!=4.24.0,!=4.24.1,!=4.24.2,<4.25.0,>=3.20.3)
+Requires-Dist: pydot (<2,>=1.2.0)
+Requires-Dist: python-dateutil (<3,>=2.8.0)
+Requires-Dist: pytz (>=2018.3)
+Requires-Dist: regex (>=2020.6.8)
+Requires-Dist: requests (<3.0.0,>=2.24.0)
+Requires-Dist: typing-extensions (>=3.7.0)
+Requires-Dist: zstandard (<1,>=0.18.0)
+Requires-Dist: pyarrow (<12.0.0,>=3.0.0)
+Provides-Extra: aws
+Requires-Dist: boto3 (<2,>=1.9) ; extra == 'aws'
+Provides-Extra: azure
+Requires-Dist: azure-storage-blob (<13,>=12.3.2) ; extra == 'azure'
+Requires-Dist: azure-core (<2,>=1.7.0) ; extra == 'azure'
+Requires-Dist: azure-identity (<2,>=1.12.0) ; extra == 'azure'
+Provides-Extra: dask
+Requires-Dist: dask (>=2022.6) ; extra == 'dask'
+Requires-Dist: distributed (>=2022.6) ; extra == 'dask'
+Provides-Extra: dataframe
+Requires-Dist: pandas (!=1.5.0,!=1.5.1,<1.6,>=1.4.3) ; (python_version >= "3.8") and extra == 'dataframe'
+Provides-Extra: docs
+Requires-Dist: Sphinx (<2.0,>=1.5.2) ; extra == 'docs'
+Requires-Dist: docutils (==0.17.1) ; extra == 'docs'
+Requires-Dist: pandas (<2.0.0) ; extra == 'docs'
+Provides-Extra: gcp
+Requires-Dist: cachetools (<6,>=3.1.0) ; extra == 'gcp'
+Requires-Dist: google-api-core (<3,>=2.0.0) ; extra == 'gcp'
+Requires-Dist: google-apitools (<0.5.32,>=0.5.31) ; extra == 'gcp'
+Requires-Dist: google-auth (<3,>=1.18.0) ; extra == 'gcp'
+Requires-Dist: google-auth-httplib2 (<0.2.0,>=0.1.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-datastore (<3,>=2.0.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-pubsub (<3,>=2.1.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-pubsublite (<2,>=1.2.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-bigquery (<4,>=2.0.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-bigquery-storage (<3,>=2.6.3) ; extra == 'gcp'
+Requires-Dist: google-cloud-core (<3,>=2.0.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-bigtable (<3,>=2.19.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-spanner (<4,>=3.0.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-dlp (<4,>=3.0.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-language (<3,>=2.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-videointelligence (<3,>=2.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-vision (<4,>=2) ; extra == 'gcp'
+Requires-Dist: google-cloud-recommendations-ai (<0.11.0,>=0.1.0) ; extra == 'gcp'
+Requires-Dist: google-cloud-aiplatform (<2.0,>=1.26.0) ; extra == 'gcp'
+Provides-Extra: interactive
+Requires-Dist: facets-overview (<2,>=1.1.0) ; extra == 'interactive'
+Requires-Dist: google-cloud-dataproc (<6,>=5.0.0) ; extra == 'interactive'
+Requires-Dist: ipython (<9,>=8) ; extra == 'interactive'
+Requires-Dist: ipykernel (<7,>=6) ; extra == 'interactive'
+Requires-Dist: ipywidgets (<9,>=8) ; extra == 'interactive'
+Requires-Dist: jupyter-client (!=6.1.13,<8.2.1,>=6.1.11) ; extra == 'interactive'
+Requires-Dist: timeloop (<2,>=1.0.2) ; extra == 'interactive'
+Requires-Dist: nbformat (<6,>=5.0.5) ; extra == 'interactive'
+Requires-Dist: nbconvert (<8,>=6.2.0) ; extra == 'interactive'
+Requires-Dist: pandas (!=1.5.0,!=1.5.1,<1.6,>=1.4.3) ; (python_version >= "3.8") and extra == 'interactive'
+Provides-Extra: interactive_test
+Requires-Dist: needle (<1,>=0.5.0) ; extra == 'interactive_test'
+Requires-Dist: chromedriver-binary (<114,>=100) ; extra == 'interactive_test'
+Requires-Dist: pillow (<10,>=7.1.1) ; extra == 'interactive_test'
+Provides-Extra: test
+Requires-Dist: freezegun (>=0.3.12) ; extra == 'test'
+Requires-Dist: joblib (>=1.0.1) ; extra == 'test'
+Requires-Dist: mock (<6.0.0,>=1.0.1) ; extra == 'test'
+Requires-Dist: pandas (<2.0.0) ; extra == 'test'
+Requires-Dist: parameterized (<0.10.0,>=0.7.1) ; extra == 'test'
+Requires-Dist: pyhamcrest (!=1.10.0,<3.0.0,>=1.9) ; extra == 'test'
+Requires-Dist: pyyaml (<7.0.0,>=3.12) ; extra == 'test'
+Requires-Dist: requests-mock (<2.0,>=1.7) ; extra == 'test'
+Requires-Dist: tenacity (<9,>=8.0.0) ; extra == 'test'
+Requires-Dist: pytest (<8.0,>=7.1.2) ; extra == 'test'
+Requires-Dist: pytest-xdist (<4,>=2.5.0) ; extra == 'test'
+Requires-Dist: pytest-timeout (<3,>=2.1.0) ; extra == 'test'
+Requires-Dist: scikit-learn (>=0.20.0) ; extra == 'test'
+Requires-Dist: sqlalchemy (<2.0,>=1.3) ; extra == 'test'
+Requires-Dist: psycopg2-binary (<3.0.0,>=2.8.5) ; extra == 'test'
+Requires-Dist: testcontainers[mysql] (<4.0.0,>=3.0.3) ; extra == 'test'
+Requires-Dist: cryptography (>=41.0.2) ; extra == 'test'
+Requires-Dist: hypothesis (<=7.0.0,>5.0.0) ; extra == 'test'
+
+
+Apache Beam is a unified programming model for both batch and streaming
+data processing, enabling efficient execution across diverse distributed
+execution engines and providing extensibility points for connecting to
+different technologies and user communities.
